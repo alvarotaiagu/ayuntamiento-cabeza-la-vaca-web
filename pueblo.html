@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<!-- GENERADO por scripts/aplicar.mjs desde fuente/ y los datos. No editar a mano. -->
+<html lang="es" class="sin-js densidad-puerta">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El pueblo · Ayuntamiento de Cabeza la Vaca</title>
+<meta name="description" content="Historia, patrimonio, fiestas y gastronomía de Cabeza la Vaca.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+
+<meta property="og:title" content="Propuesta de web · Cabeza la Vaca">
+<meta property="og:description" content="Propuesta de diseño para la web del Ayuntamiento de Cabeza la Vaca. No es la web oficial.">
+<meta property="og:image" content="https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/assets/og.jpg">
+<meta name="theme-color" content="#FAF9F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/besley-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fuentes.css?v=5c32df95">
+<link rel="stylesheet" href="css/marca.css?v=38a1c55e">
+<link rel="stylesheet" href="css/base.css?v=9bcd9cef">
+<link rel="stylesheet" href="css/movimiento.css?v=f4ef5a0d">
+<link rel="stylesheet" href="css/imprimir.css?v=ebacf0af" media="print">
+<link rel="alternate" type="application/atom+xml" title="Avisos y noticias · Ayuntamiento de Cabeza la Vaca" href="feed.xml">
+<link rel="alternate" type="text/calendar" title="Agenda de Cabeza la Vaca" href="agenda.ics">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/index.html"},{"@type":"ListItem","position":2,"name":"El pueblo","item":"https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/pueblo.html"}]}]}</script>
+<script>/* el listín sin cobertura (sw.js, v3b): se registra al terminar de cargar; si no hay service worker o falla, todo sigue igual */
+if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });</script>
+<script>
+/* Bloqueante a propósito: lo que cambia el aspecto se decide antes del primer
+   pintado, o la página arranca de una forma y salta a otra. */
+(function () {
+  var h = document.documentElement;
+  h.className = h.className.replace('sin-js', 'con-js');
+
+
+  /* [MANDO DE MAQUETA] inicio */
+  /* Solo con ?revision: lo guardado no cuenta fuera de la reunión, o un móvil
+     donde se probó la versión sobria la seguiría viendo sin mando para volver. */
+  if (!/[?&]revision\b/.test(location.search)) return;
+  h.classList.add('en-revision');
+  try {
+    var d = localStorage.getItem('cabeza-la-vaca-densidad');
+    if (d === 'sobria' || d === 'puerta') { h.classList.remove('densidad-puerta', 'densidad-sobria'); h.classList.add('densidad-' + d); }
+    var p = localStorage.getItem('cabeza-la-vaca-paleta');
+    if (p === 'a' || p === 'b' || p === 'c') h.setAttribute('data-paleta', p);
+  } catch (e) {}
+  /* [MANDO DE MAQUETA] fin */
+})();
+</script>
+
+</head>
+<body class="pagina-pueblo">
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/></symbol>
+  <symbol id="i-sede" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-salida" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-obra" viewBox="0 0 24 24"><path d="M3 20h18M5 20V10l4-3 4 3v10M13 13h6v7M8 13h2"/><path d="M15 4h5v4"/></symbol>
+  <symbol id="i-recibo" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-3.5a4.5 4.5 0 0 1 9 0V20M13 20v-2.5a3.5 3.5 0 0 1 7 0V20"/></symbol>
+  <symbol id="i-mensaje" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-tablon" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.5"/><path d="M7 21l2-4M17 21l-2-4M7.5 8h9M7.5 11.5h6"/></symbol>
+  <symbol id="i-ojo" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-contrato" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 15.5h6M9 19h3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+  <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="i-abajo" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-farmacia" viewBox="0 0 24 24"><path d="M9 3.5h6v5.5h5.5v6H15v5.5H9V15H3.5V9H9V3.5Z"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h10"/><path d="M18 15v5M15.5 17.5h5"/></symbol>
+  <symbol id="i-movil" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2"/><path d="M10.5 18.5h3"/><path d="M12 7v3.5M12 12.8v.1"/></symbol>
+  <symbol id="i-padron" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16.5a3 3 0 0 1 6 0M14 10h4M14 13.5h4"/></symbol>
+  <symbol id="i-carrito" viewBox="0 0 24 24"><path d="M3 5h2.5l1.2 3M11 4v6H6.7M6.7 8h11.8a3.5 3.5 0 0 1-3.5 4.5H9a2.5 2.5 0 0 1-2.3-1.6"/><circle cx="8" cy="18" r="2"/><circle cx="16" cy="18" r="2"/><path d="M9.5 12.5 8.3 16M14.5 12.5l1 3.5"/></symbol>
+  <symbol id="i-volante" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/><circle cx="12" cy="13.5" r="2.5"/><path d="m10.6 15.6-1 3.4 2.4-1.2 2.4 1.2-1-3.4"/></symbol>
+  <symbol id="i-incidencia" viewBox="0 0 24 24"><path d="M5 21h6M8 21V7.5A4.5 4.5 0 0 1 12.5 3H15"/><path d="M13 7.5h6L17.5 4h-3L13 7.5Z"/><path d="M16 10.5v1.5M19.5 9.5l1 1M12.5 9.5l-1 1"/></symbol>
+  <!-- v3c · transparencia: el maletín del empleo (chip y ficha de «Hoy») -->
+  <symbol id="i-empleo" viewBox="0 0 24 24"><rect x="3" y="7.5" width="18" height="12" rx="1.5"/><path d="M9 7.5V5.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12.5h18M10.5 12.5v1.5h3v-1.5"/></symbol>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <!-- arriba, un solo bloque: la banda de propuesta (en todas las páginas) y la franja del aviso
+       destacado, que en escritorio comparten fila y en móvil se apilan sin recortar el texto -->
+  <div class="bandas con-propuesta">
+    <div class="propuesta" data-propuesta>
+      <p class="propuesta__texto"><b>Propuesta de diseño</b><span class="propuesta__largo"> para el Ayuntamiento de Cabeza la Vaca</span> · no es la web oficial</p>
+    </div>
+    <div class="franja-urgente" data-vivo="franja" hidden></div>
+  </div>
+  <div class="cabecera__barra">
+    <div class="contenedor cabecera__dentro">
+      <a class="cabecera__marca" href="index.html">
+        <img class="cabecera__escudo" src="marca/escudo-160.png" width="156" height="160" alt="">
+        <span class="cabecera__nombre"><span class="cabecera__ante">Ayuntamiento de</span> Cabeza la Vaca</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <div class="menu__cabeza">
+          <p class="menu__titulo">Menú</p>
+          <button class="boton-icono menu__cerrar" type="button" data-cerrar-menu><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el menú</span></button>
+        </div>
+        <ul class="menu__lista">
+          <li><a class="menu__enlace" href="ayuntamiento.html">El Ayuntamiento</a></li>
+          <li><a class="menu__enlace" href="tramites.html">Trámites</a></li>
+          <li><a class="menu__enlace" href="avisos.html">Avisos</a></li>
+          <li><a class="menu__enlace" href="noticias.html">Noticias</a></li>
+          <li><a class="menu__enlace" href="agenda.html">Agenda</a></li>
+          <li><a class="menu__enlace" href="pueblo.html" aria-current="page">El pueblo</a></li>
+          <li><a class="menu__enlace" href="telefonos.html">Teléfonos</a></li>
+          <li><a class="menu__enlace" href="contacto.html">Contacto</a></li>
+          
+        </ul>
+        <a class="boton boton--marca menu__sede" href="https://sede.cabezalavaca.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <a class="boton boton--marca cabecera__sede" href="https://sede.cabezalavaca.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+        <a class="boton-icono" href="tramites.html#buscar" data-abrir-buscador><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><span class="sr">Buscar un trámite</span></a>
+        <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu" data-boton-menu hidden><svg class="icono" aria-hidden="true"><use href="#i-menu"/></svg>Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="buscador" id="buscador" aria-labelledby="buscador-titulo">
+  <div class="buscador__cabeza">
+    <h2 class="buscador__titulo" id="buscador-titulo">Buscar en la web</h2>
+    <form method="dialog"><button class="boton-icono" type="submit"><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el buscador</span></button></form>
+  </div>
+  <div class="campo" role="search">
+    <label class="campo__etiqueta" for="buscador-campo">¿Qué necesita hacer?</label>
+    <input class="campo__entrada" id="buscador-campo" type="search" autocomplete="off" spellcheck="false" placeholder="Padrón, recibos, obras…" aria-describedby="buscador-ayuda" data-buscador-campo>
+  </div>
+  <p class="campo__ayuda" id="buscador-ayuda">Escríbalo con sus palabras: trámites (en la sede electrónica), avisos, noticias, teléfonos y lugares del pueblo.</p>
+  <p class="buscador__cuenta" role="status" data-buscador-cuenta></p>
+  <div class="resultados" data-buscador-resultados data-buscador-nivel="3"></div>
+  <p class="buscador__pie"><a href="tramites.html#todos">Ver la lista de todos los trámites</a></p>
+</dialog>
+
+<main id="contenido" tabindex="-1">
+<div class="cabeza-pagina cabeza-pagina--foto cabeza-pagina--grande">
+  <div class="contenedor cabeza-pagina__rejilla">
+    <nav class="migas" aria-label="Usted está aquí">
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+        
+        <li><span aria-current="page">El pueblo</span></li>
+      </ol>
+    </nav>
+    <h1 class="cabeza-pagina__titulo" id="titulo-pagina">El pueblo</h1>
+    <p class="entradilla">Un pueblo blanco de la sierra de Tentudía, uno de los «Pueblos Mágicos de España», con una plaza de toros Bien de Interés Cultural, un castañar de unas 256 hectáreas y la Feria de la Castaña cada otoño.</p>
+    <figure class="cabeza-pagina__puerta">
+      <div class="cabeza-pagina__arco arco-opcional"><img src="media/panoramica.jpg" srcset="media/panoramica-800.jpg 800w, media/panoramica.jpg 1600w" sizes="(min-width: 64em) 34rem, (min-width: 48em) 16rem, 92vw" width="1600" height="465" alt="Los tejados rojos y las casas blancas del pueblo vistos desde un tejado, con la sierra al fondo" style="object-position: 50% 50%" fetchpriority="high" decoding="async"></div>
+      <span class="cabeza-pagina__umbral" aria-hidden="true"></span>
+      <figcaption class="credito">Foto: Pedro Coronado Vázquez · CC BY-SA 3.0</figcaption>
+    </figure>
+    
+  </div>
+</div>
+<div class="contenedor con-indice">
+  <nav class="indice indice--movil" aria-label="En esta página">
+    <details class="indice__plegable" open><summary class="indice__resumen">En esta página</summary>
+      <ol class="indice__lista"><li><a href="#t-lugares">Qué ver</a></li><li><a href="#t-termino">El término en un mapa</a></li><li><a href="#t-visitas">Para visitar</a></li><li><a href="#t-historia">Historia</a></li><li><a href="#t-patrimonio">Patrimonio</a></li><li><a href="#t-anio">Fiestas</a></li><li><a href="#t-gastronomia">Gastronomía</a></li><li><a href="#t-personajes">Personajes</a></li><li><a href="#t-rutas">Rutas</a></li><li><a href="#t-establecimientos">Dónde comer y dormir</a></li><li><a href="#t-creditos">Créditos de las fotos</a></li></ol>
+    </details>
+    <script>/* plegado en el móvil antes de pintarse (sin JavaScript, abierto: se ve la lista) */ (function (d) { if (window.matchMedia && matchMedia('(max-width: 63.99em)').matches) d.open = false; })(document.currentScript.previousElementSibling);</script>
+  </nav>
+  <nav class="indice indice--lateral" aria-labelledby="indice-titulo">
+    <p class="indice__titulo" id="indice-titulo">En esta página</p>
+    <ol class="indice__lista"><li><a href="#t-lugares">Qué ver</a></li><li><a href="#t-termino">El término en un mapa</a></li><li><a href="#t-visitas">Para visitar</a></li><li><a href="#t-historia">Historia</a></li><li><a href="#t-patrimonio">Patrimonio</a></li><li><a href="#t-anio">Fiestas</a></li><li><a href="#t-gastronomia">Gastronomía</a></li><li><a href="#t-personajes">Personajes</a></li><li><a href="#t-rutas">Rutas</a></li><li><a href="#t-establecimientos">Dónde comer y dormir</a></li><li><a href="#t-creditos">Créditos de las fotos</a></li></ol>
+  </nav>
+  <div class="con-indice__cuerpo">
+
+
+
+
+<section class="seccion seccion--primera con-paralaje" aria-labelledby="t-lugares">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-lugares">Qué ver</h2>
+    <div class="carril" data-desborda role="group" aria-labelledby="t-lugares">
+      <ul class="carril__lista">
+        <li class="lugar" id="lugar-plaza-de-toros">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/plaza-toros-800.jpg" width="1600" height="1067" alt="El ruedo de arena de la plaza de toros, con el graderío blanco y los burladeros rojos" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Plaza de Toros</h3>
+          <p class="lugar__texto">Bien de Interés Cultural desde 1989. Un ruedo de 40 metros, graderío macizo y burladeros excavados en la roca; se encala cada año.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        <li class="lugar" id="lugar-cruz-del-rollo">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/cruz-rollo-800.jpg" width="1325" height="1600" alt="La Cruz del Rollo, un fuste de granito sobre tres gradas, con casas blancas detrás" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Cruz del Rollo</h3>
+          <p class="lugar__texto">Picota de granito levantada en 1600, símbolo de la jurisdicción que Felipe II dio a la villa en 1594. Hoy es el centro del pueblo.</p>
+          <p class="credito">Foto: Marbregal · CC BY-SA 3.0</p>
+        </li>
+        <li class="lugar" id="lugar-torre-del-reloj-y-antigua-carcel">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/torre-reloj-800.jpg" width="1600" height="1067" alt="La torre blanca del reloj con su arco de ladrillo, junto a la Cruz del Rollo" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Torre del Reloj y antigua cárcel</h3>
+          <p class="lugar__texto">La torre es de 1770. Junto a ella está la antigua cárcel, hoy Cuerpo de Guardia de la Policía Local y, enfrente de la Cruz del Rollo, la Oficina de Turismo.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        <li class="lugar" id="lugar-iglesia-de-nuestra-senora-de-los-angeles">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/iglesia-800.jpg" width="1600" height="1071" alt="La iglesia encalada, con su torre del campanario, vista desde la calle" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Iglesia de Nuestra Señora de los Ángeles</h3>
+          <p class="lugar__texto">En la Plaza de España. Se rehízo en los siglos XVII y XVIII y guarda un retablo mayor de 1760 y una «cruz de oro» de plata dorada.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        <li class="lugar" id="lugar-fuente-abajo">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/fuente-abajo-800.jpg" width="1200" height="1600" alt="Fuente de granito de base octogonal con una cruz de piedra y casas blancas detrás" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Fuente Abajo</h3>
+          <p class="lugar__texto">A la entrada del pueblo por el este: base hexagonal de granito, cuatro caños y una cruz de mármol. Su inscripción dice 1559.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        <li class="lugar" id="lugar-la-pisa-del-caballo">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/pisa-caballo-800.jpg" width="1600" height="1245" alt="Un prado con mesas de merendero y un sauce verde, bajo una ladera de monte" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">La Pisá del Caballo</h3>
+          <p class="lugar__texto">Parque periurbano desde 2005. Un manantial con forma de herradura, aula de la naturaleza, centro de interpretación, observatorio de aves, merendero y piscina natural.</p>
+          <p class="credito">Foto: Pepe Martinez · CC BY 2.5 es</p>
+        </li>
+        <li class="lugar" id="lugar-el-castanar-de-los-cortinales">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/castanar-800.jpg" width="1600" height="1200" alt="Castaños con sus frutos verdes y un muro de piedra seca en primer plano" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">El Castañar de Los Cortinales</h3>
+          <p class="lugar__texto">En la sierra de Tentudía: unas 256 hectáreas de castaños, casi todas en pequeñas parcelas. La cosecha es en octubre y noviembre.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        <li class="lugar" id="lugar-plaza-vieja">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/plaza-vieja-800.jpg" width="1037" height="700" alt="Plaza empedrada con bancos y árboles, rodeada de casas blancas" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Plaza Vieja</h3>
+          <p class="lugar__texto">Donde se cree que nació el pueblo, alrededor de un pozo. Hoy es una plaza empedrada con calzada portuguesa.</p>
+          <p class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</p>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-termino">
+  <div class="contenedor termino">
+    <h2 class="seccion__titulo" id="t-termino">El término en un mapa</h2>
+    <figure class="termino__figura">
+      <svg class="termino__mapa" viewBox="0 0 600 988" aria-hidden="true" focusable="false"><rect class="termino-fondo" width="600" height="988"/><path class="termino-area" d="M18 653.5L20.1 666.3L19.2 690.2L21.5 699.1L23.9 703.9L41.6 720.7L49 726.2L53.7 731.4L68.6 755.1L73.7 757.1L78.7 760.7L86.5 769.5L94.7 780.8L102.4 796L125.7 799.6L140.1 807.3L170.5 802.4L184 799.1L206.5 803.7L234.1 796L259.1 800.1L270.5 807.3L273.5 811.4L296.1 822.3L314.3 829.6L316.1 831.2L321.1 840.7L386.2 868.4L395 870.4L405.3 871.3L415.6 870.3L453.1 862L465.2 862.2L477.5 859.8L494.2 861.5L508.3 865.1L508.5 884.1L519.3 892.9L530.9 904.5L537.8 921.3L536.7 936.7L537.1 939.6L539 943.9L542.5 932.7L537.6 907.6L536.8 896.4L537.3 893.1L539.4 887.5L533.9 881.9L532.4 878.9L530.7 871.1L530.1 862.2L528.4 856.6L530.4 846.7L536.9 828.5L539 823.4L542.3 819.8L542.9 817.9L539.9 810L539.6 805.5L535.5 800.6L535.5 795.1L532.2 786.4L529.5 782.3L532 770L528.6 761.1L529.8 755.3L534.1 743.4L535 737.7L541.4 731.4L544.9 725L541.6 716.6L540.3 709.1L541 707.4L544.5 704.3L544.8 702.7L543.8 701.7L539.7 701.1L539.6 699.7L537.3 697.3L537.2 695.8L538 694.3L542.9 695L545.9 693.7L549.8 687.5L554.4 683.9L549.2 679.8L545.6 672L541.8 670L542.2 667L545 663.7L544.5 662.3L539.4 659.7L533.2 654.2L532.7 652.4L534.3 650.8L536 650.8L545.8 654.3L548.2 653.1L548.6 651.2L547.9 647.8L544.4 644L551.9 636.4L552.3 633.8L551.2 631.9L548.3 631L546.2 631.5L543.5 634L540.3 634.3L538.7 633.5L537.5 630.8L538.2 629.4L539.6 628.8L547.3 627.8L552.7 626.2L565.5 619.4L568.4 616.3L570.7 613.3L570.9 611.4L565.8 607.4L565.5 605.5L569.5 599.6L577.2 593.5L581.2 592.6L582 591.1L581.7 589.6L575.2 585.1L579.4 580.9L580.8 578.3L581 576L578.8 572.6L570.7 567.5L570.3 566.1L570.4 563.6L574.3 558.5L574.6 547.3L577 543.3L573 536.6L572.8 529.4L570.5 522.6L570.8 519.8L572.7 516.9L573.2 509.8L572.1 506.8L566.4 504.9L552.7 497.9L547.2 487L544.1 483.4L535.4 482L533.8 483.6L531.9 490L530.5 490.5L522.7 481.8L519.9 480.6L515.9 481.8L508 487.4L505.6 487.8L501.2 486L497.2 481L497.4 476.2L501.9 466.6L501.6 462.9L494.6 457.2L487 445.1L482.3 443.2L477.6 443.4L477.3 436.9L475.8 432.4L469.8 429.4L463.1 420.9L455.5 414.5L449.2 405.1L447.2 389.2L453 387.8L454.7 384.7L457.8 381.4L465.1 375.7L464.2 372.6L464.2 367.5L478.3 343.8L480.2 338.5L487.6 326.2L491.2 316.3L500.9 305.5L505 292.7L512.9 287.3L517.2 280.6L521.3 277.1L526.2 266.2L531.3 259.9L536.1 238.3L538.7 229.9L527.6 213.2L507.4 163.8L501.7 146L498.7 139.1L496.6 122.8L493.6 114L488.8 103.7L482.9 84.9L480.1 70.7L474.1 59.8L471.6 53.2L470.2 48.4L471.4 39.6L459.3 18L456.6 18.9L451.7 30.2L444 56.4L442.3 59.5L434.4 70.7L428 77.7L403.4 101L393.9 119.7L380.4 157.1L379.4 169.4L372.1 200.1L367.2 216.2L362 224.6L359.5 234.8L354.8 241.3L348.7 259.7L336.7 286.6L334.2 296.6L333.5 306.5L325.7 317L324.5 320.1L324.9 325.7L319.4 333.2L318.9 338.6L316.3 345.5L317.6 357.7L316.7 361.5L294.7 377.5L289.8 379.7L270.7 394.9L230.7 421.6L218.8 431.3L214.7 433.5L199.3 451.8L185.1 464.5L181 471.1L166.4 483.8L160 492.2L156.2 495.6L129.7 513.2L123.5 514.3L117.5 533.7L108.8 547.1L109.2 553L104.9 559.1L101 567.1L101 570.5L102.1 573.6L108.3 582L109.4 584.8L109.7 593.3L111.7 601.4L106.8 609.4L103.6 612.9L99 615.1L90.6 616.3L86.8 617.6L79.8 616.2L65.5 617.1L63.8 617.8L60.9 619.6L49.9 629.9L46.8 635.4L41.5 641.3L22.9 650.1L18 653.5Z"/><path class="termino-casco" d="M252 621.5L248.7 622.3L243.9 620.9L241.3 621.1L239.5 620.2L237.2 620.5L234.8 622L234.8 623L237.1 624.7L238.4 624.8L239.4 626.8L236.6 629L234.8 628.9L231.6 626.3L230.3 626.2L229.1 631.8L226.6 632.5L224.8 628.6L223.7 630.3L223.2 633.3L223.3 636.7L220.8 638.2L218.8 638.5L217.8 637.6L216.1 630.4L212 625.8L209 627.1L207.4 627.1L207 625.7L208.5 624.6L208.9 623.5L207 620.5L206 620.7L206.3 623.5L202.7 626.3L199.6 620.8L201.2 619.6L200.7 617.9L190.6 615.7L187.8 610.7L180.3 607L184.4 600.3L189.3 589.8L193.4 590.7L194.7 592L193.9 593.2L197.3 595.7L201.3 600.2L203 599.4L203.7 600.3L206.3 598.4L209.4 600.5L210.1 604.2L213 604.4L213.1 602.7L215.2 602.7L216.7 601.9L217.8 602.2L220.6 604.6L221.2 604.4L222 601.8L223.8 600.7L228.9 602.8L232 603.3L235.4 606.8L241.7 605.1L247.1 601.1L253.3 597.7L258.9 596.8L260.8 597.7L260.1 606.1L257.8 606.9L255.2 609.8L257.9 610.9L258.4 613.4L253.5 612.7L252.9 613.2L251.9 618.2L252 621.5Z"/><path class="termino-ruta" d="M575 553.4L576.9 551.5M576.9 551.5L584.3 543.9L589 540.6L594.7 539.9L600 541.7"/><path class="termino-ruta" d="M600 880L597.3 880.8L591.4 880.4L580.4 883.3L570.6 887.3M570.6 887.3L569 889.8M569 889.8L566 893.3L563.5 898.4L552 909.4L550.5 912.6L551.7 916.9L552.2 924.8L550.8 931.6L548.2 935.3L540.4 943.1L539.3 943.1L534.1 940.4L530.7 937.6L527.2 936.2L519.3 935.2L513.7 935.6L506.9 938.4L504.1 942L502.5 942.4L499.8 941.4L497.3 941.4L496.3 945.1L490.9 945.2L489.7 945.8L487.8 947.6L486.4 952.3L484.5 953.4L477.3 947.7L470.8 937.7L465.6 936.7L461.1 934.5M267.1 966.8L270.3 965.8L288.8 969.3L292.4 966.8L298.4 966.8L308.2 962.8L322.9 958.6L325.1 959.1L330.5 956.8L337.9 955L343.9 955L349.5 952.7L352.1 947.3L352.6 939.8L354.2 938.4L364.8 945L368.5 939.7L376.5 933.2L378.3 927.1L379.9 928.7L385.5 922.8L409.3 918.7L420.8 918.2L426.2 916.1L432.3 909.4L433.9 899.4L438.1 896.9L443.3 897L444 907.3L445.7 911.3L451.3 919.1L457.7 923.7L459.8 928.6L461.1 934.5M247.2 988L252 983L254.2 977.6L262.2 966.6L267.1 966.8"/><path class="termino-carretera" d="M54.3 817.3L64.1 832.2L74.4 844.2L79.2 851L83.9 855.1L88.5 861.3L111.3 881.9L117.7 889.2L131.9 908.2L136.5 919.1L142.7 927L153.4 947.3L174.8 960.6L176.2 969.3L179.2 973.6M302.1 623.8L319.8 625.8L339.9 624.5L349.7 626L357.4 624.6L369.9 623.6L383 618L396.4 607.3L407.5 602.3L424.4 590.6L428.5 586.3L433.2 577.8L435.2 576L438 575.1L445.5 575.4L453.2 572.9L456.1 572.7L460 573.7L465.7 577M570.6 887.3L561.9 884.9L556.3 884.7L550.2 885.6L543.4 888L535 885.7L525.2 884.8L517.8 880L513.7 870.4L511 867L502.9 864L487.4 861.3L478.5 860.6L469.6 862.7L455.4 862.3L450.5 863.7L444 867L436.7 866.7L431.6 862.1L429.5 857.6L424.1 856.2L419.7 854L414.2 846.5L412.6 838.5L409.3 834.7L407.2 833.9L403 834.4L393.9 842.1L389.3 843.2L386.9 845.1L384.4 850.6L385.5 860.1L383.7 862.5L379.4 864.9L370.9 863.4L368.9 862.2L363.5 855.9L330.1 842L318.5 835.1L314.5 828.7L309.1 827.1L301.1 822.5L289.7 817.7L280.1 811.4L269.1 805.7L265.8 802.2L266.8 797.5L266.3 793.2L270.2 787L271.9 776.5L274.8 772.5L275.7 768.8L273.4 763.3L268.8 757.1L266.6 737.8L259.3 728.2L254.5 715.8L241.9 697.3L241.1 691.3L246.3 685.6L247.6 675.5L247.4 669.4L245.5 662L245.9 654.2L244.7 652.4L236.2 648.5L225.2 641.8M177.5 589.5L176.6 584.3L175 582.2L159.1 573.4L150.5 567.2L145.9 562.5L129.9 553.3L124.7 547.8L125.4 536.9L128.8 525.3L128.4 523.5L125.9 519.9L124.1 511.6L124.5 497L121.8 482.9L123.2 476.3L124.2 464.1L123.6 457.2L122.3 452.4L123.3 439.3L120.4 428.8L119 417.1L118.1 387.1L113.1 379.7L108.4 370L103.9 349.8L102.6 325L97.9 318.4L95.3 311.1L88 298.8L76.7 287.6L73.3 281.1L73.5 276.8L77 269.6L78.1 261.6L76.8 256.2L71.1 250.5L72 240.6L69 226.7L65.3 219.8L65.9 217.5L68.4 213.6L68.5 211.5L65.8 205.4L65.3 202.2L63.3 199.4L63 194.6L70 182.6L77.4 167.2L80.8 156.8L72.9 144.1M92.2 126.1L97.1 124L106.6 122.2L115.4 123.9L117.7 123.3L121.4 120.5L130.6 120.9L133.4 119.9L135.1 118.2L137.7 117.7L160.1 118.4L174.3 121.7L178.6 120.5L183.6 120.8L187.3 118.7L194.8 116.9L208.5 110.3L219.8 109.5L242.6 105.9L253.1 108.7L265.4 110.4L268.7 109.7L274 105.4L279.2 103.7L284.9 103.3L308.3 95.5L324 94.2L335.8 92L355.4 91.7L360.7 92.5L374.4 86.7L382.5 85.8L394.8 86.2L397.3 87.7L402.5 96.2L419.3 101.7L432.6 108.7L434.6 110.7L444 127.5L451.7 134.8L499 192.3L504.6 203.1L536.2 255.8L544.5 274.3L553 282.4L555.5 290.1L558 294.2L562.7 298.8L577.7 306.7L583.1 308.3L585.8 311.6L586.6 313.4L586.2 315.4L583.4 321L581.5 328.1L584.3 330.7L588 330.8L591.2 332L593 334.2L597.2 343.2L600 346.1M177.5 589.5L191.4 587.9L196.1 589.1L203.5 592.7L207.6 593.3L243.9 586.2L254.1 586.9L261.1 589.8L283.6 604.7L288.7 610L294.7 620.9L297.4 622.9L302.1 623.8M0 749.1L8.4 756.2L25.2 780.3L43 800.8L54.3 817.3M0 575.1L9.4 578L23.6 586.1L27.3 587.4L32.1 586.4L39.8 579.7L45.9 577.4L51.9 578.1L57.5 580.7L68.9 580.3L75.1 581.3L80.3 583.1L91.6 589.1L104.1 591.4L119.2 601.7L122.5 602.9L126.7 602.2L149.3 593.4L154.6 587.8L158.6 586.1L171.1 590.3L177.5 589.5M573.4 554.6L575 553.4M465.7 577L468.1 577.5M468.1 577.5L473 576.3L475.7 572.4L476.1 569.8L473.2 553.8L475.1 549.7L479.4 547.5L482.8 547.9L490.9 552.1L497.9 554.7L509 557.1L516.3 556.9L524.1 553.7L528.4 553L560.2 558L567.6 557.2L573.4 554.6M576.9 551.5L584.3 543.9L589 540.6L594.7 539.9L600 541.7M225.2 641.8L222.2 638L221 634.4M575 553.4L576.9 551.5M221.7 0L211.2 8.7L204.5 11.3L202.5 16.5L200.7 18.5L191 23.6L186.1 27.2L185.2 29.7L185.4 32.4L188 43L186.6 45.5L172.7 45.5L166.1 42.7L155.3 42.6L145.4 44.8L143.9 45.7L141.9 49.7L140.7 50.6L132.4 52.3L128.2 54.9L125.4 60L121.9 75.5L119.5 78.8L119.7 83.2L119 85.7L117.4 87.7L110.4 92.1L105.7 97.1L100.4 104.8L99.5 112.1L92.2 126.1L81.9 133.8L76.6 143.1L56.7 147.1L45.5 146.3L39 147.4L34 146.6L27.2 149.1L18.4 154.4L5.4 165.8L2.8 166.1L0 163.9M600 880L597.3 880.8L591.4 880.4L580.4 883.3L570.6 887.3"/><path class="termino-limite" d="M18 653.5L20.1 666.3L19.2 690.2L21.5 699.1L23.9 703.9L41.6 720.7L49 726.2L53.7 731.4L68.6 755.1L73.7 757.1L78.7 760.7L86.5 769.5L94.7 780.8L102.4 796L125.7 799.6L140.1 807.3L170.5 802.4L184 799.1L206.5 803.7L234.1 796L259.1 800.1L270.5 807.3L273.5 811.4L296.1 822.3L314.3 829.6L316.1 831.2L321.1 840.7L386.2 868.4L395 870.4L405.3 871.3L415.6 870.3L453.1 862L465.2 862.2L477.5 859.8L494.2 861.5L508.3 865.1L508.5 884.1L519.3 892.9L530.9 904.5L537.8 921.3L536.7 936.7L537.1 939.6L539 943.9L542.5 932.7L537.6 907.6L536.8 896.4L537.3 893.1L539.4 887.5L533.9 881.9L532.4 878.9L530.7 871.1L530.1 862.2L528.4 856.6L530.4 846.7L536.9 828.5L539 823.4L542.3 819.8L542.9 817.9L539.9 810L539.6 805.5L535.5 800.6L535.5 795.1L532.2 786.4L529.5 782.3L532 770L528.6 761.1L529.8 755.3L534.1 743.4L535 737.7L541.4 731.4L544.9 725L541.6 716.6L540.3 709.1L541 707.4L544.5 704.3L544.8 702.7L543.8 701.7L539.7 701.1L539.6 699.7L537.3 697.3L537.2 695.8L538 694.3L542.9 695L545.9 693.7L549.8 687.5L554.4 683.9L549.2 679.8L545.6 672L541.8 670L542.2 667L545 663.7L544.5 662.3L539.4 659.7L533.2 654.2L532.7 652.4L534.3 650.8L536 650.8L545.8 654.3L548.2 653.1L548.6 651.2L547.9 647.8L544.4 644L551.9 636.4L552.3 633.8L551.2 631.9L548.3 631L546.2 631.5L543.5 634L540.3 634.3L538.7 633.5L537.5 630.8L538.2 629.4L539.6 628.8L547.3 627.8L552.7 626.2L565.5 619.4L568.4 616.3L570.7 613.3L570.9 611.4L565.8 607.4L565.5 605.5L569.5 599.6L577.2 593.5L581.2 592.6L582 591.1L581.7 589.6L575.2 585.1L579.4 580.9L580.8 578.3L581 576L578.8 572.6L570.7 567.5L570.3 566.1L570.4 563.6L574.3 558.5L574.6 547.3L577 543.3L573 536.6L572.8 529.4L570.5 522.6L570.8 519.8L572.7 516.9L573.2 509.8L572.1 506.8L566.4 504.9L552.7 497.9L547.2 487L544.1 483.4L535.4 482L533.8 483.6L531.9 490L530.5 490.5L522.7 481.8L519.9 480.6L515.9 481.8L508 487.4L505.6 487.8L501.2 486L497.2 481L497.4 476.2L501.9 466.6L501.6 462.9L494.6 457.2L487 445.1L482.3 443.2L477.6 443.4L477.3 436.9L475.8 432.4L469.8 429.4L463.1 420.9L455.5 414.5L449.2 405.1L447.2 389.2L453 387.8L454.7 384.7L457.8 381.4L465.1 375.7L464.2 372.6L464.2 367.5L478.3 343.8L480.2 338.5L487.6 326.2L491.2 316.3L500.9 305.5L505 292.7L512.9 287.3L517.2 280.6L521.3 277.1L526.2 266.2L531.3 259.9L536.1 238.3L538.7 229.9L527.6 213.2L507.4 163.8L501.7 146L498.7 139.1L496.6 122.8L493.6 114L488.8 103.7L482.9 84.9L480.1 70.7L474.1 59.8L471.6 53.2L470.2 48.4L471.4 39.6L459.3 18L456.6 18.9L451.7 30.2L444 56.4L442.3 59.5L434.4 70.7L428 77.7L403.4 101L393.9 119.7L380.4 157.1L379.4 169.4L372.1 200.1L367.2 216.2L362 224.6L359.5 234.8L354.8 241.3L348.7 259.7L336.7 286.6L334.2 296.6L333.5 306.5L325.7 317L324.5 320.1L324.9 325.7L319.4 333.2L318.9 338.6L316.3 345.5L317.6 357.7L316.7 361.5L294.7 377.5L289.8 379.7L270.7 394.9L230.7 421.6L218.8 431.3L214.7 433.5L199.3 451.8L185.1 464.5L181 471.1L166.4 483.8L160 492.2L156.2 495.6L129.7 513.2L123.5 514.3L117.5 533.7L108.8 547.1L109.2 553L104.9 559.1L101 567.1L101 570.5L102.1 573.6L108.3 582L109.4 584.8L109.7 593.3L111.7 601.4L106.8 609.4L103.6 612.9L99 615.1L90.6 616.3L86.8 617.6L79.8 616.2L65.5 617.1L63.8 617.8L60.9 619.6L49.9 629.9L46.8 635.4L41.5 641.3L22.9 650.1L18 653.5Z"/><path class="termino-zona" d="M194.4 586.2H245V636.8H194.4Z"/><path class="termino-guia" d="M194.4 586.2L216 432"/><g class="termino-recuadro"><rect class="termino-fondo" x="6" y="222" width="210" height="210"/><path class="termino-area" d="M215 431L215 223L7 223L7 431L215 431Z"/><path class="termino-casco" d="M215 367L211.5 366L200.8 366.8L193.4 363.2L183.6 364.4L173.7 370.4L173.6 374.8L183.3 381.6L188.5 382L192.8 390.7L186.6 396L181.3 399.6L173.9 399.4L160.5 388.3L155.1 388L153 392.8L151.9 404.7L150.1 411L139.7 414.2L134.9 402.4L132.2 398L127.7 405.1L125.4 417.4L126 431L102.5 431L99.4 413.1L96 405.4L91.6 399L79 386.1L66.6 391.9L59.7 391.8L58.1 385.9L64.4 381.3L66 376.9L58.3 364.4L55.5 363.5L54.1 365.2L55.5 376.6L40.4 388.3L27.5 365.7L34.2 360.5L32 353.5L7 348.7L7 253.3L18.1 261.3L34.4 280.1L41.5 276.5L44.4 280.3L55.1 272.5L68.2 281.3L70 284.2L71.2 296.5L83.1 297.4L83.5 290.2L92.1 290.3L98.7 287.1L103.1 288.2L112.3 298.1L114.5 298.4L117.3 297.2L120.7 286.6L128.2 282L149.3 290.9L162 292.8L176.2 307.3L191.4 302.6L202.4 300.2L215 291L215 367Z"/><path class="termino-calle" d="M7 264L14.9 272.8L25.9 286.9L44 303.4L48.5 308.3L54 307.8M54 307.8L61.4 305.7L66.8 305.2L81.8 307.6L90.2 310.4M95.2 357.9L86 353L80.7 347.8L79.1 345.1M136.6 349.1L125.7 348.9L118.3 350.6M57.3 345.4L79.1 345.1M32.3 341.9L7 311.4M7 331.9L14.3 340.5M175.5 350.9L175.5 355.9L170.7 357.8L165 363.1L156.5 377.7L154.8 379L145.8 377.8M147.1 342.5L148.3 338.8L143.1 336.3L141.3 341.1M116.5 422.1L117.1 404.2M149.4 350.6L147.6 360.6L145.8 377.8L144.7 381.7L140.9 389.9L140.6 392.1L142.2 404.9L144.5 413.7M58.3 348.4L34.1 368.2M215 338.6L209 343.2L205.4 346.8L201 349.5L195.9 351.2L186.1 350.6L175.5 350.9L161.2 347.5M113.3 398.3L103.2 395.9L94.6 371.9L92 359.4M190.2 336.3L186.5 324.4L192.2 313.4L190.8 306.7M110.7 319.7L103.2 319.9M196.8 351L203.1 358.2M215 341.6L213.8 339.2M127.6 292L131.9 294L142.8 302L145.1 306.9M72.7 367.8L79.9 360.1L74.8 354.7L66.5 351.9L62.7 354.6M109.2 368.2L102.4 367.1L97 348.2L96 341M141.3 341.1L139.8 341M124.7 313.1L123.8 305L127.2 297L128.1 283.9M210.3 357.8L205.4 346.8M117.1 404.2L119.7 396.5L121.3 382.1L118.7 359.6L118.3 350.6M177.6 312.8L173.5 315.3L170 315.8L166.9 315.4L163.2 312.9L146.5 309.3L143.4 309.6M174.8 229.1L172.4 232.4L167.5 235.1L166.4 238.6L168.1 246L169.8 250.5L169.8 254L156.1 291.4M7 340L27.5 342.1L32.3 341.9L38.1 340.7L46.4 337.7L70.6 331.6M103.2 319.9L104.2 338.7L110.3 374.2L110.6 384.9L111.6 391.8L113.5 399.1L117.1 404.2M107.1 354.3L99.4 355.6M117.3 324.9L116.3 331.9L116.1 346L117.5 350.8M111.8 318.6L109.8 309.9L104.9 311L103.5 312.2M116.3 337.8L104.2 338.7L96.6 340.9M99.7 356.5L92 359.4L81.9 367.3L80.8 369.6L79.5 376.4M143.4 309.6L137.4 311.5L124.7 313.1L112.2 318.7M162.2 339.2L161.2 347.5L159.1 351.9L157.3 353.8M187.4 322.5L193.6 322.7L215 313.1M177.6 312.8L176.3 322.8L170.9 328.5L163.9 333.8L163.8 335.9M215 295.4L204.3 303.3M48.5 308.3L49.5 310.4L55.3 316.9L71.9 333L78.7 342.9L79.1 345.1L78.3 347.8L74.4 354.5M163.9 333.8L161.8 331L166.9 315.4M103.5 312.2L104.8 319.9M162.4 223L163.1 225.8L164.1 226.5L166.1 227.2L173.6 226.8L174.8 229.1M64.9 305.1L65.3 296.7L64 286.7M143.4 309.6L141.6 318.9L138.2 327L140.5 330.4L140.7 334M42.1 339.4L45.8 340.3L57.3 345.4M91.3 323.5L90.2 310.4M91.3 323.5L71.9 333M79.1 345.1L96 341M96.6 340.9L93.1 330.9L91.3 323.5M90.5 311.3L103.5 312.2M112.7 320.8L112.8 319L111 319L110.9 320.5L112.7 320.8M103.2 319.9L91.2 321.5M117.3 324.9L112.7 320.8M111.8 318.6L111 319L110.7 320.1L112 321L113.1 319.7L111.8 318.6M104.9 311L103.5 312.2L104.8 319.9L110.7 319.7L111.8 318.6L109.8 309.9L104.9 311M96.6 340.9L96 341M139.8 341L134 340.5L121.2 337L116.3 336.9M119.7 396.5L129.7 385.9L130.6 383.6L131.9 372.1L135 353.7L139.8 341M118.3 350.6L106.8 353.2M145.8 377.8L136 375.7L116.6 373.9L110.3 374.2M157.3 353.8L149.4 350.6L146.4 348.4L145.8 347.6L147.1 342.5M162.2 339.2L157.3 340.8L148.3 338.8M143.1 336.3L140.7 334L136.2 332.1L124.1 328.5L119.9 326.8L117.3 324.9M141.3 341.1L147.1 342.5L148.3 338.8L143.1 336.3L141.3 341.1M157.3 340.8L161.9 342.1M157.3 340.8L161.9 342.1L162.2 339.2L157.3 340.8M111.1 431L116.5 422.1M103.2 395.9L97.7 395.8L79.5 376.4L62.7 354.6L58.3 348.4L57.3 345.4M215 326.9L195.9 336.2L190.2 336.3L178.1 334.8L166.3 335.1L163.8 335.9L162.2 339.2M203.1 358.2L210.3 357.8L215 359.3M156.1 291.4L153 299.4L150.8 302.2L145.1 306.9L144.5 309.1M204.3 303.3L190.8 306.7L177.6 312.8M54.1 315.6L54 307.8M106.3 243.8L109.9 246.4L110.8 248.1L110.6 262.5L111.8 273.9L125.8 278.2L127.5 279.2L128.4 280.7M106.3 243.8L103.8 242.5L88.2 242.3L85.4 241.8L81.6 237.5L80.2 234.7L78 223M163.4 366.5L168.2 370.9L165.1 375.4L180 386.6L180.9 386.3"/><path class="termino-carretera" d="M7 232.4L13.1 233.9L43.5 248.7L60.5 251.2L80.2 249.4L203.5 223M119.2 431L116.5 422.1"/><path class="termino-guia" d="M61.4 313.1L36.2 296.9"/><path class="termino-sitio" d="M58.8 313.1a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M111.9 319.9L127.2 294.1"/><path class="termino-sitio" d="M109.3 319.9a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M111.6 321.5L125.9 347.9"/><path class="termino-sitio" d="M109 321.5a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M160.6 340.9L188.7 351.5"/><path class="termino-sitio" d="M158 340.9a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M107.7 314.7L69.9 346.2"/><path class="termino-sitio" d="M105.1 314.7a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-escala" d="M14 420h63.3M14 416v8M77.3 416v8"/><text class="termino-escala-texto" x="83.3" y="420" dy=".35em">250 m</text><rect class="termino-marco" x="6" y="222" width="210" height="210"/></g><g class="termino-ref"><rect x="321.5" y="840.8" width="47.6" height="15" rx="3"/><text x="345.3" y="848.3" text-anchor="middle" dy=".35em">BA-109</text></g><g class="termino-ref"><rect x="95.6" y="76.6" width="47.6" height="15" rx="3"/><text x="119.4" y="84.1" text-anchor="middle" dy=".35em">EX-202</text></g><g class="termino-ref"><rect x="100.6" y="886.3" width="41" height="15" rx="3"/><text x="121.1" y="893.8" text-anchor="middle" dy=".35em">A-434</text></g><g class="termino-ref"><rect x="65.5" y="580.4" width="47.6" height="15" rx="3"/><text x="89.3" y="587.9" text-anchor="middle" dy=".35em">EX-103</text></g><path class="termino-escala" d="M18 976h152.4M18 972v8M170.4 972v8"/><text class="termino-escala-texto" x="176.4" y="976" dy=".35em">2,5 km</text><a class="termino-punto" href="#lugar-plaza-de-toros" tabindex="-1"><circle cx="36.2" cy="296.9" r="15"/><text x="36.2" y="297.4" text-anchor="middle" dy=".35em" font-size="15">1</text></a><a class="termino-punto" href="#lugar-cruz-del-rollo" tabindex="-1"><circle cx="127.2" cy="294.1" r="15"/><text x="127.2" y="294.6" text-anchor="middle" dy=".35em" font-size="15">2</text></a><a class="termino-punto" href="#lugar-torre-del-reloj-y-antigua-carcel" tabindex="-1"><circle cx="125.9" cy="347.9" r="15"/><text x="125.9" y="348.4" text-anchor="middle" dy=".35em" font-size="15">3</text></a><a class="termino-punto" href="#lugar-fuente-abajo" tabindex="-1"><circle cx="188.7" cy="351.5" r="15"/><text x="188.7" y="352.0" text-anchor="middle" dy=".35em" font-size="15">4</text></a><a class="termino-punto" href="#lugar-fuente-del-rollo" tabindex="-1"><circle cx="69.9" cy="346.2" r="15"/><text x="69.9" y="346.7" text-anchor="middle" dy=".35em" font-size="15">5</text></a></svg>
+      <figcaption class="termino__pie">Mapa del término municipal de Cabeza la Vaca, dibujado con datos de OpenStreetMap a 5 de octubre de 2026. <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, se abre otra web</span></a>.</figcaption>
+    </figure>
+    <div class="termino__leyenda">
+      <h3 class="termino__titulo">Lugares del mapa</h3>
+      <ol class="termino__lugares">
+        <li><a href="#lugar-plaza-de-toros"><span class="termino__num" aria-hidden="true">1</span>Plaza de Toros</a></li>
+        <li><a href="#lugar-cruz-del-rollo"><span class="termino__num" aria-hidden="true">2</span>Cruz del Rollo</a></li>
+        <li><a href="#lugar-torre-del-reloj-y-antigua-carcel"><span class="termino__num" aria-hidden="true">3</span>Torre del Reloj y antigua cárcel</a></li>
+        <li><a href="#lugar-fuente-abajo"><span class="termino__num" aria-hidden="true">4</span>Fuente Abajo</a></li>
+        <li><a href="#lugar-fuente-del-rollo"><span class="termino__num" aria-hidden="true">5</span>Fuente del Rollo</a></li>
+        
+      </ol>
+      <h3 class="termino__titulo">Cómo leerlo</h3>
+      <ul class="termino__claves">
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-limite" d="M2 8h28"/></svg>Límite del término municipal (línea discontinua)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-casco" d="M6 3h20v10H6z"/></svg>El pueblo (área sombreada)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-carretera" d="M2 8h28"/></svg>Carreteras (línea gruesa): A-434, BA-109, EX-103, EX-201 y EX-202</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-ruta" d="M2 8h28"/></svg>Rutas (línea de puntos): [CIMA BD02] Tentudía y Rivera de Montemayor - Monasterio de Tentudía</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><circle class="termino-punto-clave" cx="16" cy="8" r="6"/></svg>Círculo con número: un lugar de la lista</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-escala" d="M3 10h26M3 6v8M29 6v8"/></svg>Escala: la barra de abajo mide 2,5 km</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><rect class="termino-marco" x="5" y="1.5" width="22" height="13"/></svg>Recuadro: el pueblo ampliado; su barra mide 250 m</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-guia" d="M6 11L26 5"/><circle class="termino-sitio" cx="6" cy="11" r="2.6"/></svg>Raya fina con un punto: el sitio exacto, cuando el número se ha apartado para que se lea</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-visitas">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-visitas">Para visitar</h2>
+    <ul class="fichas visitas">
+      <li class="ficha visita">
+        <h3 class="ficha__titulo">Feria de la Castaña (FERCAS)</h3>
+        <p class="visita__texto">Se celebra desde 2006, el puente de Todos los Santos, para dar a conocer el castañar —el mayor de la provincia, según el Ayuntamiento— y los productos locales: stands, artesanía, cocina, música y actividades. Es Fiesta de Interés Turístico de Extremadura. La XXI edición es del 30 de octubre al 1 de noviembre de 2026, con una Pre-Feria durante todo octubre (talleres, rutas y la Ruta de la Tapa).</p>
+        
+        <p class="visita__nota">La cosecha del castaño es en octubre y noviembre. Para más datos, la Oficina de Turismo (924 583 002).</p>
+        
+        <p class="visita__enlace"><a href="https://cabezalavaca.es/plantilla.php?enlace=AZ">Origen de la Feria, en su web actual<span class="sr">: Feria de la Castaña (FERCAS), se abre otra web</span></a></p>
+      </li>
+      <li class="ficha visita">
+        <h3 class="ficha__titulo">«Pueblo Mágico» de España</h3>
+        <p class="visita__texto">Cabeza la Vaca forma parte de la red «Pueblos Mágicos de España», un sello de una asociación sin ánimo de lucro al que se entra por invitación; su incorporación se anunció el 24 de mayo de 2023. En 2025 recibió el «Premio Pueblo Mágico Extremadura», que concede esa misma asociación por votación popular. No es una declaración oficial de la Junta.</p>
+        
+        
+        
+        <p class="visita__enlace"><a href="https://www.pueblosmagicos.es/cabeza-la-vaca/">Su ficha en Pueblos Mágicos de España<span class="sr">: «Pueblo Mágico» de España, se abre otra web</span></a></p>
+      </li>
+      <li class="ficha visita">
+        <h3 class="ficha__titulo">Oficina de Turismo</h3>
+        <p class="visita__texto">Informa de las rutas, hace las inscripciones de actividades y da el folleto de la ruta turística con códigos QR.</p>
+        <dl class="datos visita__datos"><div><dt>Dirección</dt><dd>Plaza de España (antigua cárcel, frente a la Cruz del Rollo)</dd></div></dl>
+        <p class="visita__nota">No consta el horario: pregúntelo en el Ayuntamiento.</p>
+        <p class="visita__enlace"><a href="tel:+34924583002"><svg class="icono" aria-hidden="true"><use href="#i-telefono"/></svg><span class="sr">Llamar a Oficina de Turismo: </span>924 583 002</a></p>
+        
+      </li>
+      <li class="ficha visita">
+        <h3 class="ficha__titulo">Centro de Interpretación de la Pisá del Caballo</h3>
+        <p class="visita__texto">Flora y fauna de la comarca de Tentudía, con datos de lluvia de los pueblos de la comarca, y un aula de la naturaleza. Junto al observatorio de aves y la piscina natural.</p>
+        
+        <p class="visita__nota">No consta el horario: pregúntelo en la Oficina de Turismo.</p>
+        
+        
+      </li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+<section class="seccion" aria-labelledby="t-historia">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-historia">Historia</h2>
+    <p>Su origen es una villa romana del siglo II, que siguió habitada hasta fines del siglo IX. Tras la reconquista, hacia 1247, quedó en la órbita de la Orden de Santiago, y el pueblo se repobló desde 1274.</p>
+    <p>El nombre viene del monte o «cabeza» donde está el casco, que en la Edad Media se llamaba «de la vaca»; no tiene que ver con el maestre Cabeza de Vaca, que vivió después. En 1594 Felipe II le dio el título de villa y en 1600 se levantó la Cruz del Rollo, símbolo de su justicia.</p>
+    <p>En el siglo XVIII se hicieron la torre del reloj y la cárcel (1770) y empezó a levantarse la plaza de toros. El terremoto de Lisboa de 1755 dañó la torre de la iglesia y, según la tradición, hizo brotar agua en el monte de la Buitrera.</p>
+    
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-patrimonio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-patrimonio">Patrimonio</h2>
+    <div class="patrimonio-grupos">
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Edificios y monumentos</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Plaza de Toros</b><span class="patrimonio__detalle">Construida a finales del siglo XVIII con el trabajo de los vecinos y reedificada en 1895. Bien de Interés Cultural, con categoría de monumento, desde el 3 de mayo de 1989. Las fiestas de San Benito («los sambenitos») se viven en ella.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Cruz del Rollo</b><span class="patrimonio__detalle">De 1600, en la Plaza de España. Tres gradas de granito, fuste cilíndrico, capitel con cuatro salientes y remate en cruz.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Torre del Reloj y antigua cárcel</b><span class="patrimonio__detalle">Torre de mampostería y ladrillo de 1769-1772, con espadaña. La cárcel, de dos plantas, tuvo abajo la sala capitular y arriba la prisión.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Iglesia de Nuestra Señora de los Ángeles</b><span class="patrimonio__detalle">En la Plaza de España. La primera construcción es del siglo XV y la torre se restauró tras el terremoto de Lisboa de 1755. La capilla del Sagrario es de 1916.</span></li>
+          <li class="patrimonio__fila" id="lugar-cruz-de-la-calle-tordoya"><b class="patrimonio__nombre">Cruz de la calle Tordoya</b><span class="patrimonio__detalle">Recuerda a Diego María de la Tordoya. El 17 de abril de 2026 un camión la derribó por accidente y se está restaurando (el Ayuntamiento anunció el 30 de septiembre que las obras han empezado).</span></li>
+          <li class="patrimonio__fila" id="lugar-ermita-de-nuestra-senora-de-los-remedios"><b class="patrimonio__nombre">Ermita de Nuestra Señora de los Remedios</b><span class="patrimonio__detalle">Desaparecida: se construyó entre 1577 y 1583 y estaba derruida hacia 1789. Con sus materiales se hizo una capilla de la iglesia.</span></li>
+          
+        </ul>
+      </div>
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Plazas y fuentes</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Plaza Vieja</b><span class="patrimonio__detalle">El primer núcleo del pueblo. Allí hubo festejos taurinos hasta 1626.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">Fuente Abajo</b><span class="patrimonio__detalle">Manantial muy antiguo. La fuente, con cuatro caños y una cruz de mármol renacentista, lleva la fecha de 1559.</span></li>
+          <li class="patrimonio__fila" id="lugar-fuente-del-rollo"><b class="patrimonio__nombre">Fuente del Rollo</b><span class="patrimonio__detalle">En el centro de la Plaza de España, a la que los vecinos llaman «el paseo». Base circular de granito y cuatro caños.</span></li>
+          
+        </ul>
+      </div>
+      <div class="patrimonio-grupo">
+        <h3 class="patrimonio-grupo__titulo">Naturaleza</h3>
+        <ul class="patrimonio">
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">La Pisá del Caballo</b><span class="patrimonio__detalle">Parque periurbano de conservación y ocio, declarado en 2005 por la Junta de Extremadura (19.000 m²). Según la leyenda, el manantial brotó en la huella del caballo del maestre de la Orden de Santiago.</span></li>
+          <li class="patrimonio__fila"><b class="patrimonio__nombre">El Castañar de Los Cortinales</b><span class="patrimonio__detalle">En la sierra de Tentudía. Hay castaños muy viejos, un robledal y vistas a la sierra de Aracena.</span></li>
+          <li class="patrimonio__fila" id="lugar-fuente-lunara"><b class="patrimonio__nombre">Fuente Lunara</b><span class="patrimonio__detalle">Parque para familias, con zonas de picnic.</span></li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-anio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-anio">Fiestas</h2>
+    <ol class="anio" data-vivo="anio"><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Enero</span><span class="mes__corto" aria-hidden="true">ene</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Febrero</span><span class="mes__corto" aria-hidden="true">feb</span></p><ul class="mes__fiestas"><li><b>Carnaval</b><span>Fecha variable (en 2026, el 21 y 22 de febrero)</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Marzo</span><span class="mes__corto" aria-hidden="true">mar</span></p><ul class="mes__fiestas"><li><b>Entierro de la sardina y tirada de cántaros</b><span>Fecha variable (en 2026, el 1 de marzo)</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Abril</span><span class="mes__corto" aria-hidden="true">abr</span></p><ul class="mes__fiestas"><li><b>Domingo de Resurrección y quema del «Judas»</b><span>Fecha variable (en 2026, el 5 de abril)</span></li><li><b>Trail Ibérico Sierra de Tentudía</b><span>Abril (en 2026, el 18 y 19)</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Mayo</span><span class="mes__corto" aria-hidden="true">may</span></p><ul class="mes__fiestas"><li><b>Cruces de Mayo</b><span>Principios de mayo (en 2026, el 2 y 3)</span></li><li><b>Romería de San Isidro</b><span>Mediados de mayo (en 2026, del 16 al 18)</span></li></ul></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Junio</span><span class="mes__corto" aria-hidden="true">jun</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Julio</span><span class="mes__corto" aria-hidden="true">jul</span></p><ul class="mes__fiestas"><li><b>Feria de San Benito</b> <span class="chip chip--mayor">Fiesta mayor</span><span>Del 9 al 12 de julio en 2026; el patrón es San Benito, el 11</span></li><li><b>Velá de Santa Ana</b><span>25 de julio</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">Agosto</span><span class="mes__corto" aria-hidden="true">ago</span></p><ul class="mes__fiestas"><li><b>Feria del Libro y la Artesanía</b><span>Primera semana de agosto (en 2026, del 3 al 9)</span></li><li><b>Fiestas de la Virgen de Agosto</b><span>Del 14 al 16 de agosto</span></li></ul></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Septiembre</span><span class="mes__corto" aria-hidden="true">sep</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes con-fiesta es-mes-actual"><p class="mes__nombre"><span class="mes__largo">Octubre</span><span class="mes__corto" aria-hidden="true">oct</span> <span class="mes__ahora">Este mes</span></p><ul class="mes__fiestas"><li><b>Ruta de la Tapa de la Castaña</b><span>Octubre (en 2026, el 11 y 12)</span></li><li><b>Feria de la Castaña (FERCAS)</b> <span class="chip chip--mayor">Fiesta mayor</span><span>Puente de Todos los Santos (en 2026, del 30 de octubre al 1 de noviembre)</span></li></ul></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Noviembre</span><span class="mes__corto" aria-hidden="true">nov</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li><li class="mes es-vacio"><p class="mes__nombre"><span class="mes__largo">Diciembre</span><span class="mes__corto" aria-hidden="true">dic</span></p><p class="mes__vacio"><span class="mes__raya" aria-hidden="true"></span><span class="mes__vacio-texto">Sin fiestas señaladas</span></p></li></ol>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-gastronomia">
+  <div class="contenedor gastronomia gastronomia--con-foto">
+    <div>
+      <h2 class="seccion__titulo" id="t-gastronomia">Gastronomía</h2>
+      <div class="gastronomia__listas">
+        <div><h3 class="gastronomia__titulo">Platos</h3><ul class="lista-coma"><li>Guarrito frito</li><li>Pluma a la brasa</li><li>Carrilleras en salsa</li><li>Jamón, lomo, salchichón y chorizo ibéricos</li><li>Migas con sardinas o tocino</li><li>Sopas de tomate</li><li>Ensalá de papas</li><li>Trincallas</li><li>Caldereta</li><li>Gazpacho «machacao»</li></ul></div>
+        <div><h3 class="gastronomia__titulo">Dulces</h3><ul class="lista-coma"><li>Perrunillas</li><li>Flores</li><li>Gañotes con miel</li><li>Puchas</li><li>Castañas con leche</li></ul></div>
+        <div><h3 class="gastronomia__titulo">Para beber</h3><ul class="lista-coma"><li>Vinos de la tierra</li><li>Aceite de oliva</li></ul></div>
+      </div>
+    </div>
+    <figure class="gastronomia__foto"><div class="gastronomia__marco arco-opcional"><img src="media/castanas-800.jpg" width="1600" height="1200" alt="Castañas en su erizo, sobre hojas secas" loading="lazy" decoding="async"></div><figcaption class="credito">Foto: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)</figcaption></figure>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-personajes">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-personajes">Personajes</h2>
+    <ul class="fichas">
+      <li class="ficha"><h3 class="ficha__titulo">Diego María de la Tordoya</h3><p class="ficha__fechas">nació h. 1470</p><p>Según el Ayuntamiento, marinero del primer viaje de Colón; quedó en el Fuerte de la Navidad, en La Española. Una calle y una cruz llevan su nombre.</p></li>
+      
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-rutas">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-rutas">Rutas</h2>
+    <ul class="rutas">
+      <li class="ruta"><h3 class="ruta__nombre">Ruta El Castañar</h3><p>Por el castañar de Los Cortinales y el robledal, con subida por el arroyo de los Linos; unos 10 km. Hay folleto en PDF.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=T">Ver la ruta<span class="sr">: Ruta El Castañar</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta Los Cortinales</h3><p>Senderismo de altura de unos 8 km, desde los «Cuatro Caminos» por el castañar hasta la cumbre de Valdezurrones.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=X">Ver la ruta<span class="sr">: Ruta Los Cortinales</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta Las Cumbres</h3><p>12,5 km entre los 800 y los 1.000 m, con miradores; dificultad técnica alta y 400 m de desnivel.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=U">Ver la ruta<span class="sr">: Ruta Las Cumbres</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta La Buitrera</h3><p>Eco Ruta n.º 1, de 11 km, con una subida corta al Alto de la Buitrera de 3 km.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=Q">Ver la ruta<span class="sr">: Ruta La Buitrera</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta Cicloturista Las Contiendas</h3><p>Unos 30 km en bici por las sierras del término.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=R">Ver la ruta<span class="sr">: Ruta Cicloturista Las Contiendas</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta de las Fuentes y del Agua</h3><p>Ruta urbana de 2 km, dificultad baja, por las fuentes y los pilares del pueblo.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=V">Ver la ruta<span class="sr">: Ruta de las Fuentes y del Agua</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta de la Pisá del Caballo</h3><p>Del pueblo al parque por una acera ancha adaptada a sillas de ruedas y una pista cementada.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=S">Ver la ruta<span class="sr">: Ruta de la Pisá del Caballo</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta del Arroyo la Vaca</h3><p>Dos recorridos, de 14 y de 9 km (corta), del programa «Camina Badajoz».</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=BG">Ver la ruta<span class="sr">: Ruta del Arroyo la Vaca</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta Cabeza la Vaca - Puerto Lobo - Las Contiendas - Tentudía</h3><p>Unos 12 km, dificultad alta, hasta el monasterio de Tentudía.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=Y">Ver la ruta<span class="sr">: Ruta Cabeza la Vaca - Puerto Lobo - Las Contiendas - Tentudía</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta histórico-literaria de la Pisá del Caballo</h3><p>Con folleto en PDF.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=AM">Ver la ruta<span class="sr">: Ruta histórico-literaria de la Pisá del Caballo</span></a></p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Ruta turística con códigos QR</h3><p>Un recorrido por el pueblo en el que cada código QR cuenta la historia del lugar. Folleto en la Oficina de Turismo.</p><p><a href="https://cabezalavaca.es/plantilla.php?enlace=AR">Ver la ruta<span class="sr">: Ruta turística con códigos QR</span></a></p></li>
+      
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-establecimientos">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-establecimientos">Dónde comer y dormir</h2>
+    <div class="listin-completo">
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Hoteles y casas rurales</h3>
+        
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Hotel Las Tres Encinas<small>Plaza de España, 19</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583285"><span class="sr">Llamar a Hotel Las Tres Encinas: </span>924 583 285</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Casa Rural «Camino Beturia»<small>Camino de los Cotos, Km 4.5 · También: 686 297 440</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924057925"><span class="sr">Llamar a Casa Rural «Camino Beturia»: </span>924 057 925</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Casa Rural «La Fuente del Coso»<small>C/ Coso, 3</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34676451094"><span class="sr">Llamar a Casa Rural «La Fuente del Coso»: </span>676 451 094</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Bares y restaurantes</h3>
+        
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">El Faro<small>C/ San Benito, 3 · Restaurante</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583328"><span class="sr">Llamar a El Faro: </span>924 583 328</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Casa Vicente<small>Plaza Romero de Castilla, 18 · Restaurante</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">El Pilar de la Dehesa<small>C/ Tienda, 1 · Bar. También: 658 803 550</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583177"><span class="sr">Llamar a El Pilar de la Dehesa: </span>924 583 177</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">El Pensionista<small>C/ del Medio, 1 · Bar</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583049"><span class="sr">Llamar a El Pensionista: </span>924 583 049</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">El Parquecillo<small>Plaza de España, 14 · Bar</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34608817327"><span class="sr">Llamar a El Parquecillo: </span>608 817 327</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Ramón<small>Plaza de España, 7A · Bar. También: 680 280 818</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583343"><span class="sr">Llamar a Ramón: </span>924 583 343</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Alejo<small>Plaza Romero de Castilla, 13 · Bar</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">La Mosca<small>C/ del Cura, 1 · Bar</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34679516094"><span class="sr">Llamar a La Mosca: </span>679 516 094</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">La Pulga<small>C/ del Cura, 3 · Bar</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Taurino<small>Plaza Romero de Castilla, 1 · Café-bar</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583128"><span class="sr">Llamar a Taurino: </span>924 583 128</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">La Parada<small>Plaza de España, 3 · Café-bar</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34655242566"><span class="sr">Llamar a La Parada: </span>655 242 566</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Las Cuadras<small>C/ del Cura, 4 · Mesón</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34648261499"><span class="sr">Llamar a Las Cuadras: </span>648 261 499</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Estación de Servicio San Benito<small>C/ Tomillar, s/n · Cafetería</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Las 3 R<small>Avda. Constitución, 34 · Bocatería</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34686815862"><span class="sr">Llamar a Las 3 R: </span>686 815 862</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Productos típicos: embutidos, queso, aceite y pan</h3>
+        
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Quesería «Tesoro de Cabra»<small>Polígono Industrial, Viario 2, s/n</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Panadería-pastelería Lavado Lavado<small>C/ Charquito, 6</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583317"><span class="sr">Llamar a Panadería-pastelería Lavado Lavado: </span>924 583 317</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Panadería Manuel Macías e Hijos<small>Plaza Vieja, 2</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583319"><span class="sr">Llamar a Panadería Manuel Macías e Hijos: </span>924 583 319</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Jamones y Embutidos «Los Génaros»<small>C/ Coso, 25 · También: 924 583 141, 635 823 945</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583028"><span class="sr">Llamar a Jamones y Embutidos «Los Génaros»: </span>924 583 028</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Embutidos «Mota»<small>C/ San Benito, 8 · También: 608 433 302</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583240"><span class="sr">Llamar a Embutidos «Mota»: </span>924 583 240</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Jamones y Embutidos «Moreno»<small>C/ Alrededores, 44</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583275"><span class="sr">Llamar a Jamones y Embutidos «Moreno»: </span>924 583 275</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Embutidos Mateos<small>C/ San Benito, 10</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Tentuoliva<small>C/ Fontanilla, 14</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583102"><span class="sr">Llamar a Tentuoliva: </span>924 583 102</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">Tiendas de alimentación</h3>
+        
+        <ul class="listin">
+          <li class="listin__fila">
+            <span class="listin__nombre">Supermercado Don Market<small>C/ Bastimento, 13 · También: 680 467 483</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34620309274"><span class="sr">Llamar a Supermercado Don Market: </span>620 309 274</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Cárnicas Peña Alta<small>Avda. Constitución, 36</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583170"><span class="sr">Llamar a Cárnicas Peña Alta: </span>924 583 170</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Pescados y Mariscos Ibarra<small>Plaza Vieja, 10</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34699715669"><span class="sr">Llamar a Pescados y Mariscos Ibarra: </span>699 715 669</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Confitería y panadería Hidalgo<small>C/ del Medio, 18</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583115"><span class="sr">Llamar a Confitería y panadería Hidalgo: </span>924 583 115</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Comercio Mari Pepi<small>C/ Cruces, 7</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34645851629"><span class="sr">Llamar a Comercio Mari Pepi: </span>645 851 629</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Ultramarinos «Mari Mateos»<small>Plaza de España, 1</small></span>
+            
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Supermercado «Los Genaros»<small>Plaza Vieja, 1</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34660010317"><span class="sr">Llamar a Supermercado «Los Genaros»: </span>660 010 317</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Supermercado «Pepín»<small>C/ del Cura, 24</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34924583112"><span class="sr">Llamar a Supermercado «Pepín»: </span>924 583 112</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Hnos. Reviriego Matito<small>C/ Bastimento, 10 · También: 615 948 135</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34653880733"><span class="sr">Llamar a Hnos. Reviriego Matito: </span>653 880 733</a>
+          </li>
+          <li class="listin__fila">
+            <span class="listin__nombre">Frutas Vázquez<small>Avda. Constitución, 95</small></span>
+            <span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="tel:+34667469547"><span class="sr">Llamar a Frutas Vázquez: </span>667 469 547</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+    <p class="nota-fuente">Datos de la «Guía de empresas y servicios» de la web municipal (cabezalavaca.es), sin fecha; consultados el 5 de octubre de 2026. Se han quitado los nombres de personas y los teléfonos repetidos entre negocios distintos. Son negocios privados: el Ayuntamiento no responde de sus datos.</p>
+  </div>
+</section>
+
+<section class="seccion" id="creditos" aria-labelledby="t-creditos">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-creditos">Créditos de las fotos</h2>
+    <ul class="creditos">
+      <li><b>Torre del Reloj y Cruz del Rollo</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Cruz del Rollo</b>: Marbregal, CC BY-SA 3.0 (<a href="https://commons.wikimedia.org/wiki/File:Cabeza_la_Vaca_rollo.JPG">ficha de la foto</a>)</li>
+      <li><b>Torre de la iglesia de Nuestra Señora de los Ángeles</b>: Elías Zamora, CC BY 2.5 es (<a href="https://commons.wikimedia.org/wiki/File:Torre_iglesia_Cabeza_La_Vaca.jpg">ficha de la foto</a>)</li>
+      <li><b>El castañar, con el muro de piedra</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Plaza de Toros</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Iglesia de Nuestra Señora de los Ángeles</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Fuente Abajo</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>La Pisá del Caballo</b>: Pepe Martinez, CC BY 2.5 es (<a href="https://commons.wikimedia.org/wiki/File:Pis%C3%A1_del_caballo.jpg">ficha de la foto</a>)</li>
+      <li><b>Plaza Vieja</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Castañas en su erizo, sobre hojas secas</b>: web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es). Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes).</li>
+      <li><b>Panorámica de los tejados del pueblo</b>: Pedro Coronado Vázquez, CC BY-SA 3.0 (<a href="https://commons.wikimedia.org/wiki/File:Panoramica_cabeza_la_vaca.jpg">ficha de la foto</a>)</li>
+      
+    </ul>
+  </div>
+</section>
+  </div>
+</div>
+</main>
+<footer class="pie">
+  <div class="pie__perfil" data-perfil="generico"><svg class="pie__perfil-dibujo" viewBox="0 0 1600 180" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path pathLength="1" class="lejos" d="M-4 116L120 110L260 101L380 106L520 96L640 90L722.2 92.7"/><path pathLength="1" class="lejos" d="M766 93.7L900 88L1040 96L1180 92L1320 102L1460 108L1604 114"/><path pathLength="1" d="M-4 146L-4 130L23 117L50 130L50 125L79 112L108 125L108 130L126.5 120.4L145 130L145 125L145 125L197 125L197 125L197 113.3L248 122L248 127.5"/><path pathLength="1" d="M253 132L285.5 132L288 137L288 133L313 120L338 133L338 129L357.5 118.9L377 129L377 116.3L428 125L428 134L460.5 121L487.5 131.8"/><path pathLength="1" d="M493 132.5L493 131.5L522.8 136.6"/><path pathLength="1" d="M539.3 130.4L539.5 130L541 130"/><path pathLength="1" d="M545 130L583 130L583 123L581.5 123L581.5 120.5L590.5 120.5L590.5 123L589 123L589 130L607.5 130L610 135L610 128L650 115L690 128L690 136"/><path pathLength="1" d="M50 140L50 130"/><path pathLength="1" d="M108 143L108 130"/><path pathLength="1" d="M145 143L145 130"/><path pathLength="1" d="M197 146L197 125"/><path pathLength="1" d="M288 140.5L288 137"/><path pathLength="1" d="M338 143L338 133"/><path pathLength="1" d="M377 150L377 129"/><path pathLength="1" d="M428 141.5L428 134"/><path pathLength="1" d="M610 143L610 135"/><path pathLength="1" d="M145 128L197 128"/><path pathLength="1" d="M253 137L288 137"/><path pathLength="1" d="M558.5 135L610 135"/><path pathLength="1" d="M930.4 138.8L953 127L976 139L976 131L978.5 125L1045.5 125L1048 131L1048 122L1079 109L1110 122L1110 134"/><path pathLength="1" d="M1126 134L1126 132L1124.5 132L1124.5 129.5L1133.5 129.5L1133.5 132L1132 132L1132 134"/><path pathLength="1" d="M1173 133L1173 123L1182.3 124.6"/><path pathLength="1" d="M1191.6 126.2L1220 131L1220 114L1280 124L1280 136L1282.5 130L1303 130L1303 123L1301.5 123L1301.5 120.5L1310.5 120.5L1310.5 123L1309 123L1309 130L1351.5 130L1352.5 132.3"/><path pathLength="1" d="M1354 132L1354 127L1356.5 122L1421.5 122L1424 127L1424 138L1426.5 131L1437 131"/><path pathLength="1" d="M1447 131L1464.5 131L1467 138L1467 129L1469.5 123L1500.5 123L1503 129L1503 135"/><path pathLength="1" d="M1508.3 134.2L1526.5 124.8L1536.7 130.1"/><path pathLength="1" d="M1551.8 128.1L1577 116L1604 129L1604 151"/><path pathLength="1" d="M976 146L976 139"/><path pathLength="1" d="M1048 134.5L1048 131"/><path pathLength="1" d="M1220 134.5L1220 131"/><path pathLength="1" d="M1280 138L1280 136"/><path pathLength="1" d="M976 131L1048 131"/><path pathLength="1" d="M1280 136L1318 136"/><path pathLength="1" d="M1354 127L1424 127"/><path pathLength="1" d="M1424 138L1437 138"/><path pathLength="1" d="M1447 138L1467 138"/><path pathLength="1" d="M1467 129L1503 129"/><path pathLength="1" d="M782 180L782 126L801.2 114L910.8 114L930 126L930 156"/><path pathLength="1" d="M782 126L930 126"/><path pathLength="1" d="M706 180L706 106L782 106L782 180"/><path pathLength="1" d="M706 110L782 110"/><path pathLength="1" d="M750 130A6 6 0 0 1 738 130A6 6 0 0 1 750 130"/><path pathLength="1" d="M736.5 180L736.5 157.5A7.5 7.5 0 0 1 751.5 157.5L751.5 180L736.5 180"/><path pathLength="1" d="M724 106L724 68L722.5 68L744 50L765.5 68L764 68L764 106"/><path pathLength="1" d="M737.5 94L737.5 80.5A6.5 6.5 0 0 1 750.5 80.5L750.5 94L737.5 94"/><path pathLength="1" d="M740.6 92.5L741.6 83.7A2.4 2.4 0 0 1 746.4 83.7L747.4 92.5L740.6 92.5"/><path pathLength="1" d="M744 50L744 39"/><path pathLength="1" d="M741.4 42.5L746.6 42.5"/><path pathLength="1" d="M-4 180L-4 146L-1.5 140L44.5 140L47 146L47 140L47 140L96 140L96 140L96 148L98.5 143L162.5 143L165 148L165 152L167.5 146L227.5 146L230 152L230 143L232.5 137L245 137L245 130L243.5 130L243.5 127.5L252.5 127.5L252.5 130L251 130L251 137L286.5 137L289 143L289 151L324.5 138L360 151L360 155L362.5 150L382 150L382 143L380.5 143L380.5 140.5L389.5 140.5L389.5 143L388 143L388 150L424.5 150L427 155L427 144L429.5 138L467.5 138L470 144L470 128.5L508 135L508 142L543 129L578 142L578 149L580.5 143L616.5 143L619 149L619 142L621.5 135L662.5 135L665 142L665 136L677.5 129.5L690 136L690 180"/><path pathLength="1" d="M47 180L47 146"/><path pathLength="1" d="M96 180L96 148"/><path pathLength="1" d="M165 180L165 152"/><path pathLength="1" d="M230 180L230 152"/><path pathLength="1" d="M289 180L289 151"/><path pathLength="1" d="M360 180L360 155"/><path pathLength="1" d="M427 180L427 155"/><path pathLength="1" d="M470 180L470 144"/><path pathLength="1" d="M508 180L508 142"/><path pathLength="1" d="M578 180L578 149"/><path pathLength="1" d="M619 180L619 149"/><path pathLength="1" d="M665 180L665 142"/><path pathLength="1" d="M-4 146L47 146"/><path pathLength="1" d="M47 143L96 143"/><path pathLength="1" d="M96 148L165 148"/><path pathLength="1" d="M113.3 180L113.3 167L120.3 167L120.3 180"/><path pathLength="1" d="M145.3 163L145.3 154L150.3 154L150.3 163L145.3 163"/><path pathLength="1" d="M165 152L230 152"/><path pathLength="1" d="M178.8 167L178.8 158L183.8 158L183.8 167L178.8 167"/><path pathLength="1" d="M230 143L289 143"/><path pathLength="1" d="M242.3 158L242.3 149L247.3 149L247.3 158L242.3 158"/><path pathLength="1" d="M271.8 158L271.8 149L276.8 149L276.8 158L271.8 158"/><path pathLength="1" d="M360 155L427 155"/><path pathLength="1" d="M374.3 170L374.3 161L379.3 161L379.3 170L374.3 170"/><path pathLength="1" d="M407.8 170L407.8 161L412.8 161L412.8 170L407.8 170"/><path pathLength="1" d="M427 144L470 144"/><path pathLength="1" d="M451.2 180L451.2 167L458.2 167L458.2 180"/><path pathLength="1" d="M486.5 150L486.5 141L491.5 141L491.5 150L486.5 150"/><path pathLength="1" d="M578 149L619 149"/><path pathLength="1" d="M588.8 180L588.8 167L595.8 167L595.8 180"/><path pathLength="1" d="M619 142L665 142"/><path pathLength="1" d="M675 151L675 142L680 142L680 151L675 151"/><path pathLength="1" d="M800 180L800 161L802.5 156L815 156L815 149L813.5 149L813.5 146.5L822.5 146.5L822.5 149L821 149L821 156L856.5 156L859 161L859 153L859 153L901 153L901 153L901 161L960 151L960 180"/><path pathLength="1" d="M859 180L859 161"/><path pathLength="1" d="M901 180L901 161"/><path pathLength="1" d="M800 161L859 161"/><path pathLength="1" d="M859 156L901 156"/><path pathLength="1" d="M877.5 168L877.5 159L882.5 159L882.5 168L877.5 168"/><path pathLength="1" d="M960 180L960 154L979 144.1L998 154L998 149L1000.5 142L1041.5 142L1044 149L1044 135L1098 125.8L1098 140L1100.5 134L1129.5 134L1132 140L1132 134L1132 134L1150 134L1150 127L1148.5 127L1148.5 124.5L1157.5 124.5L1157.5 127L1156 127L1156 134L1169 134L1169 134L1169 140L1171.5 133L1184 133L1184 126L1182.5 126L1182.5 123.5L1191.5 123.5L1191.5 126L1190 126L1190 133L1219.5 133L1222 140L1222 136L1222 136L1237 136L1237 129L1235.5 129L1235.5 126.5L1244.5 126.5L1244.5 129L1243 129L1243 136L1274 136L1274 136L1274 143L1276.5 138L1314.5 138L1317 143L1317 139L1319.5 132L1356.5 132L1359 139L1359 148L1390.5 135L1422 148L1422 139L1422 139L1439 139L1439 132L1437.5 132L1437.5 129.5L1446.5 129.5L1446.5 132L1445 132L1445 139L1494 139L1494 139L1494 136L1565 126L1565 151L1567.5 144L1601.5 144L1604 151L1604 180"/><path pathLength="1" d="M998 180L998 154"/><path pathLength="1" d="M1044 180L1044 149"/><path pathLength="1" d="M1098 180L1098 140"/><path pathLength="1" d="M1132 180L1132 140"/><path pathLength="1" d="M1169 180L1169 140"/><path pathLength="1" d="M1222 180L1222 140"/><path pathLength="1" d="M1274 180L1274 143"/><path pathLength="1" d="M1317 180L1317 143"/><path pathLength="1" d="M1359 180L1359 148"/><path pathLength="1" d="M1422 180L1422 148"/><path pathLength="1" d="M1494 180L1494 139"/><path pathLength="1" d="M1565 180L1565 151"/><path pathLength="1" d="M998 149L1044 149"/><path pathLength="1" d="M1026.9 180L1026.9 167L1033.9 167L1033.9 180"/><path pathLength="1" d="M1018.5 164L1018.5 155L1023.5 155L1023.5 164L1018.5 164"/><path pathLength="1" d="M1055 150L1055 141L1060 141L1060 150L1055 150"/><path pathLength="1" d="M1082 150L1082 141L1087 141L1087 150L1082 150"/><path pathLength="1" d="M1055 167L1055 158L1060 158L1060 167L1055 167"/><path pathLength="1" d="M1082 167L1082 158L1087 158L1087 167L1082 167"/><path pathLength="1" d="M1098 140L1132 140"/><path pathLength="1" d="M1132 137L1169 137"/><path pathLength="1" d="M1148 149L1148 140L1153 140L1153 149L1148 149"/><path pathLength="1" d="M1148 166L1148 157L1153 157L1153 166L1148 166"/><path pathLength="1" d="M1169 140L1222 140"/><path pathLength="1" d="M1179.8 155L1179.8 146L1184.8 146L1184.8 155L1179.8 155"/><path pathLength="1" d="M1179.8 172L1179.8 163L1184.8 163L1184.8 172L1179.8 172"/><path pathLength="1" d="M1206.3 172L1206.3 163L1211.3 163L1211.3 172L1206.3 172"/><path pathLength="1" d="M1222 139L1274 139"/><path pathLength="1" d="M1232.5 151L1232.5 142L1237.5 142L1237.5 151L1232.5 151"/><path pathLength="1" d="M1258.5 151L1258.5 142L1263.5 142L1263.5 151L1258.5 151"/><path pathLength="1" d="M1232.5 168L1232.5 159L1237.5 159L1237.5 168L1232.5 168"/><path pathLength="1" d="M1258.5 168L1258.5 159L1263.5 159L1263.5 168L1258.5 168"/><path pathLength="1" d="M1274 143L1317 143"/><path pathLength="1" d="M1283.6 180L1283.6 167L1290.6 167L1290.6 180"/><path pathLength="1" d="M1317 139L1359 139"/><path pathLength="1" d="M1422 142L1494 142"/><path pathLength="1" d="M1509.3 151L1509.3 142L1514.3 142L1514.3 151L1509.3 151"/><path pathLength="1" d="M1544.8 151L1544.8 142L1549.8 142L1549.8 151L1544.8 151"/><path pathLength="1" d="M1509.3 168L1509.3 159L1514.3 159L1514.3 168L1509.3 168"/><path pathLength="1" d="M1543.8 180L1543.8 166L1550.8 166L1550.8 180"/><path pathLength="1" d="M1565 151L1604 151"/><path pathLength="1" d="M1589.3 180L1589.3 167L1596.3 167L1596.3 180"/></svg></div>
+  <section class="sede-franja" aria-labelledby="t-sede">
+    <div class="contenedor">
+      <h2 class="sede-franja__titulo" id="t-sede">Sede electrónica e información pública</h2>
+      <ul class="sede-franja__lista">
+        <li><a class="sede-franja__enlace" href="https://sede.cabezalavaca.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg><span><b>Sede electrónica</b><span>Trámites con certificado o Cl@ve</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://sede.cabezalavaca.es/portal/noEstatica.do?opc_id=268&amp;ent_id=28"><svg class="icono" aria-hidden="true"><use href="#i-tablon"/></svg><span><b>Tablón de anuncios</b><span>Edictos y anuncios oficiales</span></span></a></li>
+        <!-- v3c · transparencia: a la página que explica cada apartado y lleva al portal (lo haya o no) -->
+        <li><a class="sede-franja__enlace" href="transparencia.html"><svg class="icono" aria-hidden="true"><use href="#i-ojo"/></svg><span><b>Transparencia</b><span>Cuentas, contratos y acuerdos</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://sede.cabezalavaca.es/portal/noEstatica.do?opc_id=271&amp;ent_id=28"><svg class="icono" aria-hidden="true"><use href="#i-contrato"/></svg><span><b>Perfil del contratante</b><span>Licitaciones del Ayuntamiento</span></span></a></li>
+      </ul>
+      <p class="sede-franja__nota">«Transparencia» le explica en esta web qué se publica y dónde; los demás enlaces le llevan a la sede electrónica o a la Plataforma de Contratación del Sector Público.</p>
+    </div>
+  </section>
+  <div class="pie__cuerpo">
+    <div class="contenedor pie__rejilla pie__rejilla--plano">
+      <div class="pie__col pie__id">
+        <img class="pie__escudo" src="marca/escudo-160.png" width="156" height="160" alt="">
+        <div>
+          <h2 class="pie__nombre">Ayuntamiento de Cabeza la Vaca</h2>
+          <p>C/ del Medio, 1<br>06293 Cabeza la Vaca (Badajoz)</p>
+          <p><span class="pie__etiqueta">Teléfono</span> <a href="tel:+34924583002">924 583 002</a></p>
+          <p><span class="pie__etiqueta">Correo</span> <a class="rompe" href="mailto:ayuntamiento@cabezalavaca.es">ayuntamiento@cabezalavaca.es</a></p>
+          <p data-dato-ejemplo="horario"><span class="pie__etiqueta">Horario</span> Lunes a viernes, de 9:00 a 14:00 <span class="ejemplo">Ejemplo</span></p>
+        </div>
+      </div>
+      <nav class="pie__col pie__enlaces" aria-labelledby="t-pie-enlaces">
+        <h2 class="pie__titulo" id="t-pie-enlaces">Enlaces útiles</h2>
+        <ul class="pie__lista">
+          <li><a href="https://sede.cabezalavaca.es">Sede electrónica<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="https://sede.cabezalavaca.es/portal/noEstatica.do?opc_id=268&amp;ent_id=28">Tablón de anuncios<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="transparencia.html">Transparencia</a></li>
+          <li><a href="https://sede.cabezalavaca.es/portal/noEstatica.do?opc_id=271&amp;ent_id=28">Perfil del contratante<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="tramites.html">Trámites</a></li>
+          <li><a href="telefonos.html">Teléfonos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="accesibilidad.html">Accesibilidad</a></li>
+          
+        </ul>
+        <p class="pie__subtitulo" id="t-pie-redes">En redes sociales</p>
+        <ul class="pie__redes" aria-labelledby="t-pie-redes">
+          <li><a href="https://www.facebook.com/AytoCabezaLaVaca/">Facebook<span class="sr">, se abre otra web</span></a></li><li><a href="https://www.instagram.com/ayuntamiento_cabeza_la_vaca/">Instagram<span class="sr">, se abre otra web</span></a></li>
+        </ul>
+      </nav>
+      <div class="pie__col pie__plano">
+        <h2 class="pie__titulo" id="t-pie-plano">Cómo llegar</h2>
+        <figure class="pie__plano-figura">
+          <a class="pie__plano-enlace" href="contacto.html#t-donde"><svg class="pie__plano-dibujo" viewBox="0 0 320 240" aria-hidden="true" focusable="false"><rect class="plano-fondo" width="320" height="240"/><path class="plano-plaza" d="M138 88.3L135.7 89.4L134.6 91.8L134.7 93.1L136.2 95.2L138.6 95.9L141.7 94.1L142.2 91.8L141.3 89.6L138 88.3ZM116.4 64.2L111.8 68L115.9 92.4L134.6 91.8L135.7 89.4L138 88.3L131.8 60.6L116.4 64.2ZM231.2 159.2L249.6 163.6L253.4 152L236.9 144.1L231.2 159.2ZM281.8 158.5L288.1 161.3L296.2 162.4L297.4 153.3L288.5 155.2L281.8 158.5Z"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.000" d="M155.5 108.2L163.8 114.1L177.1 119.5L215.2 130.7L229.4 136.9L235 140.7L236.9 144.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.031" d="M155.5 108.2L152.3 130.2L151.6 174.8L156.1 189.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.031" d="M155.5 108.2L140.9 95"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.109" d="M152.4 145.9L167.8 146.2L182.6 149L208.4 157.4L226.4 158.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.125" d="M152.4 148.9L114.2 151.7L90.1 158.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.133" d="M140.9 95L142.2 91.8L141.3 89.6L138 88.3L135.7 89.4L134.6 91.8L135.2 94.2L137.3 95.8L140.9 95"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.168" d="M139.2 88.4L145.3 84.4L171.4 73.2L178.8 70.9L219 65.8L237.8 59.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.169" d="M134.6 91.8L110.9 92.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.172" d="M138 88.3L131.8 60.6L116.4 64.2L111.8 68"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.245" d="M115.9 92.4L111.8 68"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.248" d="M178.8 70.9L176 45.3L178.1 37.3L186.6 20.1L188.3 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.265" d="M110.9 92.4L114.2 151.7L123.2 201.1L129.4 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.269" d="M110.9 92.4L73.1 97.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.298" d="M229.4 136.9L228.6 125.3L221.5 114.7L228.7 99.3L232.2 89.2L237.8 59.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.330" d="M158.8 189.2L182.1 183.9L216.5 184.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.339" d="M158.8 189.2L159.8 217.9L162.9 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.339" d="M158.8 189.2L122.4 197.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.348" d="M111.8 68L91.5 65.5L70.9 65.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.381" d="M226.4 158.8L231.2 159.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.381" d="M226.4 158.8L211.5 199.2L204.1 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.397" d="M90.1 158.5L78.9 127L73.3 103.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.397" d="M90.1 158.5L88 159.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.401" d="M231.2 159.2L236.9 144.1L253.4 152L249.6 163.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.408" d="M88 159.1L91.4 181.7L99.9 208L108.5 241.3L109.9 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.408" d="M88 159.1L34.7 171.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.442" d="M73.3 103.7L70.6 76.3L70.9 65.1L69.9 62.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.442" d="M73.3 103.7L12 133.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.447" d="M123.2 201.1L99 205.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.498" d="M237.8 59.7L241.5 58.3L247.6 58.7L300.4 70.2L308.3 73.9L312.2 78.1L322 79.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.500" d="M253.4 152L281.8 158.5L288.5 155.2L297.4 153.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.505" d="M249.6 163.6L245.6 179.9L247.5 182.4L254.7 186L257 189.2L282 199.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.519" d="M241.5 58.3L243.4 51.3L261.4 36.5L268.2 27.6L277.9 2.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.542" d="M99.9 208L85.8 212.4L75.6 217.1L54.1 232.9L43.9 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.545" d="M69.9 62.3L43.4 53.5L27.9 50.3L-2 46.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.550" d="M243.4 51.3L236 35.7L216.7 20.7L201.6 10.5L187.9 4.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.607" d="M85.8 212.4L65.6 202.3L56.7 196.8L39.7 180.6L34.7 171.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.611" d="M257 189.2L251.2 220.8L248.7 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.658" d="M281.8 158.5L288.1 161.3L296.2 162.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.663" d="M75.6 217.1L80.8 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.693" d="M-2 119.5L12 133.6L33.5 165L34.7 171.9L32.1 180.4L19.8 201.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.701" d="M34.7 171.9L-2 172.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.705" d="M302.6 136.4L296.2 127.3L303.3 102.3L312.2 78.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.732" d="M297.4 153.3L294.1 179.6L287.7 193.3L282 199.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.732" d="M297.4 153.3L299.1 147.9L302.4 142.9L310.2 140.3L322 140"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.744" d="M302.4 142.9L302.6 136.4L322 121.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.761" d="M294.1 179.6L322 187.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.791" d="M8 129.4L-2 132.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.822" d="M-2 194.3L21.2 202.1L37.2 219.3L16.1 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.869" d="M277.9 2.3L279.5 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.959" d="M298.8 242L306.7 229.5L312.4 222.9L322 214.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.966" d="M300.6 239.2L303.7 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 1.000" d="M13.6 242L-2 221.7"/><path class="plano-hito" d="M76.2 76L76.7 88.2L92.6 88.1L92.6 92.4L107.8 91.1L108.1 83.3L106.8 83.3L106 80.3L103.6 77.5L101.2 76.7L76.2 76Z"/><circle class="plano-aro" cx="160" cy="120" r="9"/><circle class="plano-punto" cx="160" cy="120" r="3.2"/><path class="plano-escala" d="M10 228h80M10 225v6M90 225v6"/><text class="plano-rotulo plano-rotulo--escala" x="94" y="228" dy=".35em">100 m</text><text class="plano-rotulo" x="188.5" y="74" transform="rotate(-16.2 188.5 74)" text-anchor="middle" dy=".35em">C/ Santa Ana</text><text class="plano-rotulo" x="120.1" y="167.2" transform="rotate(83 120.1 167.2)" text-anchor="middle" dy=".35em">C/ Cura</text><text class="plano-rotulo" x="215.3" y="200.4" transform="rotate(-75 215.3 200.4)" text-anchor="middle" dy=".35em">C/ Tordoya</text><text class="plano-rotulo plano-rotulo--ayto" x="173" y="120" text-anchor="start" dy=".35em">Ayuntamiento</text></svg><span class="sr">Plano de las calles alrededor del Ayuntamiento: ver la dirección y el mapa en Contacto</span></a>
+          <figcaption class="pie__plano-pie">El Ayuntamiento, en C/ del Medio, 1. En el plano: Calle Santa Ana, Calle Cura y Calle Tordoya. Datos del plano: <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, se abre otra web</span></a>.</figcaption>
+        </figure>
+        <a class="pie__llegar ver-todo" href="contacto.html#t-donde">Dirección, horario y mapa<svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+      </div>
+      <div class="pie__canal">
+        <p class="pie__canal-titulo"><svg class="icono" aria-hidden="true"><use href="#i-movil"/></svg>Avisos en el móvil</p>
+        <p>Reciba los avisos del Ayuntamiento en <a href="https://www.bandomovil.com/cabeza">Cabeza la Vaca Informa<span class="sr">, se abre otra web</span></a> · <a href="avisos.html#t-canal">Cómo apuntarse</a></p>
+      </div>
+    </div>
+    <div class="contenedor pie__base">
+      <nav class="pie__legal" aria-label="Información legal">
+        <ul>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="accesibilidad.html">Declaración de accesibilidad</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- v3c · guia: la página para quien publica, fuera del menú (noindex siempre) -->
+      <p class="pie__personal"><a href="publicar.html">Personal del Ayuntamiento: publicar</a></p>
+      <p class="pie__creditos">Escudo: Ajesushn, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Cabeza_la_Vaca.svg">Wikimedia Commons</a>). Las fotos llevan su autor y licencia en <a href="pueblo.html#creditos">El pueblo</a>.</p>
+      <p class="pie__actualizada">Web actualizada el <time datetime="2026-10-05T17:22+02:00">5 de octubre de 2026 a las 17:22</time>.</p>
+      <p class="pie__propuesta" data-propuesta>Propuesta de diseño para el Ayuntamiento de Cabeza la Vaca · no es la web oficial.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookies__texto">
+    <p>Esta web no usa cookies. <a href="cookies.html">Más información</a></p>
+    <!-- [MANDO DE MAQUETA] inicio -->
+    <p class="cookies__revision">Durante la revisión de la propuesta también guarda la versión y el color que se estén probando.</p>
+    <!-- [MANDO DE MAQUETA] fin -->
+  </div>
+  <button class="boton boton--marca" type="button" data-aceptar-cookies>Entendido</button>
+</div>
+
+<!-- [MANDO DE MAQUETA] inicio -->
+<!-- Mando de la reunión: solo con ?revision. NUNCA viaja al sitio del Ayuntamiento:
+     python scripts/quitar_mandos.py lo borra (README, «Antes de entregar»). -->
+<div class="mando" id="mando" role="region" aria-label="Versiones de la propuesta" hidden>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-version">
+    <p class="mando__titulo" id="mando-version">Versión</p>
+    <button type="button" class="mando__boton" data-densidad="puerta" aria-pressed="true">Puerta abierta</button>
+    <button type="button" class="mando__boton" data-densidad="sobria" aria-pressed="false">Sobria</button>
+  </div>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-color">
+    <p class="mando__titulo" id="mando-color">Color</p>
+    <button type="button" class="mando__boton" data-paleta="a" aria-pressed="true"><span class="mando__muestra mando__muestra--a" aria-hidden="true"></span>Azur</button>
+    <button type="button" class="mando__boton" data-paleta="b" aria-pressed="false"><span class="mando__muestra mando__muestra--b" aria-hidden="true"></span>Carmín</button>
+    <button type="button" class="mando__boton" data-paleta="c" aria-pressed="false"><span class="mando__muestra mando__muestra--c" aria-hidden="true"></span>Sinople</button>
+    
+  </div>
+</div>
+<!-- [MANDO DE MAQUETA] fin -->
+
+<script type="application/json" id="datos-vivos">{"slug":"cabeza-la-vaca","nombre":"Cabeza la Vaca","nombre_corto":"Cabeza la Vaca","zona":"Europe/Madrid","horario":{"texto":"Lunes a viernes, de 9:00 a 14:00","tramos":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}],"ejemplo":true},"avisos":[{"id":"empleo-bolsa-discapacidad-punto-limpio","fecha":"2026-09-30","tema":"Empleo","titulo":"Bolsa de empleo para personas con discapacidad: peón de refuerzo en el Punto Limpio","texto":"Se abre la bolsa de empleo temporal reservada a personas con un grado de discapacidad del 33 % o más, para peones de refuerzo en el Punto Limpio y en la limpieza viaria. Hace falta el permiso de conducir B. La selección es por oposición, con una prueba teórica y otra práctica. Las bases están en la sede electrónica y en la Conserjería del Ayuntamiento, en horario de oficina.","enlace":"https://sede.cabezalavaca.es","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":"2026-09-30","plazo_fin":"2026-10-09","plazo_ejemplo":false},{"id":"autobus-dia-mancomunidad","fecha":"2026-09-30","tema":"Fiestas y actividades","titulo":"Autobús gratuito al Día de la Mancomunidad de Tentudía, el 11 de octubre","texto":"El XLVII Día de la Mancomunidad y Comarca de Tentudía es el 11 de octubre en Bodonal de la Sierra. La Mancomunidad pone un autobús gratuito desde Cabeza la Vaca, con regresos a las 19:00 y a las 22:00. Hay que apuntarse en la Oficina de Turismo hasta el 7 de octubre.","enlace":"https://www.bandomovil.com/cabeza/1651926/0","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":"2026-10-07","plazo_ejemplo":false},{"id":"horario-invierno-puerta-a-puerta","fecha":"2026-09-30","tema":"Residuos","titulo":"Puerta a Puerta: desde el 1 de octubre, el cubo se saca de 20:00 a 22:00","texto":"El servicio de recogida de residuos Puerta a Puerta pasa a su horario de invierno la noche del jueves 1 de octubre. Hay que sacar el cubo entre las 20:00 y las 22:00. Las rutas de recogida no empiezan siempre en el mismo pueblo, así que conviene respetar el horario.","enlace":"https://www.bandomovil.com/cabeza/1651910/0","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"id":"fercas-solicitud-stand","fecha":"2026-09-17","tema":"Feria de la Castaña","titulo":"Feria de la Castaña: abierto el plazo para pedir un stand","texto":"Ya se puede pedir un stand en la XXI Feria de la Castaña (30 y 31 de octubre y 1 de noviembre). Cuesta 350 € bajo la carpa principal y 250 € fuera de ella, con caseta de 2 × 3 metros, luz, agua, carpa y vigilancia nocturna. El 50 % se paga con la solicitud y antes del 10 de octubre; el resto, antes del 25 de octubre. Las plazas son limitadas.","enlace":"https://www.bandomovil.com/cabeza/1644288/0","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"id":"fercas-solicitud-mercadillo","fecha":"2026-09-17","tema":"Feria de la Castaña","titulo":"Feria de la Castaña: abierto el plazo para pedir un puesto en el mercadillo","texto":"Se pueden pedir puestos en el mercadillo de la XXI Feria de la Castaña. Ubicación A (zona principal), 70 €; ubicación B (alrededores), 50 €; incluyen 3 metros y toma de corriente. Tienen prioridad los puestos de artesanía. El pago se hace antes del 20 de octubre, una vez aceptada la solicitud. La solicitud (Anexo II) se recoge en el Ayuntamiento.","enlace":"https://www.bandomovil.com/cabeza/1644277/0","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}],"agenda":[{"id":"taller-velas","fecha":"2026-10-09","hora":"18:00","hora_fin":null,"titulo":"Taller de decoración de velas","lugar":"Aula de AMAYS","nota":"Pre-Feria de la Castaña. Plazas limitadas: inscripción en la Oficina de Turismo, antes del día 9 (confirme allí la fecha límite).","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/taller-velas.ics"},{"id":"dia-mancomunidad","fecha":"2026-10-11","hora":null,"hora_fin":null,"titulo":"XLVII Día de la Mancomunidad y Comarca de Tentudía","lugar":"Bodonal de la Sierra","nota":"Autobús gratuito desde Cabeza la Vaca; regresos a las 19:00 y a las 22:00. Inscripción hasta el 7 de octubre en la Oficina de Turismo.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/dia-mancomunidad.ics"},{"id":"ruta-tapa","fecha":"2026-10-11","hora":null,"hora_fin":null,"titulo":"Ruta de la Tapa de la Castaña (11 y 12 de octubre)","lugar":"Bares del pueblo","nota":"Pre-Feria de la Castaña. El cartel de septiembre da el 11 y 12; el calendario de marzo decía el 10 y 11.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/ruta-tapa.ics"},{"id":"taller-cocina","fecha":"2026-10-14","hora":null,"hora_fin":null,"titulo":"Taller de cocina","lugar":null,"nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/taller-cocina.ics"},{"id":"programa-drule","fecha":"2026-10-16","hora":null,"hora_fin":null,"titulo":"Programa D’Rule","lugar":null,"nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/programa-drule.ics"},{"id":"cine-buena-suerte","fecha":"2026-10-18","hora":null,"hora_fin":null,"titulo":"Cine y Mujeres Rurales: «La buena suerte»","lugar":null,"nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/cine-buena-suerte.ics"},{"id":"presentacion-feria-diputacion","fecha":"2026-10-21","hora":null,"hora_fin":null,"titulo":"Presentación de la XXI Feria de la Castaña en la Diputación de Badajoz","lugar":"Badajoz","nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/presentacion-feria-diputacion.ics"},{"id":"festival-jazz","fecha":"2026-10-24","hora":null,"hora_fin":null,"titulo":"Festival de Jazz de la Diputación","lugar":null,"nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/festival-jazz.ics"},{"id":"cine-lo-que-queda-de-ti","fecha":"2026-10-25","hora":null,"hora_fin":null,"titulo":"Cine y Mujeres Rurales: «Lo que queda de ti»","lugar":null,"nota":"Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/cine-lo-que-queda-de-ti.ics"},{"id":"lectura-teatralizada","fecha":"2026-10-27","hora":null,"hora_fin":null,"titulo":"Lectura teatralizada","lugar":null,"nota":"Plan de Fomento de la Lectura. Pre-Feria de la Castaña.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/lectura-teatralizada.ics"},{"id":"feria-castana-2026","fecha":"2026-10-30","hora":null,"hora_fin":null,"titulo":"XXI Feria de la Castaña (FERCAS): 30 y 31 de octubre y 1 de noviembre","lugar":"Cabeza la Vaca","nota":"Fiesta de Interés Turístico de Extremadura. Inauguración la tarde-noche del viernes 30. La agenda de la web municipal decía el 31; manda el cartel de septiembre.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/feria-castana-2026.ics"},{"id":"fiesta-feria-de-san-benito-2026","fecha":"2026-07-11","titulo":"Feria de San Benito","lugar":"Del 9 al 12 de julio en 2026; el patrón es San Benito, el 11","origen":"fiesta","ics":"ics/fiesta-feria-de-san-benito-2026.ics"},{"id":"fiesta-feria-de-san-benito-2027","fecha":"2027-07-11","titulo":"Feria de San Benito","lugar":"Del 9 al 12 de julio en 2026; el patrón es San Benito, el 11","origen":"fiesta","ics":"ics/fiesta-feria-de-san-benito-2027.ics"},{"id":"fiesta-vela-de-santa-ana-2026","fecha":"2026-07-25","titulo":"Velá de Santa Ana","lugar":null,"origen":"fiesta","ics":"ics/fiesta-vela-de-santa-ana-2026.ics"},{"id":"fiesta-vela-de-santa-ana-2027","fecha":"2027-07-25","titulo":"Velá de Santa Ana","lugar":null,"origen":"fiesta","ics":"ics/fiesta-vela-de-santa-ana-2027.ics"},{"id":"fiesta-fiestas-de-la-virgen-de-agosto-2026","fecha":"2026-08-15","titulo":"Fiestas de la Virgen de Agosto","lugar":"Del 14 al 16 de agosto","origen":"fiesta","ics":"ics/fiesta-fiestas-de-la-virgen-de-agosto-2026.ics"},{"id":"fiesta-fiestas-de-la-virgen-de-agosto-2027","fecha":"2027-08-15","titulo":"Fiestas de la Virgen de Agosto","lugar":"Del 14 al 16 de agosto","origen":"fiesta","ics":"ics/fiesta-fiestas-de-la-virgen-de-agosto-2027.ics"}],"farmacias":{"lista":[],"cambio":"09:30","guardias":[],"rotacion":null,"oficial":{"nombre":"Colegio Oficial de Farmacéuticos de Badajoz","url":"https://cofbadajoz.com/farmacias-de-guardia/"},"ejemplo":false},"tiempo":{"url":"https://www.aemet.es/es/eltiempo/prediccion/municipios/cabeza-la-vaca-id06024","lugar":"Cabeza la Vaca"},"recogida":[],"canal":{"nombre":"Cabeza la Vaca Informa","url":"https://www.bandomovil.com/cabeza","pasos":["Descargue la aplicación «Bandomóvil», gratuita para Android e iPhone.","Busque «Cabeza la Vaca»: ahí salen los avisos, bandos y noticias del Ayuntamiento.","Si no quiere instalar nada, léalos en bandomovil.com/cabeza."]},"web":"https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/","noticias":[{"id":"concurso-redes-feria-castana","fecha":"2026-10-01","titulo":"Concurso en redes para difundir la Feria de la Castaña","resumen":"Quien publique con la etiqueta #CabezalaVacaFercas26 puede ganar un lote de productos locales.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"cartel-xxi-feria-castana","fecha":"2026-09-30","titulo":"Ya está el cartel de la XXI Feria de la Castaña","resumen":"Del 30 de octubre al 1 de noviembre, con inauguración el viernes por la tarde.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"pre-feria-castana-2026","fecha":"2026-09-30","titulo":"Octubre, mes de la Pre-Feria de la Castaña","resumen":"Talleres, cine, rutas, teatro, jazz y la Ruta de la Tapa, hasta el 27 de octubre.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"restauracion-cruz-calle-tordoya","fecha":"2026-09-30","titulo":"Empieza la restauración de la Cruz de la calle Tordoya","resumen":"Un camión la derribó por accidente el 17 de abril; Patrimonio ya ha dado el visto bueno.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"solar-antiguo-molino-aparcamiento","fecha":"2026-03-30","titulo":"El Ayuntamiento compra el solar del antiguo molino para hacer un aparcamiento","resumen":"Más de 1.400 m² junto a la Plaza de España, con aseos y parada de autobús.","imagen":null,"imagen_alt":"","ejemplo":false}],"tablon":{"actualizado":"2026-10-05T15:03:16.106Z","entradas":[{"fecha":"2026-10-02","tema":"Empleo","titulo":"Bases_Bolsa_Discapacidad","titulo_claro":"Bolsa de empleo reservada a personas con discapacidad: bases","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=303440&codVerif=017E31EC87843A9971B93E1B3657713E954A1DE4&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-17","tema":"Anuncios","titulo":"PLAN DE ACTUACION ANTE EL RIESGO DE INCENDIOS FORESTALES","titulo_claro":"Plan de actuación municipal ante el riesgo de incendios forestales","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=302123&codVerif=7BA9FE2A4C55451E690875CB7AD19651A2127FD8&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-17","tema":"Impuestos","titulo":"Cartel IAE 2026","titulo_claro":"Cartel del impuesto de actividades económicas (IAE) 2026","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=302041&codVerif=296B5B2A3255FB1A86A7AC1BA9C962F9E673091B&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-10","tema":"Anuncios","titulo":"7_CARTEL_TABLON_SEDE_ELECTRONICA_PLAZA_ABASTOS (1)","titulo_claro":"Cartel del tablón: Plaza de Abastos","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=301539&codVerif=BFBE068D86FD16A117F3DFC0C8F3024F0C475DF2&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-02-25","tema":"Anuncios","titulo":"BASES CHEQUE BEBE","titulo_claro":"Bases del «Cheque Bebé»","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=287618&codVerif=6044D497839740D567AC84E88ADF4106FC5C7FC6&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-02-23","tema":"Ayudas","titulo":"ADENDA AL PLAN ESTRATEGICO DE SUBVENCIONES","titulo_claro":"Adenda al Plan estratégico de subvenciones","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=288071&codVerif=4437581E0617950891014522EAEAD5CBC17DCFB0&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2025-07-18","tema":"Anuncios","titulo":"ANUNCIO SUUBASTA DE BIENES INMUEBLES","titulo_claro":"Anuncio de subasta de bienes inmuebles","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=275403&codVerif=9B068C36FDDE13D7642129C1B15194775BA91164&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2025-06-04","tema":"Anuncios","titulo":"ANUNCIO CUENTA GENREAL 2024","titulo_claro":"Cuenta general de 2024: anuncio","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=272960&codVerif=08FA73056A4D9A173771EC0A35E87D8F303FE372&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2023-10-02","tema":"Anuncios","titulo":"PLAN ANTIFRAUDE","titulo_claro":"Plan antifraude","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=235690&codVerif=FC1489B906DD2F172959B662C644280BF477EE6B&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-12-20","tema":"Anuncios","titulo":"BASES LIMPIADOR/A ESTABILIZACION DE EMPLEO","titulo_claro":"Bases de la plaza de limpiador/a (estabilización de empleo)","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=207439&codVerif=A3DA76B9653B689859DD8422A00A16BC426848F3&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-12-20","tema":"Anuncios","titulo":"BASES VARIOS PUESTOS DE TRABAJO ESTABILIZACION DE EMPLEO","titulo_claro":"Bases de varios puestos de trabajo (estabilización de empleo)","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=207440&codVerif=A36955B322FD608FB91BD7D76D06823454083445&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-09-02","tema":"Empleo","titulo":"BASES PARA CUBRIR LA CONVOCATORIA Y PROCESO DE SELECCIÓN DE UNA BOLSA DE EMPLEO PARA LA CATEGORÍA PROFESIONAL DE LIMPIADOR/A MEDIANTE EL SISTEMA CONCURSO-OPOSICIÓN","titulo_claro":"Bases de la bolsa de empleo de limpiador/a","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=193639&codVerif=F66C6EEFC0677D3637B3A0422927021E936E3399&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2022-07-13","tema":"Anuncios","titulo":"ANUNCIO CONVOCATORIA Y BASES PROFESOR-A ADULTOS","titulo_claro":"Convocatoria y bases de profesor/a de adultos","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=189060&codVerif=7FE6EE0E58E51F8A86ED70E57FD786E75DB2267B&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-01-15","tema":"Anuncios","titulo":"ANUNCIO APROB INICIAL OF","titulo_claro":"Aprobación inicial de una ordenanza fiscal (anuncio)","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=119379&codVerif=591CF64BE64F2B9BD12B195BA760483FD34BC75C&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2021-01-15","tema":"Anuncios","titulo":"ANUNCIO APROB INICIAL OF","titulo_claro":"Aprobación inicial de una ordenanza fiscal (anuncio)","url":"https://sede.cabezalavaca.es/portal/tablonVirtual.do?aDoc=F&documento=119362&codVerif=D112E3AE1D07CC5A25ECEB8D7AFBBAFF5939670A&opc_id=175&pes_cod=9&ent_id=28&idioma=1","oculto":false,"expediente":null,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}]},"fiestas":[{"mes":2,"nombre":"Carnaval","cuando":"Fecha variable (en 2026, el 21 y 22 de febrero)","mayor":false,"fecha_fija":null},{"mes":3,"nombre":"Entierro de la sardina y tirada de cántaros","cuando":"Fecha variable (en 2026, el 1 de marzo)","mayor":false,"fecha_fija":null},{"mes":4,"nombre":"Domingo de Resurrección y quema del «Judas»","cuando":"Fecha variable (en 2026, el 5 de abril)","mayor":false,"fecha_fija":null},{"mes":4,"nombre":"Trail Ibérico Sierra de Tentudía","cuando":"Abril (en 2026, el 18 y 19)","mayor":false,"fecha_fija":null},{"mes":5,"nombre":"Cruces de Mayo","cuando":"Principios de mayo (en 2026, el 2 y 3)","mayor":false,"fecha_fija":null},{"mes":5,"nombre":"Romería de San Isidro","cuando":"Mediados de mayo (en 2026, del 16 al 18)","mayor":false,"fecha_fija":null},{"mes":7,"nombre":"Feria de San Benito","cuando":"Del 9 al 12 de julio en 2026; el patrón es San Benito, el 11","mayor":true,"fecha_fija":"07-11"},{"mes":7,"nombre":"Velá de Santa Ana","cuando":"25 de julio","mayor":false,"fecha_fija":"07-25"},{"mes":8,"nombre":"Feria del Libro y la Artesanía","cuando":"Primera semana de agosto (en 2026, del 3 al 9)","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Fiestas de la Virgen de Agosto","cuando":"Del 14 al 16 de agosto","mayor":false,"fecha_fija":"08-15"},{"mes":10,"nombre":"Ruta de la Tapa de la Castaña","cuando":"Octubre (en 2026, el 11 y 12)","mayor":false,"fecha_fija":null},{"mes":10,"nombre":"Feria de la Castaña (FERCAS)","cuando":"Puente de Todos los Santos (en 2026, del 30 de octubre al 1 de noviembre)","mayor":true,"fecha_fija":null}],"servicios":{"ayuntamiento":[{"dias":[1,2,3,4,5],"de":"09:00","a":"14:00"}]},"tramites_sede":14,"rutas":{"tramites":"tramites.html","avisos":"avisos.html","agenda":"agenda.html","noticia":"noticia-{id}.html","media":"media/"},"hoja":null,"tablon_json":"contenido/tablon.json","tablon_externo":false,"horizonte_dias":60,"v_datos":"1320de18"}</script>
+<script src="js/vivo.js?v=4112cbcf" defer></script>
+<script src="js/main.js?v=2504b34e" defer></script>
+<script src="js/movimiento.js?v=daa5c706" defer></script>
+<script src="js/identidad.js?v=848289b2" defer></script>
+
+
+</body>
+</html>
+

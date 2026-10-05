@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Cabeza la Vaca//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-feria-de-san-benito-2027@cabeza-la-vaca.agenda
+DTSTAMP:20261005T152207Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:Feria de San Benito
+LOCATION:Del 9 al 12 de julio en 2026\; el patrón es San Benito\, el 11\, 
+ Cabeza la Vaca
+URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
+ tml#evento-fiesta-feria-de-san-benito-2027
+END:VEVENT
+END:VCALENDAR

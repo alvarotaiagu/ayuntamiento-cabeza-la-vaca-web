@@ -1,0 +1,135 @@
+{
+  "_leeme": "v3b · F10. Trámites explicados en lectura fácil (facil.html). Uno por atajo de municipio.json → tramites.atajos (campo «atajo», con el nombre exacto del atajo) o la página «Avisar de un problema» («pagina»: «incidencia»). Frases cortas, una idea por línea, sin abreviaturas, un pictograma por paso (los de fuente/_pictos_facil.html). Solo lo que dicen la plantilla y la sede: los papeles concretos que pide cada trámite no constan, así que se manda preguntar. Marcadores que aplicar.mjs rellena: {telefono}, {direccion}, {nombre}.",
+  "nota": "Texto adaptado a lectura fácil. Pendiente de validar con personas usuarias.",
+  "tramites": [
+    {
+      "atajo": "Volante de empadronamiento",
+      "titulo": "Pedir el volante del padrón",
+      "picto": "casa",
+      "que_es": [
+        "El padrón es la lista de las personas que viven en el pueblo.",
+        "El volante es un papel que dice que usted vive aquí.",
+        "A veces se lo piden en un banco o en un colegio."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Se abre la sede electrónica del Ayuntamiento.", "picto": "ordenador" },
+        { "texto": "La sede electrónica es la oficina del Ayuntamiento en internet. Está abierta todos los días, a todas horas.", "picto": "reloj" },
+        { "texto": "La sede le pide que diga quién es usted. Si no sabe cómo, pregunte en el Ayuntamiento.", "picto": "llave" },
+        { "texto": "Siga los pasos que le indica la página.", "picto": "lapiz" }
+      ],
+      "boton": "Pedir el volante en la sede electrónica",
+      "sin_internet": [
+        { "texto": "Si no tiene internet, vaya al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" },
+        { "texto": "Pregunte qué papeles tiene que llevar.", "picto": "pregunta" },
+        { "texto": "Puede llamar antes por teléfono al {telefono}.", "picto": "telefono" }
+      ]
+    },
+    {
+      "atajo": "Certificado de empadronamiento",
+      "titulo": "Pedir el certificado del padrón",
+      "picto": "documento",
+      "que_es": [
+        "El certificado es un papel oficial que dice que usted vive en el pueblo.",
+        "Sirve para trámites que piden una prueba de domicilio.",
+        "Es parecido al volante, pero con más valor."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Se abre la sede electrónica del Ayuntamiento.", "picto": "ordenador" },
+        { "texto": "La sede le pide que diga quién es usted. Si no sabe cómo, pregunte en el Ayuntamiento.", "picto": "llave" },
+        { "texto": "Siga los pasos que le indica la página.", "picto": "lapiz" }
+      ],
+      "boton": "Pedir el certificado en la sede electrónica",
+      "sin_internet": [
+        { "texto": "Si no tiene internet, vaya al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" },
+        { "texto": "Pregunte qué papeles tiene que llevar.", "picto": "pregunta" },
+        { "texto": "Puede llamar antes por teléfono al {telefono}.", "picto": "telefono" }
+      ]
+    },
+    {
+      "atajo": "Cambiar mi domicilio",
+      "titulo": "Cambiar de casa en el padrón",
+      "picto": "casa",
+      "que_es": [
+        "Si se cambia de casa en el pueblo, el Ayuntamiento tiene que saberlo.",
+        "Así su dirección del padrón es la buena.",
+        "Eso se llama cambio de domicilio."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Se abre la sede electrónica del Ayuntamiento.", "picto": "ordenador" },
+        { "texto": "La sede le pide que diga quién es usted. Si no sabe cómo, pregunte en el Ayuntamiento.", "picto": "llave" },
+        { "texto": "Escriba su nueva dirección.", "picto": "lapiz" },
+        { "texto": "Envíe la solicitud.", "picto": "enviar" }
+      ],
+      "boton": "Cambiar mi domicilio en la sede electrónica",
+      "sin_internet": [
+        { "texto": "Si no tiene internet, vaya al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" },
+        { "texto": "Pregunte qué papeles tiene que llevar.", "picto": "pregunta" },
+        { "texto": "Puede llamar antes por teléfono al {telefono}.", "picto": "telefono" }
+      ]
+    },
+    {
+      "atajo": "Escribir al Ayuntamiento",
+      "titulo": "Escribir al Ayuntamiento",
+      "picto": "correo",
+      "que_es": [
+        "Puede mandar un escrito al Ayuntamiento por internet.",
+        "Sirve para pedir algo, hacer una queja o dar una idea.",
+        "Se puede hacer a cualquier hora."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Se abre la sede electrónica del Ayuntamiento.", "picto": "ordenador" },
+        { "texto": "La sede le pide que diga quién es usted. Si no sabe cómo, pregunte en el Ayuntamiento.", "picto": "llave" },
+        { "texto": "Escriba lo que quiere decir.", "picto": "lapiz" },
+        { "texto": "Envíe el escrito.", "picto": "enviar" }
+      ],
+      "boton": "Escribir en la sede electrónica",
+      "sin_internet": [
+        { "texto": "Si no tiene internet, lleve su escrito al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" },
+        { "texto": "Puede llamar antes por teléfono al {telefono}.", "picto": "telefono" }
+      ]
+    },
+    {
+      "atajo": "Ofertas de empleo",
+      "titulo": "Buscar trabajo en el Ayuntamiento",
+      "picto": "leer",
+      "que_es": [
+        "El Ayuntamiento anuncia los puestos de trabajo que necesita.",
+        "En cada anuncio hay un plazo para pedirlos.",
+        "Después del plazo ya no se puede."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Verá la lista de ofertas.", "picto": "ordenador" },
+        { "texto": "Lea el anuncio que le interesa.", "picto": "leer" },
+        { "texto": "Mire hasta qué día puede pedir el puesto.", "picto": "calendario" },
+        { "texto": "Las bases dicen qué papeles hacen falta. Están en la sede electrónica.", "picto": "documento" }
+      ],
+      "boton": "Ver las ofertas de empleo",
+      "sin_internet": [
+        { "texto": "Si no tiene internet, vaya al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" },
+        { "texto": "Pregunte por las ofertas de empleo.", "picto": "pregunta" },
+        { "texto": "Puede llamar antes por teléfono al {telefono}.", "picto": "telefono" }
+      ]
+    },
+    {
+      "pagina": "incidencia",
+      "titulo": "Avisar de un problema en la calle",
+      "picto": "farola",
+      "que_es": [
+        "A veces hay un problema en la calle.",
+        "Por ejemplo, una farola apagada, un bache o un contenedor roto.",
+        "Puede avisar al Ayuntamiento para que lo arregle."
+      ],
+      "pasos": [
+        { "texto": "Pulse el botón de abajo. Se abre un formulario.", "picto": "ordenador" },
+        { "texto": "Diga qué problema es y dónde está.", "picto": "lugar" },
+        { "texto": "Se prepara un correo para el Ayuntamiento. Usted solo tiene que enviarlo.", "picto": "enviar" }
+      ],
+      "boton": "Avisar de un problema",
+      "sin_internet": [
+        { "texto": "Si es urgente, llame al 112.", "picto": "telefono" },
+        { "texto": "Si no es urgente, llame al Ayuntamiento: {telefono}.", "picto": "telefono" },
+        { "texto": "También puede ir al Ayuntamiento. Está en {direccion}.", "picto": "ayuntamiento" }
+      ]
+    }
+  ]
+}

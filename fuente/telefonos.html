@@ -1,0 +1,56 @@
+{{> documento_arriba}}
+<section class="seccion seccion--primera" aria-labelledby="t-listin">
+  <div class="contenedor">
+    <h2 class="sr" id="t-listin">Listín de teléfonos</h2>
+    <div class="nevera-accion" data-imprimir-caja hidden>
+      <button class="boton boton--borde" type="button" data-imprimir><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3.5h10V8M7 17H4.5A1.5 1.5 0 0 1 3 15.5v-6A1.5 1.5 0 0 1 4.5 8h15A1.5 1.5 0 0 1 21 9.5v6a1.5 1.5 0 0 1-1.5 1.5H17"/><path d="M7 13.5h10v7H7zM17.5 10.8h.1"/></svg>Imprimir los teléfonos</button>
+      <p>Una hoja A4 con los números grandes, para tenerla a mano.</p>
+    </div>
+    <div class="nevera-cabeza">
+      <img src="{{raiz}}marca/escudo-160.png" width="{{escudo.ancho160}}" height="160" alt="">
+      <div>
+        <p class="nevera-cabeza__titulo">Teléfonos útiles de {{nombre}}</p>
+        <p class="nevera-cabeza__sub">Ayuntamiento de {{nombre}} · {{contacto.direccion}} · {{contacto.telefono}}</p>
+      </div>
+    </div>
+    <div class="listin-completo">
+      {{#listin_grupos}}<div class="listin-grupo">
+        <h3 class="listin-grupo__titulo">{{grupo}}</h3>
+        <ul class="listin">
+          {{#items}}<li class="listin__fila{{#urgente}} listin__fila--urgente{{/urgente}}">
+            <span class="listin__nombre">{{nombre}}{{#detalle}}<small>{{detalle}}</small>{{/detalle}}{{#clave}}<span class="listin__estado" data-vivo="servicio" data-clave="{{clave}}">{{{estado}}}</span>{{/clave}}</span>
+            {{#telefono}}<span class="listin__puntos" aria-hidden="true"></span>
+            <a class="listin__numero" href="{{tel_href}}"><span class="sr">Llamar a {{nombre}}: </span>{{telefono}}</a>{{/telefono}}
+          </li>
+          {{/items}}
+        </ul>
+      </div>
+      {{/listin_grupos}}
+    </div>
+    <p class="nota-fuente">Solo aparecen los teléfonos confirmados. Si echa en falta uno, llame al Ayuntamiento: <a href="{{contacto.tel_href}}">{{contacto.telefono}}</a>.</p>
+    <p class="nevera-pie">Datos actualizados el {{fecha_datos_texto}}. <span data-fecha-impresion></span>{{#web_texto}} Más teléfonos y horarios en {{web_texto}}.{{/web_texto}}{{#propuesta}} Propuesta de diseño: no es la web oficial.{{/propuesta}}</p>
+  </div>
+</section>
+
+{{#instalaciones.length}}<section class="seccion" id="instalaciones" aria-labelledby="t-instalaciones">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-instalaciones">Instalaciones municipales</h2>
+    {{#instalaciones}}<div class="instalaciones-grupo" role="group" aria-labelledby="{{id}}">
+      <h3 class="listin-grupo__titulo" id="{{id}}">{{grupo}}</h3>
+      <ul class="fichas visitas">
+        {{#items}}<li class="ficha visita instalacion">
+          <h4 class="ficha__titulo">{{nombre}}</h4>
+          {{#texto}}<p class="visita__texto">{{texto}}</p>{{/texto}}
+          {{#datos.length}}<dl class="datos visita__datos">{{#datos}}<div><dt>{{dt}}</dt><dd>{{dd}}</dd></div>{{/datos}}</dl>{{/datos.length}}
+          {{#nota}}<p class="visita__nota">{{nota}}</p>{{/nota}}
+          {{#telefono}}<p class="visita__enlace"><a href="{{tel_href}}"><svg class="icono" aria-hidden="true"><use href="#i-telefono"/></svg><span class="sr">Llamar a {{nombre}}: </span>{{telefono}}</a></p>{{/telefono}}
+          {{#url}}<p class="visita__enlace"><a href="{{url}}">{{url_texto}}<span class="sr">: {{nombre}}{{sr}}</span></a></p>{{/url}}
+        </li>
+        {{/items}}
+      </ul>
+    </div>
+    {{/instalaciones}}
+    <p class="nota-fuente">Para reservar una instalación o preguntar por sus horarios, llame al Ayuntamiento: <a href="{{contacto.tel_href}}">{{contacto.telefono}}</a>.</p>
+  </div>
+</section>{{/instalaciones.length}}
+{{> documento_abajo}}

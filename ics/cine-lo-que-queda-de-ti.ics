@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Cabeza la Vaca//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cine-lo-que-queda-de-ti@cabeza-la-vaca.agenda
+DTSTAMP:20261005T152207Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Cine y Mujeres Rurales: «Lo que queda de ti»
+DESCRIPTION:Pre-Feria de la Castaña.
+URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
+ tml#evento-cine-lo-que-queda-de-ti
+END:VEVENT
+END:VCALENDAR

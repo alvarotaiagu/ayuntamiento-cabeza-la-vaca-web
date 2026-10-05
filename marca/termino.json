@@ -1,0 +1,142 @@
+{
+  "_leeme": "Lo genera scripts/termino.mjs (no editar a mano salvo «fijado» en lugares, que el script respeta). aplicar.mjs pinta con esto el mapa del término en «El pueblo»: sin este archivo o sin marca/termino.svg, la sección no sale.",
+  "fuente": "OpenStreetMap, por la API de Overpass",
+  "licencia": "ODbL 1.0",
+  "atribucion": "© colaboradores de OpenStreetMap",
+  "atribucion_url": "https://www.openstreetmap.org/copyright",
+  "nombre_osm": "Cabeza la Vaca",
+  "relacion": "relation/346216",
+  "pueblo_osm": "node/882492499",
+  "casco_osm": [
+    "way/74719312"
+  ],
+  "carreteras": [
+    "A-434",
+    "BA-109",
+    "EX-103",
+    "EX-201",
+    "EX-202"
+  ],
+  "carreteras_osm": [
+    "way/30044592",
+    "way/74719246",
+    "way/88268323",
+    "way/151578333",
+    "way/151580139",
+    "way/151584069",
+    "way/257782293",
+    "way/260901710",
+    "way/335966687",
+    "way/335966688",
+    "way/335966689",
+    "way/335966690",
+    "way/550717519",
+    "way/783196665",
+    "way/922804759",
+    "way/1219400029"
+  ],
+  "rutas": [
+    {
+      "nombre": "[CIMA BD02] Tentudía",
+      "osm": "relation/10868582"
+    },
+    {
+      "nombre": "Rivera de Montemayor - Monasterio de Tentudía",
+      "osm": "relation/16617019"
+    }
+  ],
+  "viewBox": "0 0 600 988",
+  "metros_por_unidad": 16.403,
+  "escala_m": 2500,
+  "radio_punto": 15,
+  "recuadro": {
+    "caja": [
+      6,
+      222,
+      216,
+      432
+    ],
+    "zona": [
+      194.4,
+      586.2,
+      245,
+      636.8
+    ],
+    "metros_por_unidad": 3.948,
+    "escala_m": 250,
+    "tapa_termino": 0
+  },
+  "fecha": "2026-10-05",
+  "lugares": [
+    {
+      "nombre": "Plaza de Toros",
+      "osm": "way/405153920",
+      "nombre_osm": "Plaza de Toros",
+      "lat": 38.087032,
+      "lon": -6.423522,
+      "x": 36.2,
+      "y": 296.9,
+      "recuadro": true,
+      "sitio": [
+        61.4,
+        313.1
+      ]
+    },
+    {
+      "nombre": "Cruz del Rollo",
+      "osm": "node/5318987238",
+      "nombre_osm": "Cruz del Rollo",
+      "lat": 38.086787,
+      "lon": -6.421244,
+      "x": 127.2,
+      "y": 294.1,
+      "recuadro": true,
+      "sitio": [
+        111.9,
+        319.9
+      ]
+    },
+    {
+      "nombre": "Torre del Reloj y antigua cárcel",
+      "osm": "way/550868544",
+      "nombre_osm": "Torre del Reloj",
+      "lat": 38.086732,
+      "lon": -6.421257,
+      "x": 125.9,
+      "y": 347.9,
+      "recuadro": true,
+      "sitio": [
+        111.6,
+        321.5
+      ]
+    },
+    {
+      "nombre": "Fuente Abajo",
+      "osm": "node/5319020520",
+      "nombre_osm": "Fuente de Abajo",
+      "lat": 38.086037,
+      "lon": -6.419047,
+      "x": 188.7,
+      "y": 351.5,
+      "recuadro": true,
+      "sitio": [
+        160.6,
+        340.9
+      ]
+    },
+    {
+      "nombre": "Fuente del Rollo",
+      "osm": "node/5318987251",
+      "nombre_osm": "Fuente del Rollo",
+      "lat": 38.086974,
+      "lon": -6.421432,
+      "x": 69.9,
+      "y": 346.2,
+      "recuadro": true,
+      "sitio": [
+        107.7,
+        314.7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fotos-commons/01_cabeza-la-vaca_cruz-del-rollo.jpg",
+    "salida": "cruz-rollo"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fotos-commons/02_cabeza-la-vaca_torre-iglesia.jpg",
+    "salida": "torre-iglesia"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fotos-commons/06_cabeza-la-vaca_letrero-bienvenida.jpg",
+    "salida": "letrero"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fotos-commons/05_cabeza-la-vaca_panoramica-tejados.jpg",
+    "salida": "panoramica"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fotos-commons/03_cabeza-la-vaca_pisa-del-caballo.jpg",
+    "salida": "pisa-caballo",
+    "recorte": [
+      0,
+      0,
+      0.86,
+      1
+    ]
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/galeria__20260316113800.jpg",
+    "salida": "torre-reloj"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/repositorio__20260311092254.jpg",
+    "salida": "plaza-toros"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/galeria__20260316113303.jpg",
+    "salida": "iglesia"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/repositorio__20260313095751.jpg",
+    "salida": "fuente-abajo"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/galeria__20260316104912.jpg",
+    "salida": "castanar"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/galeria__20260316104559.jpg",
+    "salida": "castanas"
+  },
+  {
+    "origen": "../../ayuntamiento-cabeza-la-vaca-bocetos/fuente/repositorio/repositorio__20260313100605.jpg",
+    "salida": "plaza-vieja"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "_leeme": "Crédito de cada foto de media/ (por nombre, sin .jpg). Las de la web municipal solo valen para la maqueta que se le enseña al Ayuntamiento: su aviso legal prohíbe reproducirlas sin autorización.",
+  "cruz-rollo": {
+    "titulo": "Cruz del Rollo",
+    "autor": "Marbregal",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cabeza_la_Vaca_rollo.JPG"
+  },
+  "torre-iglesia": {
+    "titulo": "Torre de la iglesia de Nuestra Señora de los Ángeles",
+    "autor": "Elías Zamora",
+    "licencia": "CC BY 2.5 es",
+    "url": "https://commons.wikimedia.org/wiki/File:Torre_iglesia_Cabeza_La_Vaca.jpg"
+  },
+  "letrero": {
+    "titulo": "Letrero de bienvenida «Cabeza la Vaca»",
+    "autor": "Gonzalo 11789",
+    "licencia": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Letrero_de_bienvenida_de_Cabeza_la_Vaca.jpg"
+  },
+  "panoramica": {
+    "titulo": "Panorámica de los tejados del pueblo",
+    "autor": "Pedro Coronado Vázquez",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Panoramica_cabeza_la_vaca.jpg"
+  },
+  "pisa-caballo": {
+    "titulo": "La Pisá del Caballo",
+    "autor": "Pepe Martinez",
+    "licencia": "CC BY 2.5 es",
+    "url": "https://commons.wikimedia.org/wiki/File:Pis%C3%A1_del_caballo.jpg"
+  },
+  "torre-reloj": {
+    "titulo": "Torre del Reloj y Cruz del Rollo",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "plaza-toros": {
+    "titulo": "Plaza de Toros",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "iglesia": {
+    "titulo": "Iglesia de Nuestra Señora de los Ángeles",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "fuente-abajo": {
+    "titulo": "Fuente Abajo",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "castanar": {
+    "titulo": "El castañar, con el muro de piedra",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "castanas": {
+    "titulo": "Castañas en su erizo, sobre hojas secas",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  },
+  "plaza-vieja": {
+    "titulo": "Plaza Vieja",
+    "autor": "web del Ayuntamiento de Cabeza la Vaca (cabezalavaca.es)",
+    "nota": "Solo para la propuesta: hace falta autorización del Ayuntamiento para publicarla (su aviso legal prohíbe reproducir sus imágenes)."
+  }
+}

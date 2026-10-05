@@ -1,0 +1,1682 @@
+{
+  "_leeme": "Datos del municipio. Lo lee scripts/aplicar.mjs. Fuentes de cada dato en DATOS.md. Lo que no está confirmado lleva \"ejemplo\": true y sale con la etiqueta «Ejemplo».",
+  "slug": "cabeza-la-vaca",
+  "nombre": "Cabeza la Vaca",
+  "nombre_corto": "Cabeza la Vaca",
+  "provincia": "Badajoz",
+  "comarca": "Tentudía",
+  "gentilicio": "cabezalavaqueños",
+  "habitantes": {
+    "valor": 1257,
+    "fuente": "INE 2025"
+  },
+  "altitud_m": 759,
+  "_cifras_leeme": "v3b · «… en cifras»: 4 cifras con su fuente visible. La superficie y la altitud casan en dos o tres fuentes (ver DATOS.md). La ficha de la Diputación da 1.403 habitantes (censo de 2014): no se usa.",
+  "cifras": [
+    {
+      "valor": 1257,
+      "unidad": "habitantes",
+      "etiqueta": "en el padrón municipal",
+      "fuente": "INE, padrón a 1 de enero de 2025",
+      "fuente_url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/2859?nult=1",
+      "anio": 2025
+    },
+    {
+      "valor": 64,
+      "unidad": "km²",
+      "etiqueta": "de término municipal",
+      "fuente": "Diputación de Badajoz, ficha del municipio (casa con el Ministerio de Justicia y con OpenStreetMap)",
+      "fuente_url": "https://www.dip-badajoz.es/municipios/municipio_dinamico/inicio/index_inicio.php?codigo=24",
+      "anio": null
+    },
+    {
+      "valor": 759,
+      "unidad": "m",
+      "etiqueta": "de altitud sobre el nivel del mar",
+      "fuente": "Diputación de Badajoz, ficha del municipio (casa con el Nomenclátor del IGN)",
+      "fuente_url": "https://www.dip-badajoz.es/municipios/municipio_dinamico/inicio/index_inicio.php?codigo=24",
+      "anio": null
+    },
+    {
+      "valor": "1594",
+      "unidad": null,
+      "etiqueta": "año en que Felipe II le concedió el título de villa",
+      "fuente": "Ayuntamiento de Cabeza la Vaca, «Historia y origen»",
+      "fuente_url": "https://cabezalavaca.es/plantilla.php?enlace=E",
+      "anio": null
+    }
+  ],
+  "lema": null,
+  "propuesta": true,
+  "indexar": false,
+  "url": "https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/",
+  "fecha_datos": "2026-10-05",
+  "web_actual": "https://cabezalavaca.es",
+  "propuesta_web": {
+    "_leeme": "Solo para propuesta.html (la página para el alcalde; se quita sola con \"propuesta\": false). problemas: lo que se puede comprobar en su web actual, con su fuente (ERRORES.md).",
+    "problemas": [
+      {
+        "texto": "La página «Producción fotovoltaica» publica a la vista de cualquiera el usuario y la contraseña de una plataforma de consulta.",
+        "fuente": "cabezalavaca.es, página «Producción fotovoltaica»"
+      },
+      {
+        "texto": "Las fotos de la Pisá del Caballo, la Fuente del Rollo y el Aula Mentor (más de veinte) no cargan: llevan a un error 404.",
+        "fuente": "cabezalavaca.es, páginas de Turismo y Aula Mentor"
+      },
+      {
+        "texto": "Cinco entradas del menú llevan a una página vacía: Licitaciones, Escuela de Adultos, Escuela Municipal de Música, Centro de Mayores y Centro de convivencia.",
+        "fuente": "cabezalavaca.es, menú «Administración» y «Servicios Municipales»"
+      },
+      {
+        "texto": "La agenda de la web da la Feria de la Castaña el 31 de octubre; el cartel oficial y Bandomóvil dicen que empieza el 30.",
+        "fuente": "cabezalavaca.es, agenda, y Bandomóvil del 30-09-2026"
+      },
+      {
+        "texto": "El enlace «El tiempo» de la portada lleva a la previsión de Badajoz capital, no a la de Cabeza la Vaca.",
+        "fuente": "cabezalavaca.es, portada, y AEMET"
+      }
+    ],
+    "revisada": "2026-10-05",
+    "captura_antes": {
+      "archivo": "assets/web-actual.jpg",
+      "alt": "Portada actual de cabezalavaca.es: cabecera con un collage de fotos y el rótulo «Cabeza la Vaca», menú de siete entradas, un carrusel con una vista del pueblo y «Cabeza la Vaca: Pueblo Mágico de España», y cuatro accesos en tarjetas"
+    },
+    "contacto": {
+      "nombre": "Álvaro",
+      "correo": "alvarot2601@gmail.com",
+      "telefono": "684 025 751"
+    }
+  },
+  "contacto": {
+    "direccion": "C/ del Medio, 1",
+    "cp": "06293",
+    "telefono": "924 583 002",
+    "fax": "924 583 132",
+    "correo": "ayuntamiento@cabezalavaca.es",
+    "mapa_consulta": "Ayuntamiento de Cabeza la Vaca, Calle del Medio 1, 06293 Cabeza la Vaca, Badajoz"
+  },
+  "horario": {
+    "texto": "Lunes a viernes, de 9:00 a 14:00",
+    "tramos": [
+      {
+        "dias": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "de": "09:00",
+        "a": "14:00"
+      }
+    ],
+    "ejemplo": true
+  },
+  "redes": [
+    {
+      "nombre": "Facebook",
+      "url": "https://www.facebook.com/AytoCabezaLaVaca/"
+    },
+    {
+      "nombre": "Instagram",
+      "url": "https://www.instagram.com/ayuntamiento_cabeza_la_vaca/"
+    }
+  ],
+  "canal_avisos": {
+    "nombre": "Cabeza la Vaca Informa",
+    "url": "https://www.bandomovil.com/cabeza",
+    "texto": "El Ayuntamiento publica sus avisos, bandos y noticias en Cabeza la Vaca Informa (Bandomóvil), gratuito para Android e iPhone. También se pueden leer en su página web.",
+    "otros": [],
+    "pasos": [
+      "Descargue la aplicación «Bandomóvil», gratuita para Android e iPhone.",
+      "Busque «Cabeza la Vaca»: ahí salen los avisos, bandos y noticias del Ayuntamiento.",
+      "Si no quiere instalar nada, léalos en bandomovil.com/cabeza."
+    ]
+  },
+  "ine": "06024",
+  "farmacias": {
+    "oficial": {
+      "nombre": "Colegio Oficial de Farmacéuticos de Badajoz",
+      "url": "https://cofbadajoz.com/farmacias-de-guardia/"
+    }
+  },
+  "sede": {
+    "tipo": "diputacion",
+    "base": "https://sede.cabezalavaca.es",
+    "ent_id": 28,
+    "opc": {
+      "tablon": 268,
+      "perfil": 271
+    },
+    "instancia_general": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10024&asu_mod_cod=10023&codVerif=514691FD021AD1C52BA633DE84679B9CE3B46B17&tra_cod="
+  },
+  "tablon_autorizado": false,
+  "tablon_max": 40,
+  "hoja": {
+    "id": "",
+    "pestanas": {
+      "avisos": "Avisos",
+      "agenda": "Agenda",
+      "noticias": "Noticias"
+    },
+    "formularios": {
+      "avisos": null,
+      "agenda": null,
+      "noticias": null
+    }
+  },
+  "legal": {
+    "titular": "Ayuntamiento de Cabeza la Vaca",
+    "nif": "P0602400D",
+    "dir3": "L01060248",
+    "direccion_registro": "C/ del Medio, 1"
+  },
+  "escudo_nota": "Escudo de Wikimedia Commons (Ajesushn, CC BY-SA 4.0). Coincide con el de la sede electrónica; no consta decreto de aprobación.",
+  "escudo_credito": {
+    "autor": "Ajesushn",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Escudo_de_Cabeza_la_Vaca.svg"
+  },
+  "corporacion": {
+    "legislatura": "2023-2027",
+    "nota": "Gobierna el PSOE con mayoría absoluta (5 de 9). Según los BOP de 2023 y la web del Ayuntamiento (marzo de 2026); no consta ningún cambio desde entonces.",
+    "grupos": [
+      {
+        "sigla": "PSOE",
+        "nombre": "Partido Socialista Obrero Español",
+        "color": "#C8102E",
+        "trama": "liso",
+        "gobierno": true
+      },
+      {
+        "sigla": "UxCV",
+        "nombre": "Unidas por Cabeza la Vaca",
+        "color": "#7A2F8F",
+        "trama": "rayas",
+        "gobierno": false
+      },
+      {
+        "sigla": "PP",
+        "nombre": "Partido Popular",
+        "color": "#1D75BD",
+        "trama": "puntos",
+        "gobierno": false
+      }
+    ],
+    "miembros": [
+      {
+        "nombre": "Luis David Zapata Macías",
+        "grupo": "PSOE",
+        "cargo": "Alcalde-Presidente",
+        "delegacion": "Salud en todas las políticas y Desarrollo urbano",
+        "alcalde": true
+      },
+      {
+        "nombre": "María del Carmen Maya Santana",
+        "grupo": "PSOE",
+        "cargo": "Primera teniente de alcalde",
+        "delegacion": "Desarrollo local, Dependencias municipales y Recursos humanos"
+      },
+      {
+        "nombre": "Ángel Ramón Zapata Moya",
+        "grupo": "PSOE",
+        "cargo": "Segundo teniente de alcalde y portavoz del Grupo Socialista",
+        "delegacion": "Cultura, Transformación turística, Juventud y Deportes"
+      },
+      {
+        "nombre": "Felicidad Hernández Sánchez",
+        "grupo": "PSOE",
+        "cargo": "Tercera teniente de alcalde",
+        "delegacion": "Políticas sociales, Participación ciudadana, Igualdad y Diversidad funcional"
+      },
+      {
+        "nombre": "Francisco Javier Macarro Lavado",
+        "grupo": "PSOE",
+        "cargo": "Concejal",
+        "delegacion": "Agricultura, Medio ambiente y Trabajos AEPSA"
+      },
+      {
+        "nombre": "Rosa María Fabián Romero",
+        "grupo": "UxCV",
+        "cargo": "Concejala y portavoz de Unidas por Cabeza la Vaca"
+      },
+      {
+        "nombre": "Rafael Matito Ramos",
+        "grupo": "UxCV",
+        "cargo": "Concejal"
+      },
+      {
+        "nombre": "María del Carmen Moreno Lozano",
+        "grupo": "PP",
+        "cargo": "Concejala y portavoz del Grupo Popular"
+      },
+      {
+        "nombre": "Antonio Belmonte Belmonte",
+        "grupo": "PP",
+        "cargo": "Concejal"
+      }
+    ]
+  },
+  "alcaldia": {
+    "saluda": "Esta web es la puerta del Ayuntamiento abierta todo el día. Aquí puede hacer sus trámites sin desplazarse, enterarse de lo que pasa en el pueblo y saber a quién dirigirse en cada caso.",
+    "saluda_ejemplo": true
+  },
+  "quien": [
+    {
+      "tema": "Cultura, turismo, juventud y deportes",
+      "nombre": "Ángel Ramón Zapata Moya",
+      "cargo": "Segundo teniente de alcalde (Cultura, Transformación turística, Juventud y Deportes)",
+      "portada": true
+    },
+    {
+      "tema": "Empleo, desarrollo local y personal",
+      "nombre": "María del Carmen Maya Santana",
+      "cargo": "Primera teniente de alcalde (Desarrollo local, Dependencias municipales y Recursos humanos)",
+      "portada": true
+    },
+    {
+      "tema": "Servicios sociales, igualdad y participación",
+      "nombre": "Felicidad Hernández Sánchez",
+      "cargo": "Tercera teniente de alcalde (Políticas sociales, Participación ciudadana, Igualdad y Diversidad funcional)",
+      "portada": true
+    },
+    {
+      "tema": "Campo, medio ambiente y empleo agrario",
+      "nombre": "Francisco Javier Macarro Lavado",
+      "cargo": "Concejal de Agricultura, Medio ambiente y Trabajos AEPSA",
+      "portada": true
+    },
+    {
+      "tema": "Salud y obras del pueblo",
+      "nombre": "Luis David Zapata Macías",
+      "cargo": "Alcalde (Salud en todas las políticas y Desarrollo urbano)"
+    }
+  ],
+  "servicios": [
+    {
+      "nombre": "Ayuntamiento",
+      "nota": "Registro, padrón y atención al público. Fax 924 583 132",
+      "direccion": "C/ del Medio, 1",
+      "telefono": "924 583 002",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Oficina de Turismo",
+      "nota": "Inscripciones de actividades y rutas. El teléfono es el del Ayuntamiento",
+      "direccion": "Plaza de España (antigua cárcel, frente a la Cruz del Rollo)",
+      "telefono": "924 583 002",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Biblioteca «Diego María de la Tordoya»",
+      "nota": "En la Casa de la Cultura. El teléfono es el del Ayuntamiento",
+      "direccion": "C/ Nuestra Señora de Guadalupe, 1",
+      "telefono": "924 583 002",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Aula Mentor",
+      "nota": "Cursos por internet con tutoría. Matrícula todo el año menos agosto",
+      "direccion": "Casa de la Cultura, C/ Nuestra Señora de Guadalupe, 1",
+      "telefono": "628 440 190",
+      "horario": "De 17:00 a 21:00 (los días no constan)",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Consultorio médico",
+      "nota": "Cita previa. Depende del Centro de Salud de Fregenal de la Sierra (924 701 112; urgencias del centro, 924 701 250)",
+      "direccion": "C/ Díaz Calvo, 10",
+      "telefono": "924 583 192",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Farmacia",
+      "nota": "Guardias en el buscador del Colegio de Farmacéuticos",
+      "direccion": "C/ del Medio, 7",
+      "telefono": "924 583 079",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Pisos tutelados",
+      "direccion": "C/ Extremadura, s/n",
+      "telefono": "924 583 191",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Colegio «María Inmaculada»",
+      "nota": "Infantil y Primaria",
+      "direccion": "C/ Entrecaminos, s/n",
+      "telefono": "924 023 612",
+      "grupo": "Educación"
+    },
+    {
+      "nombre": "Recogida «Puerta a Puerta»",
+      "nota": "Mancomunidad de Tentudía. Oficina en Monesterio, de lunes a viernes de 9:00 a 14:00",
+      "telefono": "924 149 654",
+      "grupo": "Residuos"
+    },
+    {
+      "nombre": "Mancomunidad de Tentudía",
+      "nota": "Oficina en Monesterio",
+      "direccion": "Ronda de Segura de León, 7 (Monesterio)",
+      "telefono": "924 516 108",
+      "grupo": "Residuos"
+    }
+  ],
+  "urgencias": [
+    {
+      "nombre": "Emergencias",
+      "telefono": "112"
+    },
+    {
+      "nombre": "Guardia Civil (urgencias)",
+      "telefono": "062"
+    }
+  ],
+  "listin_corto": [
+    "Emergencias",
+    "Ayuntamiento",
+    "Consultorio médico",
+    "Farmacia"
+  ],
+  "instalaciones": [
+    {
+      "grupo": "Deporte",
+      "items": [
+        {
+          "nombre": "Complejo deportivo del Ejido",
+          "texto": "Pabellón polideportivo (fútbol sala, baloncesto, bádminton…), dos pistas de pádel, dos de tenis, pistas exteriores de fútbol y un recinto de vóley playa. Junto al pabellón está el gimnasio municipal.",
+          "direccion": "Paraje El Ejido",
+          "url": "https://cabezalavaca.es/plantilla.php?enlace=AE",
+          "url_texto": "Ver la ficha en su web actual"
+        },
+        {
+          "nombre": "Piscina municipal",
+          "texto": "Dos vasos (adultos y niños), amplia zona de césped y bar-cafetería. Abre en verano; en 2026 abrió a finales de junio.",
+          "direccion": "Paraje El Ejido"
+        }
+      ]
+    },
+    {
+      "grupo": "Cultura y educación",
+      "items": [
+        {
+          "nombre": "Casa de la Cultura",
+          "texto": "Oficina de la Juventud, Universidad Popular, biblioteca, aula de informática, aula de formación, sala de reuniones y salón de actos.",
+          "direccion": "C/ Nuestra Señora de Guadalupe, 1"
+        },
+        {
+          "nombre": "Guardería municipal",
+          "texto": "Para niños y niñas de 0 a 3 años, en el antiguo colegio. La preinscripción se hace en septiembre."
+        },
+        {
+          "nombre": "Centro Cívico",
+          "texto": "Actividades para niños y niñas y para el pueblo (en octubre, el «Mes del otoño y la castaña»)."
+        }
+      ]
+    },
+    {
+      "grupo": "Parques",
+      "items": [
+        {
+          "nombre": "Fuente Lunara",
+          "texto": "Parque con zonas verdes y de picnic para familias. Las asociaciones lo usan para sus días de convivencia con los vecinos."
+        }
+      ]
+    },
+    {
+      "grupo": "Alojamiento municipal",
+      "items": [
+        {
+          "nombre": "Albergue municipal",
+          "direccion": "C/ Bastimento, 21",
+          "nota": "Los teléfonos que da la web actual son el fax y el del Ayuntamiento: pregunte allí (924 583 002)."
+        }
+      ]
+    },
+    {
+      "grupo": "Residuos",
+      "items": [
+        {
+          "nombre": "Punto Limpio",
+          "texto": "Se entra solo en su horario y con el llavero identificativo. Está prohibido dejar residuos fuera del recinto o del horario.",
+          "horario": "Horario de invierno publicado en marzo de 2026: martes y jueves de 10:00 a 13:00; miércoles y viernes de 8:00 a 15:00; sábados alternos (los pares) de 8:00 a 15:00",
+          "nota": "En verano el horario cambia. Confirme el que rige ahora en el Ayuntamiento."
+        }
+      ]
+    }
+  ],
+  "documentos": [
+    {
+      "grupo": "Ordenanzas municipales",
+      "nota": "La lista de su web actual. Las ordenanzas que figuran como «documento» abren el anuncio en el Boletín Oficial de la Provincia.",
+      "items": [
+        {
+          "titulo": "Ordenanza Reguladora sobre Concesión del Derecho de Ocupación Temporal de Suelo Público por Elementos de Mejora de Accesibilidad",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=112189&FechaSolicitada=2018-02-09000000",
+          "tipo": "documento",
+          "fecha": "2018-02-09"
+        },
+        {
+          "titulo": "Reguladora del Precio Público por Prestación del Servicio de Ayuda a Domicilio",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=157769&FechaSolicitada=2025-06-27000000",
+          "tipo": "documento",
+          "fecha": "2025-06-27"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Cementerio y Otros Servicios Fúnebres",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=135631&FechaSolicitada=2022-03-03000000",
+          "tipo": "documento",
+          "fecha": "2022-03-03"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Ocupación de Terrenos de Uso Público con Mercancias, Materiales de Construccion, Escombros , Vallas, Puntales, Asnillas, Andamios y otras Instalacions Analogas",
+          "url": "https://cabezalavaca.es/repositorio/20260513125702.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora del Incremento del valor de los terrenos de naturaleza urbana",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=137309&FechaSolicitada=2022-06-03000000",
+          "tipo": "documento",
+          "fecha": "2022-06-03"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Utilización de Maquinaria Municipal",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=155883&FechaSolicitada=2025-03-03000000",
+          "tipo": "documento",
+          "fecha": "2025-03-03"
+        },
+        {
+          "titulo": "Reguladora de la creación y reserva de espacio para el estacionamiento de vehículos de personas con movilidad reducida y expedición de tarjetas de aparcamiento",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=38700&FechaSolicitada=2009-07-10000000",
+          "tipo": "documento",
+          "fecha": "2009-07-10"
+        },
+        {
+          "titulo": "Reguladora de la tasa por instalaciones de puestos, barracas, casetas de venta, espectáculos, atracciones o recreo, situados en terrenos de uso público local asi comoindustrias callejeras y ambulantes y rodaje cinematografico",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=135258&FechaSolicitada=2022-02-04000000",
+          "tipo": "documento",
+          "fecha": "2022-02-04"
+        },
+        {
+          "titulo": "Reguladora de la tasa por entradas de vehículos a traves de las aceras y reservas de via pública para aparcamientos exclusivos, parada de vehículos, carga y descarga de mercancias de cualquier clase",
+          "url": "https://cabezalavaca.es/repositorio/20260513125432.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora del precio público del servicio de acceso a internet a través de la red inalámbrica municipal (Wifi)",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=59553&FechaSolicitada=2011-06-07000000",
+          "tipo": "documento",
+          "fecha": "2011-06-07"
+        },
+        {
+          "titulo": "Tráfico y seguridad vial",
+          "url": "https://cabezalavaca.es/repositorio/20260514091724.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Ordenanza Municipal de Libre Acceso a las Actividades de Servicio y su Ejercicio",
+          "url": "https://cabezalavaca.es/repositorio/20260513134705.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Prestación del Servicio de Pesaje de Animales en la Bascula Municipal",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=155881&FechaSolicitada=2025-03-03000000",
+          "tipo": "documento",
+          "fecha": "2025-03-03"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Prestación del Servicio de Centro de Educación Infantil",
+          "url": "https://cabezalavaca.es/repositorio/20260513125910.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la tasa por los Documentos que se Expidan a Instancia de Parte",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=160115&FechaSolicitada=2025-11-28000000",
+          "tipo": "documento",
+          "fecha": "2025-11-28"
+        },
+        {
+          "titulo": "Reguladora sobre el Impuesto de Construcciones, Instalaciones y obras",
+          "url": "https://cabezalavaca.es/repositorio/20260513125136.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la tasa de licencia urbanística",
+          "url": "https://cabezalavaca.es/repositorio/20260513132928.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por el Servicio de Mercado",
+          "url": "https://cabezalavaca.es/repositorio/20260513132610.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la tasa por la prestacion del servicio de estancia en pisos tutelados y centro de dia",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=148285&FechaSolicitada=2023-12-13000000",
+          "tipo": "documento",
+          "fecha": "2023-12-13"
+        },
+        {
+          "titulo": "Reguladora de la tasa por utilizacion de la sala de velatorio",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=92186&FechaSolicitada=2015-01-23000000",
+          "tipo": "documento",
+          "fecha": "2015-01-23"
+        },
+        {
+          "titulo": "Reguladora de la tasa por utilizacion de locales e instalaciones municipales",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=151037&FechaSolicitada=2024-05-22000000",
+          "tipo": "documento",
+          "fecha": "2024-05-22"
+        },
+        {
+          "titulo": "Reguladora de la tasa por la utilizacion de casas de baño, duchas, piscinas, balnearios e instalaciones deportivas y otros servicios análogos",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=151745&FechaSolicitada=2024-06-27000000",
+          "tipo": "documento",
+          "fecha": "2024-06-27"
+        },
+        {
+          "titulo": "Reguladora de la tasa por visitas a museos, exposiciones, bibliotecas, monumentos históricos o artísticos, parques zoologicos y otros centros o lugares análogos",
+          "url": "https://cabezalavaca.es/repositorio/20260513132336.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Aprovechamiento Especial del Dominio Público Local a Favor de Empresas Explotadaoras de Servicios de Suministros de Interes General (Telefonia Movil)",
+          "url": "https://cabezalavaca.es/repositorio/20260514091607.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa de Cupacion del Suelo Público con Cajeros Automaticos",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=64642&FechaSolicitada=2011-12-20000000",
+          "tipo": "documento",
+          "fecha": "2011-12-20"
+        },
+        {
+          "titulo": "Reguladora del Impuesto de Actividades Economicas",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=142302&FechaSolicitada=2023-02-28000000",
+          "tipo": "documento",
+          "fecha": "2023-02-28"
+        },
+        {
+          "titulo": "Reguladora del Impuesto Sobre Bienes Inmuebles",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=142301&FechaSolicitada=2023-02-28000000",
+          "tipo": "documento",
+          "fecha": "2023-02-28"
+        },
+        {
+          "titulo": "Reguladora del Impuesto de Vehículos de Traccion Mecanica",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=142300&FechaSolicitada=2023-02-28000000",
+          "tipo": "documento",
+          "fecha": "2023-02-28"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Otorgamiento de Licencia de Apertura de Establecimiento",
+          "url": "https://cabezalavaca.es/repositorio/20260513133520.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por Ocupación de terrenos de uso publico con mesas y sillas, tribunas, tablados y otro elementos analogos , con finalidad lucrativa",
+          "url": "https://cabezalavaca.es/repositorio/20260513131639.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la Tasa por instalaciones y actividades publicitarias",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=67672&FechaSolicitada=2012-04-18000000",
+          "tipo": "documento",
+          "fecha": "2012-04-18"
+        },
+        {
+          "titulo": "Reguladora de la tasa por prestacion de servicios de enseñanzas especiales en establecimientos docentes de esta Entidad",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=152353&FechaSolicitada=2024-07-25000000",
+          "tipo": "documento",
+          "fecha": "2024-07-25"
+        },
+        {
+          "titulo": "Reguladora de la tasa por tendidos, tuberías y galerías para la conducción de energías eléctricas, agua, gas o cualquier otro fluido , incluido los postes para las líneas, cables , palomillas cajas de amarre, de distribución o de registro, transformadores, rieles, básculas, aparatos para la venta automática y otros análogos que se establezcan sobre vías públicas u otros terrenos de dominio público o vuelen sobre los mismos",
+          "url": "https://cabezalavaca.es/repositorio/20260513132101.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Reguladora de la tasa por otorgamiento de la licencia para la tenencia de animales potencialmente peligrosos",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=155879&FechaSolicitada=2025-03-03000000",
+          "tipo": "documento",
+          "fecha": "2025-03-03"
+        }
+      ]
+    },
+    {
+      "grupo": "Aprobadas en 2026 (BOP)",
+      "nota": "Anuncios del Ayuntamiento en el Boletín Oficial de la Provincia de Badajoz.",
+      "items": [
+        {
+          "titulo": "Ordenanza de comunicación previa, declaración responsable y licencias: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164028&FechaSolicitada=202608200000",
+          "tipo": "documento",
+          "fecha": "2026-08-20"
+        },
+        {
+          "titulo": "Tasa por actuaciones administrativas de verificación: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164027&FechaSolicitada=202608200000",
+          "tipo": "documento",
+          "fecha": "2026-08-20"
+        },
+        {
+          "titulo": "Tasa por el servicio de desinfección: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164086&FechaSolicitada=202608250000",
+          "tipo": "documento",
+          "fecha": "2026-08-25"
+        },
+        {
+          "titulo": "Ordenanza de reserva de espacio para estacionamiento: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164084&FechaSolicitada=202608250000",
+          "tipo": "documento",
+          "fecha": "2026-08-25"
+        },
+        {
+          "titulo": "Reglamento del programa «Colaborativo Rural»: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=163766&FechaSolicitada=202608030000",
+          "tipo": "documento",
+          "fecha": "2026-08-03"
+        },
+        {
+          "titulo": "Plan de actuación municipal ante riesgo de incendios forestales: aprobación definitiva",
+          "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=164382&FechaSolicitada=202609210000",
+          "tipo": "documento",
+          "fecha": "2026-09-21"
+        }
+      ]
+    }
+  ],
+  "tramites": {
+    "atajos": [
+      {
+        "nombre": "Volante de empadronamiento",
+        "nota": "Con identificación en la sede",
+        "icono": "volante",
+        "opc": 48
+      },
+      {
+        "nombre": "Certificado de empadronamiento",
+        "nota": "Con identificación en la sede",
+        "icono": "padron",
+        "opc": 49
+      },
+      {
+        "nombre": "Cambiar mi domicilio",
+        "nota": "Cambio de domicilio en el padrón",
+        "icono": "casa",
+        "opc": 57
+      },
+      {
+        "nombre": "Escribir al Ayuntamiento",
+        "nota": "Registro de entrada, a cualquier hora",
+        "icono": "mensaje",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10024&asu_mod_cod=10023&codVerif=514691FD021AD1C52BA633DE84679B9CE3B46B17&tra_cod="
+      },
+      {
+        "nombre": "Ofertas de empleo",
+        "nota": "Plazas y bolsas del Ayuntamiento",
+        "icono": "empleo",
+        "url": "https://cabezalavaca.es/noticias.php?categoria=5"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Vivir aquí",
+        "nota": "Padrón y certificados",
+        "icono": "casa",
+        "tramites": [
+          {
+            "nombre": "Certificado de empadronamiento",
+            "opc": 49
+          },
+          {
+            "nombre": "Volante de empadronamiento",
+            "opc": 48
+          },
+          {
+            "nombre": "Consultar su hoja padronal",
+            "opc": 47
+          },
+          {
+            "nombre": "Cambiar su domicilio en el padrón",
+            "opc": 57
+          },
+          {
+            "nombre": "Cambiar sus datos personales en el padrón",
+            "opc": 56
+          }
+        ]
+      },
+      {
+        "nombre": "Casa y obras",
+        "nota": "Licencias y obras",
+        "icono": "obra",
+        "tramites": [
+          {
+            "nombre": "Presentar una solicitud en el registro de Urbanismo",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+          }
+        ]
+      },
+      {
+        "nombre": "Escribir al Ayuntamiento",
+        "nota": "Registro de entrada de cada área",
+        "icono": "mensaje",
+        "tramites": [
+          {
+            "nombre": "Registro de entrada de Secretaría-Intervención",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10024&asu_mod_cod=10023&codVerif=514691FD021AD1C52BA633DE84679B9CE3B46B17&tra_cod="
+          },
+          {
+            "nombre": "Registro de entrada de la Alcaldía",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10015&asu_mod_cod=10014&codVerif=F9D7CDD7F924421DEF3788BE17CF7AAB6B9F8920&tra_cod="
+          },
+          {
+            "nombre": "Registro de entrada de Servicios Sociales",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10033&asu_mod_cod=10032&codVerif=BEC1E8CC1AC9BCD0947D72DE1E6BE79143C1DA1E&tra_cod="
+          },
+          {
+            "nombre": "Registro de entrada de la Policía Local",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10030&asu_mod_cod=10029&codVerif=36C527CB63DB2BF19518FD0D87D9BEA9194E502E&tra_cod="
+          }
+        ]
+      },
+      {
+        "nombre": "Empleo y empresa",
+        "nota": "Empleo, proveedores y facturas",
+        "icono": "empleo",
+        "tramites": [
+          {
+            "nombre": "Registro de entrada de Empleo y Desarrollo Local",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10072&asu_mod_cod=10071&codVerif=DC92555B82120FE91CEBD4734E239271D56157DE&tra_cod="
+          },
+          {
+            "nombre": "Ofertas de empleo del Ayuntamiento",
+            "url": "https://cabezalavaca.es/noticias.php?categoria=5"
+          },
+          {
+            "nombre": "Solicitar el alta como proveedor",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10074&asu_mod_cod=10023&codVerif=F7068A36E3C9977F3653DF77A98C0F317396A5C1&tra_cod="
+          },
+          {
+            "nombre": "Registro de facturas",
+            "opc": 103
+          },
+          {
+            "nombre": "Consulta de facturas",
+            "opc": 20
+          }
+        ]
+      }
+    ],
+    "momentos": [
+      {
+        "nombre": "Me vengo a vivir aquí",
+        "nota": "Lo que conviene hacer las primeras semanas.",
+        "pasos": [
+          {
+            "texto": "Cambiar mi domicilio en el padrón",
+            "opc": 57
+          },
+          {
+            "texto": "Pedir el volante de empadronamiento",
+            "opc": 48
+          },
+          {
+            "texto": "Apuntarme a los avisos de Cabeza la Vaca Informa",
+            "url": "https://www.bandomovil.com/cabeza"
+          }
+        ]
+      },
+      {
+        "nombre": "Voy a hacer obra",
+        "nota": "Se pide en el registro de Urbanismo.",
+        "pasos": [
+          {
+            "texto": "Presentar la solicitud en el registro de Urbanismo",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+          },
+          {
+            "texto": "Consultar la tasa de la licencia urbanística",
+            "url": "https://cabezalavaca.es/repositorio/20260513132928.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "texto": "Consultar el impuesto sobre construcciones, instalaciones y obras",
+            "url": "https://cabezalavaca.es/repositorio/20260513125136.pdf",
+            "tipo": "pdf"
+          }
+        ]
+      },
+      {
+        "nombre": "Busco empleo",
+        "nota": "Lo que ofrece el Ayuntamiento.",
+        "pasos": [
+          {
+            "texto": "Ver las ofertas de empleo",
+            "url": "https://cabezalavaca.es/noticias.php?categoria=5"
+          },
+          {
+            "texto": "Presentar la solicitud en el registro de Empleo y Desarrollo Local",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10072&asu_mod_cod=10071&codVerif=DC92555B82120FE91CEBD4734E239271D56157DE&tra_cod="
+          },
+          {
+            "texto": "Apuntarme a los avisos de Cabeza la Vaca Informa",
+            "url": "https://www.bandomovil.com/cabeza"
+          }
+        ]
+      },
+      {
+        "nombre": "Tengo una empresa o negocio",
+        "nota": "Para proveedores y para cobrar facturas.",
+        "pasos": [
+          {
+            "texto": "Solicitar el alta como proveedor",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10074&asu_mod_cod=10023&codVerif=F7068A36E3C9977F3653DF77A98C0F317396A5C1&tra_cod="
+          },
+          {
+            "texto": "Presentar una factura",
+            "opc": 103
+          },
+          {
+            "texto": "Consultar mis facturas",
+            "opc": 20
+          }
+        ]
+      },
+      {
+        "nombre": "Ha pasado algo en mi calle",
+        "nota": "Un bache, una farola, un contenedor.",
+        "incidencia": true,
+        "pasos": [
+          {
+            "texto": "Avisar de la incidencia"
+          },
+          {
+            "texto": "Si es urgente, llamar al 112"
+          },
+          {
+            "texto": "Escribir a la Policía Local por el registro",
+            "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10030&asu_mod_cod=10029&codVerif=36C527CB63DB2BF19518FD0D87D9BEA9194E502E&tra_cod="
+          }
+        ]
+      }
+    ],
+    "sinonimos": {
+      "empadronarme": [
+        "padrón",
+        "padron",
+        "domicilio"
+      ],
+      "empadronar": [
+        "padrón",
+        "domicilio"
+      ],
+      "censo": [
+        "padrón"
+      ],
+      "volante": [
+        "empadronamiento"
+      ],
+      "certificado": [
+        "empadronamiento"
+      ],
+      "mudanza": [
+        "domicilio"
+      ],
+      "cambio de casa": [
+        "domicilio"
+      ],
+      "obra": [
+        "urbanismo",
+        "licencia"
+      ],
+      "obras": [
+        "urbanismo",
+        "licencia"
+      ],
+      "reforma": [
+        "urbanismo"
+      ],
+      "licencia": [
+        "urbanismo"
+      ],
+      "trabajo": [
+        "empleo"
+      ],
+      "empleo": [
+        "empleo"
+      ],
+      "paro": [
+        "empleo"
+      ],
+      "factura": [
+        "facturas",
+        "proveedor"
+      ],
+      "cobrar": [
+        "facturas",
+        "proveedor"
+      ],
+      "queja": [
+        "registro de entrada"
+      ],
+      "escribir": [
+        "registro de entrada"
+      ],
+      "instancia": [
+        "registro de entrada"
+      ]
+    },
+    "todos": [
+      {
+        "nombre": "Certificado de empadronamiento",
+        "opc": 49
+      },
+      {
+        "nombre": "Volante de empadronamiento",
+        "opc": 48
+      },
+      {
+        "nombre": "Consultar su hoja padronal",
+        "opc": 47
+      },
+      {
+        "nombre": "Padrón: cambiar sus datos personales",
+        "opc": 56
+      },
+      {
+        "nombre": "Padrón: cambiar su domicilio",
+        "opc": 57
+      },
+      {
+        "nombre": "Registro de entrada de la Alcaldía-Presidencia",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10015&asu_mod_cod=10014&codVerif=F9D7CDD7F924421DEF3788BE17CF7AAB6B9F8920&tra_cod="
+      },
+      {
+        "nombre": "Registro de entrada de Empleo y Desarrollo Local",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10072&asu_mod_cod=10071&codVerif=DC92555B82120FE91CEBD4734E239271D56157DE&tra_cod="
+      },
+      {
+        "nombre": "Registro de entrada de la Policía Local",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10030&asu_mod_cod=10029&codVerif=36C527CB63DB2BF19518FD0D87D9BEA9194E502E&tra_cod="
+      },
+      {
+        "nombre": "Registro de entrada de Secretaría-Intervención",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10024&asu_mod_cod=10023&codVerif=514691FD021AD1C52BA633DE84679B9CE3B46B17&tra_cod="
+      },
+      {
+        "nombre": "Solicitud de alta de proveedor",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10074&asu_mod_cod=10023&codVerif=F7068A36E3C9977F3653DF77A98C0F317396A5C1&tra_cod="
+      },
+      {
+        "nombre": "Registro de entrada de Servicios Sociales",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10033&asu_mod_cod=10032&codVerif=BEC1E8CC1AC9BCD0947D72DE1E6BE79143C1DA1E&tra_cod="
+      },
+      {
+        "nombre": "Registro de entrada de Urbanismo",
+        "url": "https://sede.cabezalavaca.es/sede/fichaInformativa.do?asu_cod=10038&asu_mod_cod=10037&codVerif=276F81D651A88C1771D4370DFD9F05D82705D324&tra_cod="
+      },
+      {
+        "nombre": "Registro de facturas (portal del proveedor)",
+        "opc": 103
+      },
+      {
+        "nombre": "Consulta de facturas (portal del proveedor)",
+        "opc": 20
+      },
+      {
+        "nombre": "Ofertas de empleo del Ayuntamiento",
+        "url": "https://cabezalavaca.es/noticias.php?categoria=5"
+      }
+    ]
+  },
+  "incidencias": {
+    "correo": "ayuntamiento@cabezalavaca.es",
+    "categorias": [
+      {
+        "nombre": "Alumbrado",
+        "ayuda": "Una farola apagada, rota o que se queda encendida de día"
+      },
+      {
+        "nombre": "Agua",
+        "ayuda": "Una fuga, una tapa de alcantarilla movida o falta de agua"
+      },
+      {
+        "nombre": "Limpieza",
+        "ayuda": "Basura en la calle, un contenedor lleno o roto"
+      },
+      {
+        "nombre": "Vía pública",
+        "ayuda": "Un bache, una acera rota, una señal caída"
+      },
+      {
+        "nombre": "Ruidos",
+        "ayuda": "Ruidos que molestan de forma repetida"
+      },
+      {
+        "nombre": "Otro",
+        "ayuda": "Cualquier otra cosa de la calle"
+      }
+    ]
+  },
+  "_transparencia_leeme": "v3c · transparencia.html. Fuentes: su web (cabezalavaca.es/bop.php y la página de ordenanzas), el BOP y la sede, leídos el 05/10/2026. La sede no tiene portal de transparencia propio; la web enlaza el de la Diputación, que no tiene página por municipio.",
+  "transparencia": {
+    "revisada": "2026-10-05",
+    "apartados": {
+      "organizacion": {
+        "pendiente": "un organigrama con el perfil y la trayectoria de cada responsable."
+      },
+      "normativa": {
+        "enlaces": [
+          {
+            "texto": "Ordenanzas municipales, en la web actual del Ayuntamiento",
+            "url": "https://cabezalavaca.es/plantilla.php?enlace=N",
+            "nota": "La lista de su web; las aprobadas en 2026 están en los anuncios del BOP."
+          },
+          {
+            "texto": "Anuncios del Ayuntamiento en el Boletín Oficial de la Provincia",
+            "url": "https://cabezalavaca.es/bop.php",
+            "nota": "Aprobaciones iniciales y definitivas de ordenanzas y reglamentos."
+          }
+        ]
+      },
+      "presupuestos": {
+        "enlaces": [
+          {
+            "texto": "Presupuesto general de 2026: aprobación definitiva",
+            "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=160584&FechaSolicitada=202512240000",
+            "nota": "BOP del 24 de diciembre de 2025, anuncio 5503/2025."
+          }
+        ],
+        "pendiente": "dónde se publica cómo va la ejecución del presupuesto."
+      },
+      "cuentas": {
+        "enlaces": [
+          {
+            "texto": "Cuenta general de 2025: exposición pública",
+            "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=162896&FechaSolicitada=202606090000",
+            "nota": "BOP del 9 de junio de 2026, anuncio 2178/2026."
+          }
+        ],
+        "pendiente": "dónde se publican las cuentas ya aprobadas y los informes de control."
+      },
+      "contratos": {
+        "pendiente": "dónde se publican los contratos menores. El perfil del contratante de la sede es un archivo de 8 elementos, el último de 2023."
+      },
+      "convenios": {
+        "pendiente": "dónde se publican los convenios que firma el Ayuntamiento."
+      },
+      "subvenciones": {
+        "enlaces": [
+          {
+            "texto": "Plan estratégico de subvenciones de 2026",
+            "url": "https://www.dip-badajoz.es/bop/ventana_anuncio.php?id_anuncio=161319&FechaSolicitada=202602250000",
+            "nota": "BOP del 25 de febrero de 2026, anuncio 604/2026."
+          }
+        ],
+        "pendiente": "dónde se publican las subvenciones concedidas, con su importe y quién las recibe."
+      },
+      "retribuciones": {
+        "pendiente": "lo que cobra al año cada cargo y las declaraciones de bienes y actividades de los concejales."
+      }
+    }
+  },
+  "horizonte_agenda_dias": 60,
+  "pueblo": {
+    "entradilla": "Un pueblo blanco de la sierra de Tentudía, uno de los «Pueblos Mágicos de España», con una plaza de toros Bien de Interés Cultural, un castañar de unas 256 hectáreas y la Feria de la Castaña cada otoño.",
+    "historia": [
+      "Su origen es una villa romana del siglo II, que siguió habitada hasta fines del siglo IX. Tras la reconquista, hacia 1247, quedó en la órbita de la Orden de Santiago, y el pueblo se repobló desde 1274.",
+      "El nombre viene del monte o «cabeza» donde está el casco, que en la Edad Media se llamaba «de la vaca»; no tiene que ver con el maestre Cabeza de Vaca, que vivió después. En 1594 Felipe II le dio el título de villa y en 1600 se levantó la Cruz del Rollo, símbolo de su justicia.",
+      "En el siglo XVIII se hicieron la torre del reloj y la cárcel (1770) y empezó a levantarse la plaza de toros. El terremoto de Lisboa de 1755 dañó la torre de la iglesia y, según la tradición, hizo brotar agua en el monte de la Buitrera."
+    ],
+    "lugares": [
+      {
+        "nombre": "Plaza de Toros",
+        "texto": "Bien de Interés Cultural desde 1989. Un ruedo de 40 metros, graderío macizo y burladeros excavados en la roca; se encala cada año.",
+        "foto": "plaza-toros",
+        "alt": "El ruedo de arena de la plaza de toros, con el graderío blanco y los burladeros rojos"
+      },
+      {
+        "nombre": "Cruz del Rollo",
+        "texto": "Picota de granito levantada en 1600, símbolo de la jurisdicción que Felipe II dio a la villa en 1594. Hoy es el centro del pueblo.",
+        "foto": "cruz-rollo",
+        "alt": "La Cruz del Rollo, un fuste de granito sobre tres gradas, con casas blancas detrás"
+      },
+      {
+        "nombre": "Torre del Reloj y antigua cárcel",
+        "texto": "La torre es de 1770. Junto a ella está la antigua cárcel, hoy Cuerpo de Guardia de la Policía Local y, enfrente de la Cruz del Rollo, la Oficina de Turismo.",
+        "foto": "torre-reloj",
+        "alt": "La torre blanca del reloj con su arco de ladrillo, junto a la Cruz del Rollo"
+      },
+      {
+        "nombre": "Iglesia de Nuestra Señora de los Ángeles",
+        "texto": "En la Plaza de España. Se rehízo en los siglos XVII y XVIII y guarda un retablo mayor de 1760 y una «cruz de oro» de plata dorada.",
+        "foto": "iglesia",
+        "alt": "La iglesia encalada, con su torre del campanario, vista desde la calle"
+      },
+      {
+        "nombre": "Fuente Abajo",
+        "texto": "A la entrada del pueblo por el este: base hexagonal de granito, cuatro caños y una cruz de mármol. Su inscripción dice 1559.",
+        "foto": "fuente-abajo",
+        "alt": "Fuente de granito de base octogonal con una cruz de piedra y casas blancas detrás"
+      },
+      {
+        "nombre": "La Pisá del Caballo",
+        "texto": "Parque periurbano desde 2005. Un manantial con forma de herradura, aula de la naturaleza, centro de interpretación, observatorio de aves, merendero y piscina natural.",
+        "foto": "pisa-caballo",
+        "alt": "Un prado con mesas de merendero y un sauce verde, bajo una ladera de monte"
+      },
+      {
+        "nombre": "El Castañar de Los Cortinales",
+        "texto": "En la sierra de Tentudía: unas 256 hectáreas de castaños, casi todas en pequeñas parcelas. La cosecha es en octubre y noviembre.",
+        "foto": "castanar",
+        "alt": "Castaños con sus frutos verdes y un muro de piedra seca en primer plano"
+      },
+      {
+        "nombre": "Plaza Vieja",
+        "texto": "Donde se cree que nació el pueblo, alrededor de un pozo. Hoy es una plaza empedrada con calzada portuguesa.",
+        "foto": "plaza-vieja",
+        "alt": "Plaza empedrada con bancos y árboles, rodeada de casas blancas"
+      }
+    ],
+    "portada_lugares": [
+      "Plaza de Toros",
+      "Cruz del Rollo",
+      "Torre del Reloj y antigua cárcel",
+      "El Castañar de Los Cortinales",
+      "Iglesia de Nuestra Señora de los Ángeles"
+    ],
+    "patrimonio": [
+      {
+        "nombre": "Plaza de Toros",
+        "grupo": "Edificios y monumentos",
+        "detalle": "Construida a finales del siglo XVIII con el trabajo de los vecinos y reedificada en 1895. Bien de Interés Cultural, con categoría de monumento, desde el 3 de mayo de 1989. Las fiestas de San Benito («los sambenitos») se viven en ella."
+      },
+      {
+        "nombre": "Cruz del Rollo",
+        "grupo": "Edificios y monumentos",
+        "detalle": "De 1600, en la Plaza de España. Tres gradas de granito, fuste cilíndrico, capitel con cuatro salientes y remate en cruz."
+      },
+      {
+        "nombre": "Torre del Reloj y antigua cárcel",
+        "grupo": "Edificios y monumentos",
+        "detalle": "Torre de mampostería y ladrillo de 1769-1772, con espadaña. La cárcel, de dos plantas, tuvo abajo la sala capitular y arriba la prisión."
+      },
+      {
+        "nombre": "Iglesia de Nuestra Señora de los Ángeles",
+        "grupo": "Edificios y monumentos",
+        "detalle": "En la Plaza de España. La primera construcción es del siglo XV y la torre se restauró tras el terremoto de Lisboa de 1755. La capilla del Sagrario es de 1916."
+      },
+      {
+        "nombre": "Cruz de la calle Tordoya",
+        "grupo": "Edificios y monumentos",
+        "detalle": "Recuerda a Diego María de la Tordoya. El 17 de abril de 2026 un camión la derribó por accidente y se está restaurando (el Ayuntamiento anunció el 30 de septiembre que las obras han empezado)."
+      },
+      {
+        "nombre": "Ermita de Nuestra Señora de los Remedios",
+        "grupo": "Edificios y monumentos",
+        "detalle": "Desaparecida: se construyó entre 1577 y 1583 y estaba derruida hacia 1789. Con sus materiales se hizo una capilla de la iglesia."
+      },
+      {
+        "nombre": "Plaza Vieja",
+        "grupo": "Plazas y fuentes",
+        "detalle": "El primer núcleo del pueblo. Allí hubo festejos taurinos hasta 1626."
+      },
+      {
+        "nombre": "Fuente Abajo",
+        "grupo": "Plazas y fuentes",
+        "detalle": "Manantial muy antiguo. La fuente, con cuatro caños y una cruz de mármol renacentista, lleva la fecha de 1559."
+      },
+      {
+        "nombre": "Fuente del Rollo",
+        "grupo": "Plazas y fuentes",
+        "detalle": "En el centro de la Plaza de España, a la que los vecinos llaman «el paseo». Base circular de granito y cuatro caños."
+      },
+      {
+        "nombre": "La Pisá del Caballo",
+        "grupo": "Naturaleza",
+        "detalle": "Parque periurbano de conservación y ocio, declarado en 2005 por la Junta de Extremadura (19.000 m²). Según la leyenda, el manantial brotó en la huella del caballo del maestre de la Orden de Santiago."
+      },
+      {
+        "nombre": "El Castañar de Los Cortinales",
+        "grupo": "Naturaleza",
+        "detalle": "En la sierra de Tentudía. Hay castaños muy viejos, un robledal y vistas a la sierra de Aracena."
+      },
+      {
+        "nombre": "Fuente Lunara",
+        "grupo": "Naturaleza",
+        "detalle": "Parque para familias, con zonas de picnic."
+      }
+    ],
+    "fiestas": [
+      {
+        "mes": 2,
+        "nombre": "Carnaval",
+        "cuando": "Fecha variable (en 2026, el 21 y 22 de febrero)"
+      },
+      {
+        "mes": 3,
+        "nombre": "Entierro de la sardina y tirada de cántaros",
+        "cuando": "Fecha variable (en 2026, el 1 de marzo)"
+      },
+      {
+        "mes": 4,
+        "nombre": "Domingo de Resurrección y quema del «Judas»",
+        "cuando": "Fecha variable (en 2026, el 5 de abril)"
+      },
+      {
+        "mes": 4,
+        "nombre": "Trail Ibérico Sierra de Tentudía",
+        "cuando": "Abril (en 2026, el 18 y 19)"
+      },
+      {
+        "mes": 5,
+        "nombre": "Cruces de Mayo",
+        "cuando": "Principios de mayo (en 2026, el 2 y 3)"
+      },
+      {
+        "mes": 5,
+        "nombre": "Romería de San Isidro",
+        "cuando": "Mediados de mayo (en 2026, del 16 al 18)"
+      },
+      {
+        "mes": 7,
+        "nombre": "Feria de San Benito",
+        "cuando": "Del 9 al 12 de julio en 2026; el patrón es San Benito, el 11",
+        "fecha_fija": "07-11",
+        "mayor": true
+      },
+      {
+        "mes": 7,
+        "nombre": "Velá de Santa Ana",
+        "cuando": "25 de julio",
+        "fecha_fija": "07-25"
+      },
+      {
+        "mes": 8,
+        "nombre": "Feria del Libro y la Artesanía",
+        "cuando": "Primera semana de agosto (en 2026, del 3 al 9)"
+      },
+      {
+        "mes": 8,
+        "nombre": "Fiestas de la Virgen de Agosto",
+        "cuando": "Del 14 al 16 de agosto",
+        "fecha_fija": "08-15"
+      },
+      {
+        "mes": 10,
+        "nombre": "Ruta de la Tapa de la Castaña",
+        "cuando": "Octubre (en 2026, el 11 y 12)"
+      },
+      {
+        "mes": 10,
+        "nombre": "Feria de la Castaña (FERCAS)",
+        "cuando": "Puente de Todos los Santos (en 2026, del 30 de octubre al 1 de noviembre)",
+        "mayor": true
+      }
+    ],
+    "gastronomia": {
+      "platos": [
+        "Guarrito frito",
+        "Pluma a la brasa",
+        "Carrilleras en salsa",
+        "Jamón, lomo, salchichón y chorizo ibéricos",
+        "Migas con sardinas o tocino",
+        "Sopas de tomate",
+        "Ensalá de papas",
+        "Trincallas",
+        "Caldereta",
+        "Gazpacho «machacao»"
+      ],
+      "dulces": [
+        "Perrunillas",
+        "Flores",
+        "Gañotes con miel",
+        "Puchas",
+        "Castañas con leche"
+      ],
+      "bebidas": [
+        "Vinos de la tierra",
+        "Aceite de oliva"
+      ],
+      "foto": "castanas",
+      "alt": "Castañas en su erizo, sobre hojas secas"
+    },
+    "personajes": [
+      {
+        "nombre": "Diego María de la Tordoya",
+        "fechas": "nació h. 1470",
+        "texto": "Según el Ayuntamiento, marinero del primer viaje de Colón; quedó en el Fuerte de la Navidad, en La Española. Una calle y una cruz llevan su nombre."
+      }
+    ],
+    "rutas": [
+      {
+        "nombre": "Ruta El Castañar",
+        "resumen": "Por el castañar de Los Cortinales y el robledal, con subida por el arroyo de los Linos; unos 10 km. Hay folleto en PDF.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=T"
+      },
+      {
+        "nombre": "Ruta Los Cortinales",
+        "resumen": "Senderismo de altura de unos 8 km, desde los «Cuatro Caminos» por el castañar hasta la cumbre de Valdezurrones.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=X"
+      },
+      {
+        "nombre": "Ruta Las Cumbres",
+        "resumen": "12,5 km entre los 800 y los 1.000 m, con miradores; dificultad técnica alta y 400 m de desnivel.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=U"
+      },
+      {
+        "nombre": "Ruta La Buitrera",
+        "resumen": "Eco Ruta n.º 1, de 11 km, con una subida corta al Alto de la Buitrera de 3 km.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=Q"
+      },
+      {
+        "nombre": "Ruta Cicloturista Las Contiendas",
+        "resumen": "Unos 30 km en bici por las sierras del término.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=R"
+      },
+      {
+        "nombre": "Ruta de las Fuentes y del Agua",
+        "resumen": "Ruta urbana de 2 km, dificultad baja, por las fuentes y los pilares del pueblo.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=V"
+      },
+      {
+        "nombre": "Ruta de la Pisá del Caballo",
+        "resumen": "Del pueblo al parque por una acera ancha adaptada a sillas de ruedas y una pista cementada.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=S"
+      },
+      {
+        "nombre": "Ruta del Arroyo la Vaca",
+        "resumen": "Dos recorridos, de 14 y de 9 km (corta), del programa «Camina Badajoz».",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=BG"
+      },
+      {
+        "nombre": "Ruta Cabeza la Vaca - Puerto Lobo - Las Contiendas - Tentudía",
+        "resumen": "Unos 12 km, dificultad alta, hasta el monasterio de Tentudía.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=Y"
+      },
+      {
+        "nombre": "Ruta histórico-literaria de la Pisá del Caballo",
+        "resumen": "Con folleto en PDF.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=AM"
+      },
+      {
+        "nombre": "Ruta turística con códigos QR",
+        "resumen": "Un recorrido por el pueblo en el que cada código QR cuenta la historia del lugar. Folleto en la Oficina de Turismo.",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=AR"
+      }
+    ],
+    "visitas": [
+      {
+        "nombre": "Feria de la Castaña (FERCAS)",
+        "texto": "Se celebra desde 2006, el puente de Todos los Santos, para dar a conocer el castañar —el mayor de la provincia, según el Ayuntamiento— y los productos locales: stands, artesanía, cocina, música y actividades. Es Fiesta de Interés Turístico de Extremadura. La XXI edición es del 30 de octubre al 1 de noviembre de 2026, con una Pre-Feria durante todo octubre (talleres, rutas y la Ruta de la Tapa).",
+        "nota": "La cosecha del castaño es en octubre y noviembre. Para más datos, la Oficina de Turismo (924 583 002).",
+        "url": "https://cabezalavaca.es/plantilla.php?enlace=AZ",
+        "url_texto": "Origen de la Feria, en su web actual"
+      },
+      {
+        "nombre": "«Pueblo Mágico» de España",
+        "texto": "Cabeza la Vaca forma parte de la red «Pueblos Mágicos de España», un sello de una asociación sin ánimo de lucro al que se entra por invitación; su incorporación se anunció el 24 de mayo de 2023. En 2025 recibió el «Premio Pueblo Mágico Extremadura», que concede esa misma asociación por votación popular. No es una declaración oficial de la Junta.",
+        "url": "https://www.pueblosmagicos.es/cabeza-la-vaca/",
+        "url_texto": "Su ficha en Pueblos Mágicos de España"
+      },
+      {
+        "nombre": "Oficina de Turismo",
+        "texto": "Informa de las rutas, hace las inscripciones de actividades y da el folleto de la ruta turística con códigos QR.",
+        "direccion": "Plaza de España (antigua cárcel, frente a la Cruz del Rollo)",
+        "telefono": "924 583 002",
+        "nota": "No consta el horario: pregúntelo en el Ayuntamiento."
+      },
+      {
+        "nombre": "Centro de Interpretación de la Pisá del Caballo",
+        "texto": "Flora y fauna de la comarca de Tentudía, con datos de lluvia de los pueblos de la comarca, y un aula de la naturaleza. Junto al observatorio de aves y la piscina natural.",
+        "nota": "No consta el horario: pregúntelo en la Oficina de Turismo."
+      }
+    ],
+    "establecimientos": [
+      {
+        "grupo": "Hoteles y casas rurales",
+        "items": [
+          {
+            "nombre": "Hotel Las Tres Encinas",
+            "direccion": "Plaza de España, 19",
+            "telefono": "924 583 285"
+          },
+          {
+            "nombre": "Casa Rural «Camino Beturia»",
+            "direccion": "Camino de los Cotos, Km 4.5",
+            "telefono": "924 057 925",
+            "nota": "También: 686 297 440"
+          },
+          {
+            "nombre": "Casa Rural «La Fuente del Coso»",
+            "direccion": "C/ Coso, 3",
+            "telefono": "676 451 094"
+          }
+        ]
+      },
+      {
+        "grupo": "Bares y restaurantes",
+        "items": [
+          {
+            "nombre": "El Faro",
+            "direccion": "C/ San Benito, 3",
+            "telefono": "924 583 328",
+            "nota": "Restaurante"
+          },
+          {
+            "nombre": "Casa Vicente",
+            "direccion": "Plaza Romero de Castilla, 18",
+            "nota": "Restaurante"
+          },
+          {
+            "nombre": "El Pilar de la Dehesa",
+            "direccion": "C/ Tienda, 1",
+            "telefono": "924 583 177",
+            "nota": "Bar. También: 658 803 550"
+          },
+          {
+            "nombre": "El Pensionista",
+            "direccion": "C/ del Medio, 1",
+            "telefono": "924 583 049",
+            "nota": "Bar"
+          },
+          {
+            "nombre": "El Parquecillo",
+            "direccion": "Plaza de España, 14",
+            "telefono": "608 817 327",
+            "nota": "Bar"
+          },
+          {
+            "nombre": "Ramón",
+            "direccion": "Plaza de España, 7A",
+            "telefono": "924 583 343",
+            "nota": "Bar. También: 680 280 818"
+          },
+          {
+            "nombre": "Alejo",
+            "direccion": "Plaza Romero de Castilla, 13",
+            "nota": "Bar"
+          },
+          {
+            "nombre": "La Mosca",
+            "direccion": "C/ del Cura, 1",
+            "telefono": "679 516 094",
+            "nota": "Bar"
+          },
+          {
+            "nombre": "La Pulga",
+            "direccion": "C/ del Cura, 3",
+            "nota": "Bar"
+          },
+          {
+            "nombre": "Taurino",
+            "direccion": "Plaza Romero de Castilla, 1",
+            "telefono": "924 583 128",
+            "nota": "Café-bar"
+          },
+          {
+            "nombre": "La Parada",
+            "direccion": "Plaza de España, 3",
+            "telefono": "655 242 566",
+            "nota": "Café-bar"
+          },
+          {
+            "nombre": "Las Cuadras",
+            "direccion": "C/ del Cura, 4",
+            "telefono": "648 261 499",
+            "nota": "Mesón"
+          },
+          {
+            "nombre": "Estación de Servicio San Benito",
+            "direccion": "C/ Tomillar, s/n",
+            "nota": "Cafetería"
+          },
+          {
+            "nombre": "Las 3 R",
+            "direccion": "Avda. Constitución, 34",
+            "telefono": "686 815 862",
+            "nota": "Bocatería"
+          }
+        ]
+      },
+      {
+        "grupo": "Productos típicos: embutidos, queso, aceite y pan",
+        "items": [
+          {
+            "nombre": "Quesería «Tesoro de Cabra»",
+            "direccion": "Polígono Industrial, Viario 2, s/n"
+          },
+          {
+            "nombre": "Panadería-pastelería Lavado Lavado",
+            "direccion": "C/ Charquito, 6",
+            "telefono": "924 583 317"
+          },
+          {
+            "nombre": "Panadería Manuel Macías e Hijos",
+            "direccion": "Plaza Vieja, 2",
+            "telefono": "924 583 319"
+          },
+          {
+            "nombre": "Jamones y Embutidos «Los Génaros»",
+            "direccion": "C/ Coso, 25",
+            "telefono": "924 583 028",
+            "nota": "También: 924 583 141, 635 823 945"
+          },
+          {
+            "nombre": "Embutidos «Mota»",
+            "direccion": "C/ San Benito, 8",
+            "telefono": "924 583 240",
+            "nota": "También: 608 433 302"
+          },
+          {
+            "nombre": "Jamones y Embutidos «Moreno»",
+            "direccion": "C/ Alrededores, 44",
+            "telefono": "924 583 275"
+          },
+          {
+            "nombre": "Embutidos Mateos",
+            "direccion": "C/ San Benito, 10"
+          },
+          {
+            "nombre": "Tentuoliva",
+            "direccion": "C/ Fontanilla, 14",
+            "telefono": "924 583 102"
+          }
+        ]
+      },
+      {
+        "grupo": "Tiendas de alimentación",
+        "items": [
+          {
+            "nombre": "Supermercado Don Market",
+            "direccion": "C/ Bastimento, 13",
+            "telefono": "620 309 274",
+            "nota": "También: 680 467 483"
+          },
+          {
+            "nombre": "Cárnicas Peña Alta",
+            "direccion": "Avda. Constitución, 36",
+            "telefono": "924 583 170"
+          },
+          {
+            "nombre": "Pescados y Mariscos Ibarra",
+            "direccion": "Plaza Vieja, 10",
+            "telefono": "699 715 669"
+          },
+          {
+            "nombre": "Confitería y panadería Hidalgo",
+            "direccion": "C/ del Medio, 18",
+            "telefono": "924 583 115"
+          },
+          {
+            "nombre": "Comercio Mari Pepi",
+            "direccion": "C/ Cruces, 7",
+            "telefono": "645 851 629"
+          },
+          {
+            "nombre": "Ultramarinos «Mari Mateos»",
+            "direccion": "Plaza de España, 1"
+          },
+          {
+            "nombre": "Supermercado «Los Genaros»",
+            "direccion": "Plaza Vieja, 1",
+            "telefono": "660 010 317"
+          },
+          {
+            "nombre": "Supermercado «Pepín»",
+            "direccion": "C/ del Cura, 24",
+            "telefono": "924 583 112"
+          },
+          {
+            "nombre": "Hnos. Reviriego Matito",
+            "direccion": "C/ Bastimento, 10",
+            "telefono": "653 880 733",
+            "nota": "También: 615 948 135"
+          },
+          {
+            "nombre": "Frutas Vázquez",
+            "direccion": "Avda. Constitución, 95",
+            "telefono": "667 469 547"
+          }
+        ]
+      }
+    ],
+    "establecimientos_fuente": "Datos de la «Guía de empresas y servicios» de la web municipal (cabezalavaca.es), sin fecha; consultados el 5 de octubre de 2026. Se han quitado los nombres de personas y los teléfonos repetidos entre negocios distintos."
+  },
+  "fotos": {
+    "_leeme": "hero_fotos: varias para el arco de la portada; en cada visita sale una al azar; la primera es la de sin JavaScript y la de la imagen para compartir.",
+    "hero_fotos": [
+      {
+        "archivo": "torre-reloj",
+        "alt": "La torre blanca del reloj, con su arco de ladrillo, junto a la Cruz del Rollo",
+        "posicion": "62% 50%"
+      },
+      {
+        "archivo": "cruz-rollo",
+        "alt": "La Cruz del Rollo, un fuste de granito sobre tres gradas, con casas blancas detrás",
+        "posicion": "50% 50%"
+      },
+      {
+        "archivo": "torre-iglesia",
+        "alt": "La torre del campanario de la iglesia, de piedra clara, contra un cielo azul",
+        "posicion": "50% 35%"
+      },
+      {
+        "archivo": "castanar",
+        "alt": "Castaños con sus frutos verdes y un muro de piedra seca en primer plano",
+        "posicion": "50% 50%"
+      }
+    ]
+  },
+  "cabeceras": {
+    "_leeme": "Foto opcional en la cabecera de cada página interior (por id de página), recortada en arco. Sin foto, el arco de línea. «El pueblo» la pinta grande.",
+    "pueblo": {
+      "archivo": "panoramica",
+      "alt": "Los tejados rojos y las casas blancas del pueblo vistos desde un tejado, con la sierra al fondo",
+      "posicion": "50% 50%"
+    }
+  }
+}

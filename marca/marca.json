@@ -1,0 +1,31 @@
+{
+  "slug": "cabeza-la-vaca",
+  "letra": {
+    "titulares": "Besley",
+    "texto": "Libre Franklin",
+    "google": "family=Besley:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600"
+  },
+  "giros_paleta": [
+    100,
+    -100
+  ],
+  "densidad": "puerta",
+  "cortina": "escudo",
+  "colores": {
+    "papel": "#FAF9F5",
+    "superficie": "#FFFFFF",
+    "tinta": "#1A1E1B",
+    "marca": "#0000FF",
+    "oro": "#EAC102",
+    "alerta": "#FF0000"
+  },
+  "esmaltes": {
+    "azur": "#0000FF",
+    "gules": "#FF0000",
+    "oro": "#EAC102",
+    "plata": "#FFFFFF",
+    "sable": "#000000",
+    "sinople": "#00C000"
+  },
+  "principal": "azur"
+}

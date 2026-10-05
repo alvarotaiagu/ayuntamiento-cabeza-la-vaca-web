@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Cabeza la Vaca//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:presentacion-feria-diputacion@cabeza-la-vaca.agenda
+DTSTAMP:20261005T152207Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Presentación de la XXI Feria de la Castaña en la Diputación de B
+ adajoz
+LOCATION:Badajoz\, Cabeza la Vaca
+DESCRIPTION:Pre-Feria de la Castaña.
+URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
+ tml#evento-presentacion-feria-diputacion
+END:VEVENT
+END:VCALENDAR

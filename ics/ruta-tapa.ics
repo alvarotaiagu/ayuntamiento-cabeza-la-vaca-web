@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Cabeza la Vaca//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ruta-tapa@cabeza-la-vaca.agenda
+DTSTAMP:20261005T152207Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Ruta de la Tapa de la Castaña (11 y 12 de octubre)
+LOCATION:Bares del pueblo\, Cabeza la Vaca
+DESCRIPTION:Pre-Feria de la Castaña. El cartel de septiembre da el 11 y 12
+ \; el calendario de marzo decía el 10 y 11.
+URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
+ tml#evento-ruta-tapa
+END:VEVENT
+END:VCALENDAR

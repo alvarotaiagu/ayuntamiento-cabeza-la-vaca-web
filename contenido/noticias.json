@@ -1,0 +1,77 @@
+{
+  "_leeme": "Noticias. Campos: id (sale en la dirección: noticia-<id>.html), fecha, titulo, resumen, cuerpo (lista de párrafos), imagen (nombre en media/, sin .jpg) + imagen_alt, fuente {nombre, url}. Fuente: Bandomóvil «Cabeza la Vaca Informa».",
+  "noticias": [
+    {
+      "id": "cartel-xxi-feria-castana",
+      "fecha": "2026-09-30",
+      "titulo": "Ya está el cartel de la XXI Feria de la Castaña",
+      "resumen": "Del 30 de octubre al 1 de noviembre, con inauguración el viernes por la tarde.",
+      "cuerpo": [
+        "El Ayuntamiento ha presentado el cartel definitivo de la XXI Feria de la Castaña, Fiesta de Interés Turístico de Extremadura.",
+        "La feria será los días 30 y 31 de octubre y 1 de noviembre de 2026 y reunirá gastronomía, productos locales, actividades culturales, música y mercado.",
+        "La programación completa se dará a conocer en los próximos días."
+      ],
+      "fuente": {
+        "nombre": "Cabeza la Vaca Informa (Bandomóvil), 30-09-2026",
+        "url": "https://www.bandomovil.com/cabeza/1651898/0"
+      }
+    },
+    {
+      "id": "pre-feria-castana-2026",
+      "fecha": "2026-09-30",
+      "titulo": "Octubre, mes de la Pre-Feria de la Castaña",
+      "resumen": "Talleres, cine, rutas, teatro, jazz y la Ruta de la Tapa, hasta el 27 de octubre.",
+      "cuerpo": [
+        "Durante octubre, Cabeza la Vaca se prepara para la XXI Feria de la Castaña con talleres de cocina y decoración, cine, rutas, teatro, exposiciones, jazz, lectura teatralizada y la tradicional Ruta de la Tapa.",
+        "Todas las fechas están en el cartel de la Pre-Feria (ver la agenda). El primer acto es el taller de decoración de velas, el 9 de octubre a las 18:00 en el Aula de AMAYS."
+      ],
+      "fuente": {
+        "nombre": "Cartel de la Pre-Feria y Bandomóvil, 30-09-2026",
+        "url": "https://www.bandomovil.com/cabeza/1651916/0"
+      }
+    },
+    {
+      "id": "restauracion-cruz-calle-tordoya",
+      "fecha": "2026-09-30",
+      "titulo": "Empieza la restauración de la Cruz de la calle Tordoya",
+      "resumen": "Un camión la derribó por accidente el 17 de abril; Patrimonio ya ha dado el visto bueno.",
+      "cuerpo": [
+        "Han empezado los trabajos para recuperar la Cruz de la calle Tordoya, después de que el Ayuntamiento recibiera la comunicación favorable de Patrimonio.",
+        "El 17 de abril un camión de reparto chocó por accidente con el monumento y el conjunto se vino abajo: se rompió la cruz de hierro y se dañaron las piezas de mármol.",
+        "La obra limpiará y consolidará el mármol, reparará la cruz y pondrá un nuevo sistema de apoyo y anclaje para que sea más estable."
+      ],
+      "fuente": {
+        "nombre": "Cabeza la Vaca Informa (Bandomóvil), 30-09-2026",
+        "url": "https://www.bandomovil.com/cabeza/1651931/0"
+      }
+    },
+    {
+      "id": "concurso-redes-feria-castana",
+      "fecha": "2026-10-01",
+      "titulo": "Concurso en redes para difundir la Feria de la Castaña",
+      "resumen": "Quien publique con la etiqueta #CabezalaVacaFercas26 puede ganar un lote de productos locales.",
+      "cuerpo": [
+        "Para dar a conocer la XXI Feria de la Castaña, el Ayuntamiento propone un concurso: hay que publicar en Facebook o en Instagram con la etiqueta #CabezalaVacaFercas26 e invitar a los amigos a venir.",
+        "Se sortean lotes de productos locales (en el cartel de la Pre-Feria, tres). Las bases están en Facebook, en Instagram y en el tablón del Ayuntamiento."
+      ],
+      "fuente": {
+        "nombre": "Cabeza la Vaca Informa (Bandomóvil), 01-10-2026",
+        "url": "https://www.bandomovil.com/cabeza/1652945/0"
+      }
+    },
+    {
+      "id": "solar-antiguo-molino-aparcamiento",
+      "fecha": "2026-03-30",
+      "titulo": "El Ayuntamiento compra el solar del antiguo molino para hacer un aparcamiento",
+      "resumen": "Más de 1.400 m² junto a la Plaza de España, con aseos y parada de autobús.",
+      "cuerpo": [
+        "El Ayuntamiento ha comprado el solar del antiguo molino, de más de 1.400 m², junto a la Plaza de España. Se usará sobre todo como gran aparcamiento, con aseos y parada de autobús.",
+        "La decisión llega después de que la única empresa que se presentó a la obra del adoquinado de la travesía renunciara por el aumento del coste de los materiales. Así se aprovecha la subvención concedida."
+      ],
+      "fuente": {
+        "nombre": "Cabeza la Vaca Informa (Bandomóvil), 30-03-2026",
+        "url": "https://www.bandomovil.com/cabeza/1528896/0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+ "_leeme": "Lo escribe scripts/fotos-igualar.py: lo medido y lo aplicado a cada foto (no editar).",
+ "parametros": {
+  "LADO": 1600,
+  "LADO_MOVIL": 800,
+  "FUERZA_BLANCOS": 0.6,
+  "TOPE_BLANCOS": 0.07,
+  "MIN_GRISES": 0.03,
+  "NEGRO": 0.025,
+  "BLANCO": 0.965,
+  "TOPE_NIVELES": 1.3,
+  "MEDIANA": 0.52,
+  "GAMMA_MIN": 0.8,
+  "GAMMA_MAX": 1.1,
+  "CROMA": 0.115,
+  "SAT_MIN": 0.85,
+  "SAT_MAX": 1.12,
+  "CALIDO": 0.012,
+  "NITIDEZ": {
+   "radius": 1.0,
+   "percent": 35,
+   "threshold": 3
+  },
+  "CALIDAD": 84,
+  "CALIDAD_MOVIL": 82
+ },
+ "fotos": {
+  "castanar": {
+   "grises": 0.426,
+   "ganancia_rgb": [
+    1.006,
+    0.995,
+    1.033
+   ],
+   "niveles": [
+    0.075,
+    0.996
+   ],
+   "estira": 1.02,
+   "gamma": 0.8,
+   "croma_antes": 0.074,
+   "saturacion": 1.12,
+   "croma_despues": 0.092,
+   "mediana_despues": 0.431,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "castanas": {
+   "grises": 0.41,
+   "ganancia_rgb": [
+    0.995,
+    1.0,
+    1.012
+   ],
+   "niveles": [
+    0.0,
+    0.987
+   ],
+   "estira": 0.952,
+   "gamma": 1.037,
+   "croma_antes": 0.091,
+   "saturacion": 1.12,
+   "croma_despues": 0.108,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "cruz-rollo": {
+   "grises": 0.219,
+   "ganancia_rgb": [
+    0.997,
+    0.999,
+    1.019
+   ],
+   "niveles": [
+    0.075,
+    0.999
+   ],
+   "estira": 1.018,
+   "gamma": 0.947,
+   "croma_antes": 0.172,
+   "saturacion": 0.85,
+   "croma_despues": 0.138,
+   "mediana_despues": 0.523,
+   "tamano": [
+    1325,
+    1600
+   ]
+  },
+  "fuente-abajo": {
+   "grises": 0.637,
+   "ganancia_rgb": [
+    0.989,
+    1.003,
+    1.005
+   ],
+   "niveles": [
+    0.055,
+    0.998
+   ],
+   "estira": 0.997,
+   "gamma": 0.961,
+   "croma_antes": 0.066,
+   "saturacion": 1.12,
+   "croma_despues": 0.078,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1200,
+    1600
+   ]
+  },
+  "iglesia": {
+   "grises": 0.351,
+   "ganancia_rgb": [
+    1.013,
+    0.998,
+    0.979
+   ],
+   "niveles": [
+    0.079,
+    0.931
+   ],
+   "estira": 1.103,
+   "gamma": 0.8,
+   "croma_antes": 0.121,
+   "saturacion": 0.975,
+   "croma_despues": 0.109,
+   "mediana_despues": 0.513,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "letrero": {
+   "grises": 0.396,
+   "ganancia_rgb": [
+    0.988,
+    1.002,
+    1.017
+   ],
+   "niveles": [
+    0.028,
+    0.934
+   ],
+   "estira": 1.037,
+   "gamma": 1.1,
+   "croma_antes": 0.089,
+   "saturacion": 1.12,
+   "croma_despues": 0.104,
+   "mediana_despues": 0.548,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "panoramica": {
+   "grises": 0.446,
+   "ganancia_rgb": [
+    1.0,
+    1.0,
+    1.003
+   ],
+   "niveles": [
+    0.033,
+    0.999
+   ],
+   "estira": 0.973,
+   "gamma": 0.8,
+   "croma_antes": 0.077,
+   "saturacion": 1.12,
+   "croma_despues": 0.095,
+   "mediana_despues": 0.477,
+   "tamano": [
+    1600,
+    465
+   ]
+  },
+  "pisa-caballo": {
+   "grises": 0.077,
+   "ganancia_rgb": [
+    0.997,
+    0.998,
+    1.032
+   ],
+   "niveles": [
+    0.032,
+    0.986
+   ],
+   "estira": 0.985,
+   "gamma": 0.814,
+   "croma_antes": 0.17,
+   "saturacion": 0.85,
+   "croma_despues": 0.147,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    1245
+   ]
+  },
+  "plaza-toros": {
+   "grises": 0.177,
+   "ganancia_rgb": [
+    1.011,
+    0.998,
+    0.986
+   ],
+   "niveles": [
+    0.024,
+    0.934
+   ],
+   "estira": 1.033,
+   "gamma": 0.8,
+   "croma_antes": 0.155,
+   "saturacion": 0.86,
+   "croma_despues": 0.147,
+   "mediana_despues": 0.516,
+   "tamano": [
+    1600,
+    1067
+   ]
+  },
+  "plaza-vieja": {
+   "grises": 0.676,
+   "ganancia_rgb": [
+    1.011,
+    0.997,
+    0.999
+   ],
+   "niveles": [
+    0.096,
+    0.998
+   ],
+   "estira": 1.043,
+   "gamma": 0.8,
+   "croma_antes": 0.032,
+   "saturacion": 1.12,
+   "croma_despues": 0.036,
+   "mediana_despues": 0.498,
+   "tamano": [
+    1037,
+    700
+   ]
+  },
+  "torre-iglesia": {
+   "grises": 0.113,
+   "ganancia_rgb": [
+    0.99,
+    1.0,
+    1.028
+   ],
+   "niveles": [
+    0.015,
+    0.987
+   ],
+   "estira": 0.967,
+   "gamma": 0.8,
+   "croma_antes": 0.273,
+   "saturacion": 0.85,
+   "croma_despues": 0.224,
+   "mediana_despues": 0.396,
+   "tamano": [
+    1074,
+    1600
+   ]
+  },
+  "torre-reloj": {
+   "grises": 0.325,
+   "ganancia_rgb": [
+    1.002,
+    1.0,
+    0.994
+   ],
+   "niveles": [
+    0.03,
+    0.976
+   ],
+   "estira": 0.993,
+   "gamma": 0.95,
+   "croma_antes": 0.175,
+   "saturacion": 0.85,
+   "croma_despues": 0.14,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    1067
+   ]
+  }
+ }
+}

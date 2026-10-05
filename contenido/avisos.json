@@ -1,0 +1,48 @@
+{
+  "_leeme": "Avisos del Ayuntamiento. Campos: id, fecha (AAAA-MM-DD), tema, titulo, texto, enlace (opcional). \"gravedad\" (opcional): \"urgente\" (en rojo), \"programado\" o \"informativo\" (en ámbar; es el de por defecto). Un aviso urgente o programado con \"caduca\" (AAAA-MM-DD) sale en la franja de arriba de todas las páginas hasta ese día incluido; si el título pasa de 70 caracteres, pon \"titulo_corto\" para la franja. \"ejemplo\": true pone la etiqueta «Ejemplo». También se pueden publicar desde la hoja de cálculo (municipio.json → hoja), con las mismas columnas. Plazo (opcional): \"plazo_inicio\" y/o \"plazo_fin\" (AAAA-MM-DD) ponen el chip con la cuenta atrás y lo llevan a «Plazos abiertos» de la portada; solo si la fecha consta en la fuente.",
+  "avisos": [
+    {
+      "id": "empleo-bolsa-discapacidad-punto-limpio",
+      "fecha": "2026-09-30",
+      "tema": "Empleo",
+      "titulo": "Bolsa de empleo para personas con discapacidad: peón de refuerzo en el Punto Limpio",
+      "texto": "Se abre la bolsa de empleo temporal reservada a personas con un grado de discapacidad del 33 % o más, para peones de refuerzo en el Punto Limpio y en la limpieza viaria. Hace falta el permiso de conducir B. La selección es por oposición, con una prueba teórica y otra práctica. Las bases están en la sede electrónica y en la Conserjería del Ayuntamiento, en horario de oficina.",
+      "enlace": "https://sede.cabezalavaca.es",
+      "plazo_inicio": "2026-09-30",
+      "plazo_fin": "2026-10-09"
+    },
+    {
+      "id": "autobus-dia-mancomunidad",
+      "fecha": "2026-09-30",
+      "tema": "Fiestas y actividades",
+      "titulo": "Autobús gratuito al Día de la Mancomunidad de Tentudía, el 11 de octubre",
+      "texto": "El XLVII Día de la Mancomunidad y Comarca de Tentudía es el 11 de octubre en Bodonal de la Sierra. La Mancomunidad pone un autobús gratuito desde Cabeza la Vaca, con regresos a las 19:00 y a las 22:00. Hay que apuntarse en la Oficina de Turismo hasta el 7 de octubre.",
+      "enlace": "https://www.bandomovil.com/cabeza/1651926/0",
+      "plazo_fin": "2026-10-07"
+    },
+    {
+      "id": "horario-invierno-puerta-a-puerta",
+      "fecha": "2026-09-30",
+      "tema": "Residuos",
+      "titulo": "Puerta a Puerta: desde el 1 de octubre, el cubo se saca de 20:00 a 22:00",
+      "texto": "El servicio de recogida de residuos Puerta a Puerta pasa a su horario de invierno la noche del jueves 1 de octubre. Hay que sacar el cubo entre las 20:00 y las 22:00. Las rutas de recogida no empiezan siempre en el mismo pueblo, así que conviene respetar el horario.",
+      "enlace": "https://www.bandomovil.com/cabeza/1651910/0"
+    },
+    {
+      "id": "fercas-solicitud-stand",
+      "fecha": "2026-09-17",
+      "tema": "Feria de la Castaña",
+      "titulo": "Feria de la Castaña: abierto el plazo para pedir un stand",
+      "texto": "Ya se puede pedir un stand en la XXI Feria de la Castaña (30 y 31 de octubre y 1 de noviembre). Cuesta 350 € bajo la carpa principal y 250 € fuera de ella, con caseta de 2 × 3 metros, luz, agua, carpa y vigilancia nocturna. El 50 % se paga con la solicitud y antes del 10 de octubre; el resto, antes del 25 de octubre. Las plazas son limitadas.",
+      "enlace": "https://www.bandomovil.com/cabeza/1644288/0"
+    },
+    {
+      "id": "fercas-solicitud-mercadillo",
+      "fecha": "2026-09-17",
+      "tema": "Feria de la Castaña",
+      "titulo": "Feria de la Castaña: abierto el plazo para pedir un puesto en el mercadillo",
+      "texto": "Se pueden pedir puestos en el mercadillo de la XXI Feria de la Castaña. Ubicación A (zona principal), 70 €; ubicación B (alrededores), 50 €; incluyen 3 metros y toma de corriente. Tienen prioridad los puestos de artesanía. El pago se hace antes del 20 de octubre, una vez aceptada la solicitud. La solicitud (Anexo II) se recoge en el Ayuntamiento.",
+      "enlace": "https://www.bandomovil.com/cabeza/1644277/0"
+    }
+  ]
+}

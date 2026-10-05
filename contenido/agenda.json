@@ -1,0 +1,77 @@
+{
+  "_leeme": "Agenda. Campos: id, fecha (AAAA-MM-DD), hora (opcional), titulo, lugar, nota, ejemplo. Las fiestas de fecha fija de municipio.json (pueblo.fiestas[].fecha_fija) se añaden solas: no hace falta repetirlas aquí. Fuente: cartel de la Pre-Feria (cabezalavaca.es/repositorio/20261001113059.jpg) y Bandomóvil, leídos el 05/10/2026.",
+  "eventos": [
+    {
+      "id": "taller-velas",
+      "fecha": "2026-10-09",
+      "hora": "18:00",
+      "titulo": "Taller de decoración de velas",
+      "lugar": "Aula de AMAYS",
+      "nota": "Pre-Feria de la Castaña. Plazas limitadas: inscripción en la Oficina de Turismo, antes del día 9 (confirme allí la fecha límite)."
+    },
+    {
+      "id": "dia-mancomunidad",
+      "fecha": "2026-10-11",
+      "titulo": "XLVII Día de la Mancomunidad y Comarca de Tentudía",
+      "lugar": "Bodonal de la Sierra",
+      "nota": "Autobús gratuito desde Cabeza la Vaca; regresos a las 19:00 y a las 22:00. Inscripción hasta el 7 de octubre en la Oficina de Turismo."
+    },
+    {
+      "id": "ruta-tapa",
+      "fecha": "2026-10-11",
+      "titulo": "Ruta de la Tapa de la Castaña (11 y 12 de octubre)",
+      "lugar": "Bares del pueblo",
+      "nota": "Pre-Feria de la Castaña. El cartel de septiembre da el 11 y 12; el calendario de marzo decía el 10 y 11."
+    },
+    {
+      "id": "taller-cocina",
+      "fecha": "2026-10-14",
+      "titulo": "Taller de cocina",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "programa-drule",
+      "fecha": "2026-10-16",
+      "titulo": "Programa D’Rule",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "cine-buena-suerte",
+      "fecha": "2026-10-18",
+      "titulo": "Cine y Mujeres Rurales: «La buena suerte»",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "presentacion-feria-diputacion",
+      "fecha": "2026-10-21",
+      "titulo": "Presentación de la XXI Feria de la Castaña en la Diputación de Badajoz",
+      "lugar": "Badajoz",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "festival-jazz",
+      "fecha": "2026-10-24",
+      "titulo": "Festival de Jazz de la Diputación",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "cine-lo-que-queda-de-ti",
+      "fecha": "2026-10-25",
+      "titulo": "Cine y Mujeres Rurales: «Lo que queda de ti»",
+      "nota": "Pre-Feria de la Castaña."
+    },
+    {
+      "id": "lectura-teatralizada",
+      "fecha": "2026-10-27",
+      "titulo": "Lectura teatralizada",
+      "nota": "Plan de Fomento de la Lectura. Pre-Feria de la Castaña."
+    },
+    {
+      "id": "feria-castana-2026",
+      "fecha": "2026-10-30",
+      "titulo": "XXI Feria de la Castaña (FERCAS): 30 y 31 de octubre y 1 de noviembre",
+      "lugar": "Cabeza la Vaca",
+      "nota": "Fiesta de Interés Turístico de Extremadura. Inauguración la tarde-noche del viernes 30. La agenda de la web municipal decía el 31; manda el cartel de septiembre."
+    }
+  ]
+}

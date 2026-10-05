@@ -1,0 +1,16 @@
+{
+  "name": "Ayuntamiento de Cabeza la Vaca",
+  "short_name": "Cabeza la Vaca",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#FAF9F5",
+  "theme_color": "#FAF9F5",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
