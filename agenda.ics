@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fiesta-feria-de-san-benito-2026@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
 SUMMARY:Feria de San Benito
@@ -37,7 +37,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-vela-de-santa-ana-2026@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:Velá de Santa Ana
@@ -46,7 +46,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-de-la-virgen-de-agosto-2026@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Fiestas de la Virgen de Agosto
@@ -56,7 +56,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:taller-velas@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;TZID=Europe/Madrid:20261009T180000
 DTEND;TZID=Europe/Madrid:20261009T190000
 SUMMARY:Taller de decoración de velas
@@ -68,7 +68,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:dia-mancomunidad@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:XLVII Día de la Mancomunidad y Comarca de Tentudía
@@ -80,7 +80,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:ruta-tapa@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Ruta de la Tapa de la Castaña (11 y 12 de octubre)
@@ -92,7 +92,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:taller-cocina@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Taller de cocina
@@ -102,7 +102,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:programa-drule@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Programa D’Rule
@@ -112,7 +112,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:cine-buena-suerte@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Cine y Mujeres Rurales: «La buena suerte»
@@ -122,7 +122,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:presentacion-feria-diputacion@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Presentación de la XXI Feria de la Castaña en la Diputación de B
@@ -134,7 +134,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-jazz@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Festival de Jazz de la Diputación
@@ -144,7 +144,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:cine-lo-que-queda-de-ti@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Cine y Mujeres Rurales: «Lo que queda de ti»
@@ -154,7 +154,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:lectura-teatralizada@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Lectura teatralizada
@@ -164,7 +164,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:feria-castana-2026@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:XXI Feria de la Castaña (FERCAS): 30 y 31 de octubre y 1 de noviem
@@ -178,7 +178,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-feria-de-san-benito-2027@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Feria de San Benito
@@ -189,7 +189,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-vela-de-santa-ana-2027@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 SUMMARY:Velá de Santa Ana
@@ -198,7 +198,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-cabeza-la-vaca-web/agenda.h
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-de-la-virgen-de-agosto-2027@cabeza-la-vaca.agenda
-DTSTAMP:20261005T152207Z
+DTSTAMP:20261006T120536Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:Fiestas de la Virgen de Agosto
